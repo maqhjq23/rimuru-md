@@ -30,7 +30,6 @@ import { listRole, ROLES, isRealOwner } from "../../src/lib/am-roles.js";
 
 const pluginConfig = {
   name: "listam",
-  alias: ["amlist", "listroleam"],
   category: "owner",
   description: "List user role Alight Motion",
   usage: ".listam [role]",

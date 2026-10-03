@@ -33,7 +33,6 @@ import path from 'path';
 import { Readable } from 'stream';
 const config = {
     name: 'nanoedit',
-    alias: ['editimage', 'aiimage', 'hapusobjek', 'removeobject'],
     category: 'ai',
     description: 'Edit gambar dengan AI (hapus objek, ganti latar, dll)',
     usage: '.nanoedit <prompt> (reply gambar)',

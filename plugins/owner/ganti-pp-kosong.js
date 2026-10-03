@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 import { updateAssetUrl } from '../../src/lib/rimuru-uploader.js'
 const pluginConfig = {
     name: 'ganti-pp-kosong.jpg',
-    alias: ['gantippkosong', 'setppkosong'],
     category: 'owner',
     description: 'Ganti gambar pp-kosong.jpg',
     usage: '.ganti-pp-kosong.jpg (reply/kirim gambar)',

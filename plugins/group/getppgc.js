@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'getppgc',
-    alias: ['ppgc'],
     category: 'group',
     description: 'Mengambil foto profile group',
     usage: '.getppgc',

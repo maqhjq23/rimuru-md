@@ -32,7 +32,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'stopschedule',
-    alias: ['stopscheduler', 'schedstop', 'pauseschedule'],
     category: 'owner',
     description: 'Menghentikan scheduler tertentu atau semua',
     usage: '.stopschedule <nama|all>',

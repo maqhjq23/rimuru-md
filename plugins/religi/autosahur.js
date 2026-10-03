@@ -32,7 +32,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'autosahur',
-    alias: ['sahur'],
     category: 'religi',
     description: 'Pengingat sahur otomatis (Setiap jam 03:00)',
     usage: '.autosahur on/off',

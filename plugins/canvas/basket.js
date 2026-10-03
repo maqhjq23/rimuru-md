@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "basket",
-  alias: ["basket"],
   category: "canvas",
   description: "Buat gambar basket dengan nama custom",
   usage: ".basket <nama>",

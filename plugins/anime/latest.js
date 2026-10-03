@@ -33,7 +33,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "animelatest",
-  alias: ["latestanime"],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "bank",
-  alias: ["atm", "nabung", "deposit", "tarik", "withdraw"],
   category: "rpg",
   description: "Bank system untuk menyimpan uang aman dari rampok",
   usage: ".bank <deposit/withdraw> <jumlah>",

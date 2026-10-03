@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakeidcard',
-    alias: ['idcardfake', 'faketanda', 'faketanda pengenal'],
     category: 'canvas',
     description: 'Bikin fake ID Card (buat konten/gaguan doang)',
     usage: '.fakeidcard <nama> | <jabatan>',

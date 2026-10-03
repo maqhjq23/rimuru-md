@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekkontol',
-    alias: ['kontolcheck'],
     category: 'fun',
     description: 'Cek ukuran random (bercanda doang)',
     usage: '.cekkontol <nama>',

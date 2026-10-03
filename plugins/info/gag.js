@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gag",
-  alias: ["growagarden", "gaginfo"],
   category: "info",
   description: "Menampilkan informasi stok Grow a Garden",
   usage: ".gag",

@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'istighfar',
-  alias: ['sayyidulistighfar', 'istighfar', 'sayyidul'],
   category: 'religi',
   description: 'Sayyidul Istighfar (Doa Istighfar Terbaik) lengkap Arab, Latin, Arti, dan Keutamaan',
   usage: '.istighfar',

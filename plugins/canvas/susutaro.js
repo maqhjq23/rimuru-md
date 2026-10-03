@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "susutaro",
-  alias: ["taro"],
   category: "canvas",
   description: "Memberikan efek Susu Taro pada gambar",
   usage: ".susutaro <reply image>",

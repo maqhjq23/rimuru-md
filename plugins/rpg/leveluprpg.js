@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "leveluprpg",
-  alias: ["lvluprpg", "rpglevelup"],
   category: "rpg",
   description: "Toggle notifikasi level up RPG",
   usage: ".leveluprpg <on/off>",

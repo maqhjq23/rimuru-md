@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('riddle', {
-    alias: ['rd', 'tebaktebak', 'riddles'],
     emoji: '❓',
     title: 'RIDDLE',
     description: 'Riddle/tebak-tebakan'

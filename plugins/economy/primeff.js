@@ -2,7 +2,6 @@
 
 const config = {
   name: "primeff",
-  alias: ["prime", "kalkulatorprime", "primefreefire", "ffprime"],
   category: "economy",
   description: "Kalkulator Prime Free Fire untuk menghitung estimasi diamond dan harga rupiah",
   usage: ".primeff <jumlah poin>",

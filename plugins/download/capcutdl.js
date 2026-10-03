@@ -30,7 +30,6 @@ import { capcut } from 'btch-downloader'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'capcutdl',
-    alias: ['ccdl', 'capcut', 'cc'],
     category: 'download',
     description: 'Download video CapCut',
     usage: '.ccdl <url>',

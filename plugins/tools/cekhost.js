@@ -242,8 +242,7 @@ const checkHost = {
 };
 
 const pluginConfig = {
-  name: "checkhost",
-  alias: ["cekhost", "check"],
+  name: "cekhost",
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'levelup',
-    alias: ['lvlup', 'levelnotif'],
     category: 'user',
     description: 'Toggle notifikasi level up',
     usage: '.levelup <on/off>',

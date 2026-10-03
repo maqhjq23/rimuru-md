@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'ganti-namadev',
-    alias: ['setnamadev', 'setnamedev', 'gantideveloper'],
     category: 'owner',
     description: 'Ganti nama developer di config.js',
     usage: '.ganti-namadev <nama baru>',

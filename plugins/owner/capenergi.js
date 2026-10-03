@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const config = {
   name: "capenergi",
-  alias: ["setenergi"],
   category: "owner",
   description: "Mengubah potongan energi banyak fitur sekaligus",
   usage: ".capenergi <nama_fitur1> <nama_fitur2> ... <jumlah>",

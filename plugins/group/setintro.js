@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'setintro',
-    alias: ['setperkenalan', 'introset'],
     category: 'group',
     description: 'Set pesan intro grup (admin only)',
     usage: '.setintro <pesan>',

@@ -1,6 +1,5 @@
 const pluginConfig = {
   name: "nixelgames",
-  alias: ["nixel", "nixelgame", "minigames"],
   category: "game",
   description: "Kumpulan mini game AI Rich: Dino Runner, Tic Tac Toe, dan Doom",
   usage: ".nixelgames",

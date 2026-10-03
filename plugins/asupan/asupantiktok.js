@@ -32,7 +32,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "asupantiktok",
-  alias: ["tiktokasupan", "ttasupan"],
   category: "asupan",
   description: "Video TikTok dari username random atau spesifik",
   usage: ".asupantiktok [username]",

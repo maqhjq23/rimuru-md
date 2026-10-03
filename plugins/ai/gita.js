@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'gita',
-    alias: ['gitagpt', 'bhagavadgita'],
     category: 'ai',
     description: 'Chat dengan Gita GPT (Bhagavad Gita AI)',
     usage: '.gita <pertanyaan>',

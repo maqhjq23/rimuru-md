@@ -59,7 +59,6 @@ async function jarak(dari, ke) {
 
 const pluginConfig = {
   name: "jarak",
-  alias: [],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

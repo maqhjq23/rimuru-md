@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'kickall',
-    alias: ['kicksemua','cleargrup'],
     category: 'group',
     description: 'Kick semua member (non-admin)',
     usage: '.kickall member',

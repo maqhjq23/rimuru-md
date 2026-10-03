@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "videotranscribe",
-  alias: ["video-transcribe", "transkripvideo"],
   category: "tools",
   description: "Transkrip video dari URL menjadi teks (YouTube, mp4, dll)",
   usage: ".video-transcribe <url> [lang]",

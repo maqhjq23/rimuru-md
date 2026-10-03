@@ -31,7 +31,6 @@ import FormData from 'form-data';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'facedetector',
-    alias: ['facedetect', 'detectface', 'deteksiwajah'],
     category: 'tools',
     description: 'Mendeteksi wajah pada gambar',
     usage: '.facedetector (reply gambar)',

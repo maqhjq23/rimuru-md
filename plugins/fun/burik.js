@@ -30,7 +30,6 @@ import sharp from 'sharp';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'burik',
-    alias: ['rusak', 'jelek'],
     category: 'fun',
     description: 'Membuat foto menjadi burik/rusak',
     usage: '.burik (reply foto)',

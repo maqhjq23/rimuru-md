@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "darkness",
-  alias: ["darkness", "drakness"],
   category: "canvas",
   description: "Beri efek gelap pada gambar",
   usage: ".darkness [amount]",

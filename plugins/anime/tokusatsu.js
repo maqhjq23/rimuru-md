@@ -40,7 +40,6 @@ const HEADERS = {
 
 const pluginConfig = {
   name: 'tokusatsu',
-  alias: ['toku'],
   category: 'anime',
   description: 'Cari dan lihat data serial/episode tokusatsu dari TokusatsuIndo',
   usage: '.tokusatsu <judul atau link>',

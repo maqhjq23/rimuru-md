@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'tebakanime',
-    alias: ['tebaknime', 'guessanime'],
     category: 'game',
     description: 'Tebak anime dari deskripsi (dapat limit)',
     usage: '.tebakanime',

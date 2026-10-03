@@ -34,7 +34,6 @@ import { getAssetBuffer } from '../../src/lib/rimuru-asset-manager.js';
 
 const pluginConfig = {
     name: 'beliproduk',
-    alias: ['buyproduk', 'belisaldo', 'buywithkoin', 'ordersaldo'],
     category: 'store',
     description: 'Beli produk dengan saldo/koin',
     usage: '.beliproduk [nomor_produk] [jumlah]',

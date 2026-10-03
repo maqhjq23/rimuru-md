@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'mangaread',
-    alias: ['mread', 'readmanga', 'bacamanga'],
     category: 'search',
     description: 'Membaca manga dari Shinigami',
     usage: '.mangaread <url atau id>',

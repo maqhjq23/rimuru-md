@@ -31,7 +31,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 
 const pluginConfig = {
   name: 'hastag',
-  alias: ['hastag', 'sethastag', 'formathastag'],
   category: 'user',
   description: 'Menampilkan template hastag KGR dengan tombol copy otomatis',
   usage: '.hastag',

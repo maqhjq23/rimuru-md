@@ -33,7 +33,6 @@ const EXP_PER_LEVEL = 10000;
 
 const pluginConfig = {
   name: "dellevel",
-  alias: ["kuranglevel", "removelevel", "dellvl"],
   category: "owner",
   description: "Kurangi level user (via exp)",
   usage: ".dellevel <jumlah> @user",

@@ -35,7 +35,6 @@ const allAliases = VALID_SERVERS.map(v => `hapusserver${v}`)
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'Hapus server dari panel (v1-v5)',
     usage: '.delserverv1 serverid',

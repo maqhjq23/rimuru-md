@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'sapa',
-    alias: ['greet', 'sayhi'],
     category: 'general',
     description: 'Rimuru nyapa kamu dengan random pesan manis',
     usage: '.sapa',

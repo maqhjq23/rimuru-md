@@ -37,7 +37,6 @@ follow my channel https://whatsapp.com/channel/0029VbAYjQgKrWQulDTYcg2K
 
 const pluginConfig = {
   name: "toesm",
-  alias: ["tocjs"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

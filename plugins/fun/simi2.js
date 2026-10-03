@@ -47,7 +47,6 @@ let handler = async (m, { sock, text, prefix, command }) => {
 }
 const pluginConfig = {
   name: 'simi2',
-  alias: ['simisimi2'],
   category: 'fun',
   description: 'Simi chat variant dari Tensura.',
   usage: '.simi2 <teks>',

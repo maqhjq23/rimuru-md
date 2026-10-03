@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js"
 
 const pluginConfig = {
     name: "antispam",
-    alias: ["antispamgc"],
     category: "group",
     description: "Mengatur fitur perlindungan grup dari pesan spam secara brutal",
     usage: ".antispam <on/off/action/delay>",

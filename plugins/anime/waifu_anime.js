@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'anime-waifu, Waifu-anime',
-    alias: ['randomwaifu', 'waifurandom', 'waifupic'],
     category: 'anime',
     description: 'Random gambar waifu dari berbagai sumber',
     usage: '.waifu',

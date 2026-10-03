@@ -31,7 +31,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: ['autogreet2', 'autosiangsore'],
-    alias: ['autosiang', 'autosore', 'greetsiang', 'greetsore'],
     category: 'owner',
     description: 'Auto kirim ucapan selamat siang & sore ke Channel',
     usage: '.autogreet2 on/off/status/test/setch <1/2/3>',

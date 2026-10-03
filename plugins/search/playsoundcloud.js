@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "playsoundcloud",
-  alias: ["playsc"],
   category: "search",
   description: "Cari dan download lagu dari SoundCloud",
   usage: ".playsc judul",

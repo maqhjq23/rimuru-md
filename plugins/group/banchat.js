@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'banchat',
-    alias: ['bangroup', 'bangrup', 'unbanchat', 'unbangroup'],
     category: 'group',
     description: 'Ban grup dari penggunaan bot (hanya owner yang bisa akses)',
     usage: '.banchat',

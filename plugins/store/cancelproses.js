@@ -30,7 +30,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'cancelproses',
-    alias: ['batalproses', 'canceltrx'],
     category: 'store',
     description: 'Batalkan proses transaksi',
     usage: '.cancelproses @buyer',

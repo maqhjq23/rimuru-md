@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "waguri-ai",
-  alias: ["waguriai", "waguri"],
   category: "ai",
   description: "Chat dengan Waguri-san — Gadis pemalu yang lupa kacamata",
   usage: ".waguri-ai <pertanyaan>",

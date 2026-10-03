@@ -31,7 +31,6 @@ import { getParticipantJid } from '../../src/lib/rimuru-lid.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'warn',
-    alias: ['warning', 'peringatan'],
     category: 'group',
     description: 'Memberi peringatan kepada member',
     usage: '.warn @user <alasan>',

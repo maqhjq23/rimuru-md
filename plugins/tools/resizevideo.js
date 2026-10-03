@@ -36,7 +36,6 @@ ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 
 const pluginConfig = {
   name: "resizevideo",
-  alias: ["resizevid"],
   category: "tools",
   description: "Mengubah resolusi video tanpa mengubah rasio",
   usage: ".resizevideo [lebar] (reply video)",

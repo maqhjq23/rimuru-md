@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { resetSider } from '../../src/lib/listsider.js';
 const pluginConfig = {
 name: 'risetsider',
-alias: [],
 category: 'group',
 isGroup: true,
 isAdmin: true,

@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakeatm',
-    alias: ['atmfake', 'kartuatm', 'fakecardatm'],
     category: 'canvas',
     description: 'Bikin fake kartu ATM (buat konten/gaguan doang)',
     usage: '.fakeatm <nama> | <bank>',

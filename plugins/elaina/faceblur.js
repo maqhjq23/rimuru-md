@@ -37,7 +37,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: ["blurface", "faceblur"],
-  alias: [],
   category: "elaina",
   description: "Memburamkan wajah pada gambar",
   usage: ".blurface (reply gambar)",

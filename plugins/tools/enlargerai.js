@@ -165,7 +165,6 @@ const enlargerai = {
 
 const pluginConfig = {
     name: 'enlargerai',
-    alias: ['enlargeraiphotos', 'enlarger'],
     category: 'tools',
     description: 'Meningkatkan kualitas gambar (HD, Retouch, Sharpen) dengan Enlargerai',
     usage: '.enlargerai [mode] [reply/kirim gambar]',

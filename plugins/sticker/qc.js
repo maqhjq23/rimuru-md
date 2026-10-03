@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'qc',
-    alias: ['qcstc', 'stcqc', 'qcstic', 'qcstick', 'quotesticker'],
     category: 'sticker',
     description: 'Membuat sticker quote chat dengan warna custom',
     usage: '.qc <warna> <text>',

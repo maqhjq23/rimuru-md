@@ -31,7 +31,6 @@ import path from 'path';
 
 const config = {
     name: 'setlimitpremium',
-    alias: ['setlimitprem', 'premlimit'],
     category: 'owner',
     description: 'Mengubah default limit premium',
     usage: '.setlimitpremium 50',

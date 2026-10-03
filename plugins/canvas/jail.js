@@ -31,7 +31,6 @@ import FormData from 'form-data';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'jail',
-    alias: ['penjara', 'prison'],
     category: 'maker',
     description: 'Efek penjara pada foto',
     usage: '.jail (reply foto)',

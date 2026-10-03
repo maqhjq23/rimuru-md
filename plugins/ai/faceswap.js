@@ -32,7 +32,6 @@ import { uploadImage } from '../../src/lib/rimuru-uploader.js';
 
 const pluginConfig = {
   name: 'faceswap',
-  alias: ['swapface'],
   category: 'ai',
   description: 'Face swap menggunakan Supawork AI',
   usage: '.faceswap <foto target> <wajah>',

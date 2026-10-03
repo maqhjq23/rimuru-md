@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: "savekontak",
-    alias: ["sv", "svkontak"],
     category: "owner",
     description: "Menyimpan kontak dari grup menjadi file VCF",
     usage: ".savekontak <nama>",

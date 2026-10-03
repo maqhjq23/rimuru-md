@@ -1,7 +1,6 @@
 // plugins/benaratausalah.js
 const pluginConfig = {
   name: "benaratausalah",
-  alias: ['bata', 'benarsalah', 'bors'],
   category: "game",
   description: "Game benar atau salah — jawab pertanyaan dengan 'benar' / 'salah'",
   usage: ".benaratausalah",

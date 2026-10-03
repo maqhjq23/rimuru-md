@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "dymc",
-  alias: ["dymc", "dynamiccircular"],
   category: "canvas",
   description: "Buat gambar dengan efek dynamic circular text",
   usage: ".dymc <teks>",

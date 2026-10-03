@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'inspect',
-    alias: ['cekgrup', 'ceksaluran', 'groupinfo', 'channelinfo'],
     category: 'utility',
     description: 'Inspect info grup atau saluran WhatsApp via link',
     usage: '.inspect <link grup/saluran>',

@@ -34,15 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "bcgc",
-  alias: [
-    "broadcastgc",
-    "bcgroup",
-    "jedabcgc",
-    "delaybcgc",
-    "setjedabcgc",
-    "stopbcgc",
-    "stopbroadcastgc",
-  ],
   category: "owner",
   description:
     "Broadcast pesan ke semua grup dengan dukungan semua jenis media",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'setproses',
-    alias: ['prosesconfig', 'configproses'],
     category: 'store',
     description: 'Set template untuk .proses',
     usage: '.setproses template <full text>',

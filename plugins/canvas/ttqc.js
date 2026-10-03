@@ -253,7 +253,6 @@ async function render(username, chatText, avatarSrc) {
 
 const pluginConfig = {
   name: "ttqc",
-  alias: ["tiktokquote", "ttq"],
   category: "canvas",
   description: "Buat fake quote chat ala TikTok",
   usage: ".ttqc <teks> (atau reply teks)",

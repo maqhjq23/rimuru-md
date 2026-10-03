@@ -28,8 +28,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 import { createCanvas, loadImage } from '@napi-rs/canvas';
 const pluginConfig = {
-    name: 'logo-3d',
-    alias: ['logo3d', '3dlogo', '3dtext'],
+    name: 'logo3d',
     category: 'maker',
     description: 'Buat logo dengan efek 3D pop out',
     cooldown: 5,

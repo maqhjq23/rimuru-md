@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "hd4",
-  alias: ["upscale4"],
   category: "tools",
   description: "Memperjelas resolusi gambar / dokumen foto (Upscale 4x)",
   usage: ".hd4 <reply/kirim gambar atau dokumen foto>",

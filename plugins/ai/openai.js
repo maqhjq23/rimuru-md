@@ -37,7 +37,6 @@ import FormData from 'form-data'
 
 const pluginConfig = {
   name: "openai",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

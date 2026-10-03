@@ -30,7 +30,6 @@ import { cocofun } from 'btch-downloader'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'cocofundl',
-    alias: ['cfdl', 'cocofun', 'cf'],
     category: 'download',
     description: 'Download video CocoFun',
     usage: '.cfdl <url>',

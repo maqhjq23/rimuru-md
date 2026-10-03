@@ -77,7 +77,7 @@ try {
 } catch (e) {}
 
 function ctx(title, body) {
-  const sId = config.saluran?.id || "120363412350560864@newsletter";
+  const sId = config.saluran?.id || "120363412837402275@newsletter";
   const sName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   const c = {
     forwardingScore: 9999,
@@ -109,7 +109,6 @@ function send(sock, m, text, title, body) {
 
 const pluginConfig = {
   name: "fisht",
-  alias: ["fishit"],
   category: "game",
   description: "Fishit - Fishing Rod Game",
   usage: ".fisht <command>",

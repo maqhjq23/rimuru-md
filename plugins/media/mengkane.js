@@ -36,7 +36,6 @@ for (let i = 1; i <= 52; i++) {
 
 const pluginConfig = {
     name: sadCommands,
-    alias: [],
     category: 'media',
     description: 'Kirim musik mengkane (mengkane1 - mengkane55)',
     usage: '.mengkane1 atau .mengkane55',

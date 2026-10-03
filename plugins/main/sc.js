@@ -31,7 +31,6 @@ import config from "../../config.js"
 
 const pluginConfig = {
     name: "sc",
-    alias: ["script"],
     category: "main",
     description: "Link script bot wa terbaru",
     usage: ".sc",
@@ -48,7 +47,7 @@ const pluginConfig = {
 
 async function handler(m, { sock }) {
     return await sock.sendMessage(m.chat, {
-        image: getAssetBuffer("rimuru"),
+        image: { url: config.assets?.["rimuru"] },
         caption: `🌾 Halo kak *${m.pushName}*
         
 Untuk asli dari bot ini, kamu bisa dapatkan melalui link, nanti kamu tinggal cari kata kunci *Rimuru MD*`,

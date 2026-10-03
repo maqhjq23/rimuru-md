@@ -139,7 +139,6 @@ let handler = async (m, { text, sock }) => {
 export default handler;
 const pluginConfig = {
   name: 'surah2',
-  alias: [],
   category: 'general',
   description: 'Pencarian surah lengkap dengan Arab, bacaan, dan arti.',
   usage: '.surah2 <nama/nomor>',

@@ -31,7 +31,6 @@ import { generateWAMessageFromContent } from "rimuru";
 
 const pluginConfig = {
   name: "test",
-  alias: ["poll"],
   category: "test",
   description: "Test Poll Menu Interaktif",
   usage: ".poll",

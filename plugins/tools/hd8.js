@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: "hd8",
-  alias: ["remini8", "upscale1", "enhance8"],
   category: "tools",
   description: "Meningkatkan resolusi gambar hingga 4x lipat (Upscale v1)",
   usage: ".hd8 [resolusi 2|4] (balas/kirim gambar)",

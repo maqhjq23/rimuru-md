@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'videy',
-    alias: ['vdl', 'videydownload', 'videydl'],
     category: 'download',
     description: 'Download video dari videy.co',
     usage: '.videy <url>',

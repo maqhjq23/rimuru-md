@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "sertifikatnasa",
-  alias: ["nasacert", "sertifnasa", "sertifikat-nasa"],
   category: "maker",
   description: "Generate gambar Sertifikat NASA dengan nama custom",
   usage: ".sertifikatnasa <nama>",

@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'sifatusahabisnis',
-    alias: ['usahabisnis', 'sifatbisnis'],
     category: 'primbon',
     description: 'Cek sifat usaha/bisnis berdasarkan tanggal lahir',
     usage: '.sifatusahabisnis <tgl> <bln> <thn>',

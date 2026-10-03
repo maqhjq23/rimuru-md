@@ -32,7 +32,6 @@ import fs from 'fs'
 import { AIRich } from '../../src/lib/rimuru-builder.js'
 const pluginConfig = {
     name: 'tqto',
-    alias: ['thanksto', 'credits', 'kredit'],
     category: 'main',
     description: 'Menampilkan daftar kontributor bot',
     usage: '.tqto',

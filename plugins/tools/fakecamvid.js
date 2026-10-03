@@ -33,7 +33,6 @@ import path from 'path';
 
 const pluginConfig = {
   name: 'fakecamvid',
-  alias: ['paplivevid', 'vcam'],
   category: 'tools',
   description: 'Menimpa UI Kamera iOS iPhone di atas Video (Size Presisi + Ultra HD)',
   usage: '.fakecamvid [reply/kirim video/dokumen]',

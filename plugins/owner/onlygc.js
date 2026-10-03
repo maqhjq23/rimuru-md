@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "onlygc",
-  alias: ["onlygroup", "grouponly"],
   category: "owner",
   description: "Toggle mode bot hanya di grup",
   usage: ".onlygc on/off",

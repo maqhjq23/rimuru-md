@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
     name: "fakegopay",
-    alias: ["fakegopay"],
     category: "canvas",
     description: "Membuat canvas fake gopay",
     usage: ".fakegopay <saldo>|<coin>|<terpakai>|<bulan>",

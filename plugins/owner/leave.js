@@ -30,7 +30,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "leave",
-  alias: ["leavegrup", "leavegroup", "keluar", "bye"],
   category: "owner",
   description: "Bot keluar dari grup",
   usage: ".leave [link]",
@@ -108,7 +107,7 @@ async function handler(m, { sock }) {
   try {
     global.sewaLeaving = true;
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     if (m.isGroup && targetGroupJid === m.chat) {

@@ -34,7 +34,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "pindl",
-  alias: ["pinterestdl", "pindownload", "pintdl"],
   category: "download",
   description: "Download gambar/video dari Pinterest",
   usage: ".pindl <url>",

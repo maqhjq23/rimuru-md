@@ -30,7 +30,6 @@ import { Txt2Img2 } from "../../src/scraper/txt2img2.js";
 
 const pluginConfig = {
   name: "text2img4",
-  alias: ["t2i2", "imggen2", "flux"],
   category: "ai",
   description: "Buat gambar dari teks pakai Flux Klein 4B",
   usage: ".txt2img2 <deskripsi gambar>",

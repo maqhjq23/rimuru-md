@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
   name: 'buildml',
-  alias: [],
   category: 'info',
   description: 'Build hero Mobile Legends',
   usage: '.buildml <hero>',

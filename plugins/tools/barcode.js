@@ -30,7 +30,6 @@ import axios from "axios"
 
 const pluginConfig = {
   name: "barcode",
-  alias: ["code128"],
   category: "tools",
   description: "Membuat barcode Code-128",
   usage: ".barcode <teks>",

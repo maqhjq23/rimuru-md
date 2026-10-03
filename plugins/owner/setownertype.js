@@ -32,7 +32,6 @@ import fs from 'fs'
 import path from 'path'
 const pluginConfig = {
     name: 'setownertype',
-    alias: ['ownertype', 'ownervariant', 'ownerstyle'],
     category: 'owner',
     description: 'Mengatur variant tampilan owner message',
     usage: '.setownertype',

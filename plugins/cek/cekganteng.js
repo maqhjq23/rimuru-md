@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekganteng',
-    alias: ['ganteng', 'handsome'],
     category: 'cek',
     description: 'Cek seberapa ganteng kamu',
     usage: '.cekganteng <nama>',

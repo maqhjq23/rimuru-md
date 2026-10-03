@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "ship",
-  alias: ["ship", "jodoh"],
   category: "canvas",
   description: "Buat gambar persentase jodoh",
   usage: ".ship @tag1 @tag2",

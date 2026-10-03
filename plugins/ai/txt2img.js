@@ -31,7 +31,6 @@ import { f } from './../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'text2img3',
-    alias: [],
     category: 'ai',
     description: 'Generate gambar dari teks dengan AI',
     usage: '.txt2img <prompt> | <style>',

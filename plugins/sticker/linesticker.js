@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'linesticker',
-    alias: ['linepack', 'line'],
     category: 'sticker',
     description: 'Download sticker pack LINE',
     usage: '.linesticker <url>',

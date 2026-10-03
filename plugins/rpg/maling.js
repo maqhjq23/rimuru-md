@@ -32,7 +32,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "maling",
-  alias: ["copet", "pickpocket"],
   category: "rpg",
   description: "Mencopet orang di pasar (lebih berisiko dari crime)",
   usage: ".maling",

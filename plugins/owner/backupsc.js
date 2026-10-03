@@ -34,7 +34,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "backupsc",
-  alias: ["backup", "backupscript", "backupsource"],
   category: "owner",
   description: "Backup script bot dalam bentuk zip",
   usage: ".backupsc",
@@ -211,7 +210,7 @@ async function handler(m, { sock }) {
 
     const stats = fs.statSync(zipFilePath);
     const fileSizeMB = (stats.size / (1024 * 1024)).toFixed(2);
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     await sock.sendMessage(

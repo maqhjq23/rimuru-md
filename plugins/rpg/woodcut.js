@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "woodcut",
-  alias: ["chop", "nebang", "kayu"],
   category: "rpg",
   description: "Menebang pohon untuk mendapatkan kayu",
   usage: ".woodcut",

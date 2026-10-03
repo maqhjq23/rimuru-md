@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'birthdaylist',
-    alias: ['bdaylist', 'listultah', 'ultahlist'],
     category: 'user',
     description: 'Lihat daftar ulang tahun member',
     usage: '.birthdaylist',

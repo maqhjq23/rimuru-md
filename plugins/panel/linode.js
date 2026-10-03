@@ -55,7 +55,6 @@ const LINODE_TYPES = {
 
 const pluginConfig = {
     name: ['linode2gb', 'linode4gb', 'linode8gb', 'linode16gb', 'listlinode', 'onlinode', 'offlinode', 'rebootlinode', 'rebuildlinode', 'delinode', 'saldolinode', 'sisalinode', 'cekvpslinode'],
-    alias: [],
     category: 'linode',
     description: 'Linode VPS Management',
     usage: '.linode2gb <label> | .listlinode | .onlinode <id> | dst',

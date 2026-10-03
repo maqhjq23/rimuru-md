@@ -38,7 +38,6 @@ const buildQuestion = (aki) =>
 
 const pluginConfig = {
   name: "akinator",
-  alias: ["aki", "akistop"],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

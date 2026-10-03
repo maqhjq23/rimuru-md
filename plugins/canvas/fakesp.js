@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakesp',
-    alias: ['spfake', 'suratpanggilan', 'fakesuratpanggil'],
     category: 'canvas',
     description: 'Bikin fake surat panggilan (buat konten/gaguan doang)',
     usage: '.fakesp <nama> | <instansi>',

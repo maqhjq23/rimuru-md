@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "mining",
-  alias: ["mine", "tambang"],
   category: "rpg",
   description: "Menambang untuk mendapatkan ores dan gems",
   usage: ".mining",

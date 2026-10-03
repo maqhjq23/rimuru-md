@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const config = {
   name: "whatrolethis",
-  alias: ["whatrole", "cekrole", "cekakses"],
   category: "info",
   description: "Cek persyaratan akses banyak fitur sekaligus",
   usage: ".whatrolethis <nama_fitur1> <nama_fitur2> ...",

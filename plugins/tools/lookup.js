@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { sendToolsPreview } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "lookup",
-  alias: ["dnslookup", "dns", "whois"],
   category: "tools",
   description: "DNS Lookup untuk domain",
   usage: ".lookup <domain>",

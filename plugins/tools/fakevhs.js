@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'fakevhs',
-  alias: ['vhscam', 'retrovhs', 'handycam'],
   category: 'tools',
   description: 'Mengubah Foto menjadi Efek Kamera Retro VHS 90-an (Ultra Real)',
   usage: '.fakevhs [reply/kirim foto/dokumen foto/view once]',

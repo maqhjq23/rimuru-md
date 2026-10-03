@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { live3d } from "../../src/scraper/seaart.js";
 const pluginConfig = {
   name: "toblack",
-  alias: ["black", "hitamkan", "hitam", "tohitam"],
   category: "ai",
   description: "Ubah gambar ke skin tone lebih gelap",
   usage: ".toblack (reply gambar)",

@@ -31,7 +31,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'delpremall',
-    alias: ['delpremiumall', 'removepremall'],
     category: 'owner',
     description: 'Menghapus semua member grup dari premium',
     usage: '.delprem all',

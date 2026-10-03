@@ -314,7 +314,6 @@ gameLoop();
 
 const pluginConfig = {
 name: 'memorymatch',
-alias: ['memorymatchgame', 'mmatch'],
 category: 'game',
 description: 'Game hafalan kartu - cocokin pasangan emoji!',
 usage: '',

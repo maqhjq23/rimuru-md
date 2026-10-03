@@ -35,7 +35,6 @@ const sharp = _sharp;
 
 const pluginConfig = {
   name: 'telestick',
-  alias: ['tgsticker', 'telegramsticker'],
   category: 'sticker',
   description: 'Ambil sticker pack dari Telegram dan kirim sebagai sticker pack WhatsApp',
   usage: '.telestick <url>',

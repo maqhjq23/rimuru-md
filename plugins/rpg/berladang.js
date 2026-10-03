@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "berladang",
-  alias: ["farm", "tanam", "berkebun"],
   category: "rpg",
   description: "Berladang untuk mendapat hasil panen",
   usage: ".berladang",

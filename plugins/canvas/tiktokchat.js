@@ -31,7 +31,6 @@ import FormData from "form-data";
 
 const pluginConfig = {
   name: "tiktokchat",
-  alias: ["tiktok-chat", "ttchat"],
   category: "canvas",
   description: "Membuat fake chat TikTok dari avatar kamu",
   usage: ".tiktokchat username | pesan (reply gambar)",

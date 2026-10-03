@@ -30,7 +30,6 @@ import fetch from 'node-fetch';
 
 const pluginConfig = {
   name: "quotephoto",
-  alias: ["qphoto", "quotepic", "katatutur", "picturequote"],
   category: "maker",
   description: "Buat gambar kata-kata quote estetik di atas kertas",
   usage: ".quotephoto teks|author",

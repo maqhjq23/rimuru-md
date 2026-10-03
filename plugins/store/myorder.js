@@ -34,7 +34,6 @@ import { getAssetBuffer } from '../../src/lib/rimuru-asset-manager.js';
 
 const pluginConfig = {
     name: 'myorder',
-    alias: ['orderku', 'cekorder', 'pesananku'],
     category: 'store',
     description: 'Lihat order kamu',
     usage: '.myorder',

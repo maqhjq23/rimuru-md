@@ -33,7 +33,6 @@ import axios from 'axios'
 
 const pluginConfig = {
   name: "cekrek",
-  alias: ["cekrekening"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

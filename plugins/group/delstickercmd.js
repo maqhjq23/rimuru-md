@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getQuotedStickerHash, deleteStickerCommand, listStickerCommands, findByCommand } from '../../src/lib/rimuru-sticker-command.js'
 const pluginConfig = {
     name: 'delstickercmd',
-    alias: ['delcmdsticker', 'removesticker', 'unsticker'],
     category: 'group',
     description: 'Hapus sticker command',
     usage: '.delstickercmd <command> atau reply sticker',

@@ -30,7 +30,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'gantiapi',
-    alias: ['setapi'],
     category: 'owner',
     description: 'Mengganti API di plugin tertentu',
     usage: '.gantiapi <plugin> <api>',

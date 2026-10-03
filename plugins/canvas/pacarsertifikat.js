@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'pacarsertifikat',
-    alias: ['sertifikatpacar', 'certpacar', 'pacarcert'],
     category: 'canvas',
     description: 'Membuat sertifikat pacar',
     usage: '.pacarsertifikat <nama1> <nama2>',

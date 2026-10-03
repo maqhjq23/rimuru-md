@@ -32,7 +32,6 @@ import { createCanvas } from '@napi-rs/canvas';
 
 const pluginConfig = {
     name: 'iqc5',
-    alias: ['qc5'],
     category: 'canvas',
     description: 'Membuat Fake Quote iOS style tanpa API eksternal.',
     usage: '.iqc5 [text/reply]',

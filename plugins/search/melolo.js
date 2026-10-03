@@ -32,7 +32,6 @@ import rimuruApi from "../../src/lib/rimuru-apimanager.js";
 
 const pluginConfig = {
   name: "melolo",
-  alias: ["melolodrama", "dramamelolo"],
   category: "search",
   description: "Cari daftar drama pendek berdasarkan kategori dari Melolo",
   usage: ".melolo <category>",

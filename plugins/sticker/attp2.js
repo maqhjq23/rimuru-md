@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
   name: 'attp2',
-  alias: ['attp2'],
   category: 'sticker',
   description: 'Buat sticker animasi teks',
   usage: '.attp2 <teks>',

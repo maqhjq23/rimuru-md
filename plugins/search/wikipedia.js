@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "wikipedia",
-  alias: ["wiki", "wp"],
   category: "search",
   description: "Mencari artikel lengkap dari Wikipedia",
   usage: ".wikipedia <query>",

@@ -6,7 +6,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: 'ttslide',
-    alias: ['tiktokslide'],
     category: 'download',
     description: 'Mengambil semua gambar dari TikTok photo/slideshow',
     usage: '.ttslide <url>',

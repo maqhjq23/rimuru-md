@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "onlypc",
-  alias: ["onlyprivate", "privateonly"],
   category: "owner",
   description: "Toggle mode bot hanya di private chat",
   usage: ".onlypc on/off",

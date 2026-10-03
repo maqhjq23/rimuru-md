@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'animewall',
-    alias: ['animewallpaper', 'wallanime', 'wpanime'],
     category: 'anime',
     description: 'Dapatkan random wallpaper anime HD dari berbagai series',
     usage: '.animewall [series]',

@@ -37,7 +37,6 @@ const exec = promisify(execFile);
 
 const pluginConfig = {
   name: "dailymotiondl",
-  alias: ["dailymotion", "dmdl"],
   category: "download",
   description: "Download video dari Dailymotion",
   usage: ".dailymotiondl <url>",

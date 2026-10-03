@@ -34,7 +34,6 @@ import { join } from 'node:path'
 
 const pluginConfig = {
     name: 'igstory',
-    alias: ['igstorypost'],
     category: 'canvas',
     description: 'Membuat gambar simulasi post Instagram Story dari foto profil dan gambarmu.',
     usage: '.igstory [kirim/reply gambar]',

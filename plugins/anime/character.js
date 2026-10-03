@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'character',
-    alias: ['karakter', 'animechar', 'char'],
     category: 'anime',
     description: 'Cari profil karakter anime dari MyAnimeList',
     usage: '.character <nama karakter>',

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "halah",
-  alias: ["hilih"],
   category: "fun",
   description: "Ubah teks ke gaya Halah/Hilih",
   usage: ".halah <teks> / .hilih <teks>",

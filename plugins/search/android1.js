@@ -34,7 +34,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "android1",
-  alias: ["an1"],
   category: "search",
   description: "Cari dan download APK MOD dari Android1",
   usage: ".android1 <query>",
@@ -92,7 +91,7 @@ async function handler(m, { sock }) {
     };
     db.save();
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     let caption = `📱 Hasil dari pencarian apk mod *${text}*\n`;
@@ -115,7 +114,7 @@ async function handler(m, { sock }) {
     m.react("✅");
     await sock.sendButton(
       m.chat,
-      getAssetBuffer("rimuru"),
+      config.assets?.["rimuru"],
       caption,
       m,
       {

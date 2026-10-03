@@ -37,7 +37,6 @@ import { getTimeGreeting } from "../../src/lib/rimuru-formatter.js";
 
 const pluginConfig = {
   name: "allmenu",
-  alias: ["fullmenu", "am", "allcommand", "semua"],
   category: "main",
   description: "Menampilkan All Menu dengan tampilan Rimuru MD",
   usage: ".allmenu",
@@ -185,7 +184,7 @@ async function legacyAllMenuHandler(m, { sock, config: botConfig, db, uptime }) 
   await sock.sendMessage(
     m.chat,
     {
-      image: getAssetBuffer("rimuru-v8"),
+      image: { url: botConfig.assets?.["rimuru-v8"] },
       caption,
       contextInfo: {
         forwardingScore: 999,
@@ -256,13 +255,13 @@ async function externalDefaultAllMenuHandler(m, { sock, config: botConfig, db })
   const body = `> Halo *${pushName}* 👋 Perkenalkan aku *${botName}*, buatan *${devName}*. Saya siap membantu kebutuhanmu, mulai dari download video, main game, tanya jawab, nyari info/sesuatu, bikin sticker, dan lain-lain.\n\n`;
   const txt = `✦ *Informasi User*\n• Nama   : ${pushName}\n• Status : ${m.isOwner ? "Owner" : m.isPremium ? "Premium" : "User"}\n\n✦ *Informasi Bot*\n• Nama   : ${botName}\n• Fitur  : ${total} fitur\n\n${lines.join("\n")}`;
 
-  const imageBuffer = getAssetBuffer("rimuru", botConfig.assets);
-  if (!imageBuffer) {
+  const imageUrl = botConfig.assets?.["rimuru"];
+  if (!imageUrl) {
     await m.reply(body + txt);
     return;
   }
 
-  const media = await prepareWAMessageMedia({ image: imageBuffer }, { upload: sock.waUploadToServer });
+  const media = await prepareWAMessageMedia({ image: { url: imageUrl } }, { upload: sock.waUploadToServer });
   const message = generateWAMessageFromContent(m.chat, {
     viewOnceMessage: {
       message: {
@@ -276,7 +275,7 @@ async function externalDefaultAllMenuHandler(m, { sock, config: botConfig, db })
             forwardingScore: 9,
             mentionedJid: [m.sender],
             forwardedNewsletterMessageInfo: {
-              newsletterJid: botConfig.saluran?.id || "120363412350560864@newsletter",
+              newsletterJid: botConfig.saluran?.id || "120363412837402275@newsletter",
               newsletterName: botConfig.saluran?.name || botName,
               serverMessageId: 127,
             },

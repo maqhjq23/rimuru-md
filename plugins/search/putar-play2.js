@@ -172,7 +172,6 @@ async function y2mate(input, format = 'mp3', quality = null) {
 
 const pluginConfig = {
     name: "putar-play2",
-    alias: ["putar-play2"],
     category: "search",
     description: "Putar musik dari YouTube (Siputzx API)",
     usage: ".putar-play2 <query>",

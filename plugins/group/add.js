@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'add',
-    alias: ['addmember', 'invite'],
     category: 'group',
     description: 'Menambahkan member ke grup (support multiple)',
     usage: '.add <nomor1> [nomor2] [nomor3]... [link_grup]',

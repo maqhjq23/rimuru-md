@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'resetlimitdefault',
-    alias: ['defaultlimitreset'],
     category: 'owner',
     description: 'Reset default limit ke config asli',
     usage: '.resetlimitdefault',

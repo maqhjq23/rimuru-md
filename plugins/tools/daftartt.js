@@ -28,8 +28,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 import config from '../../config.js';
 const pluginConfig = {
-    name: 'daftartiktok',
-    alias: ['daftartt', 'regtt'],
+    name: 'daftartt',
     category: 'stalker',
     description: 'Mendaftarkan username TikTok ke database user',
     usage: '.daftartt <username>',

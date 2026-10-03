@@ -35,7 +35,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
     name: "character-ai",
-    alias: ["cai", "charai"],
     category: "ai",
     description: "Cari karakter AI dan jadikan sebagai Auto AI di chat ini",
     usage: ".character-ai search <nama> | .character-ai off | .character-ai reset",

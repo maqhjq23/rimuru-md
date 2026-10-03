@@ -31,7 +31,6 @@ import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "enableplugin",
-  alias: ["eplugin", "pluginenable", "onplugin"],
   category: "owner",
   description: "Mengaktifkan kembali plugin yang dinonaktifkan",
   usage: ".enableplugin <nama_plugin>",

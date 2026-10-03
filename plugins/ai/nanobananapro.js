@@ -31,7 +31,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
     name: 'nanobananapro',
-    alias: ['nanopro'],
     category: 'ai',
     description: 'Edit gambar dengan Nano Banana Pro dari source CANTARELLA',
     usage: '.nanobananapro <prompt> (reply gambar)',

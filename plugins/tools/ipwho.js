@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { sendToolsPreview, saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "ipwho",
-  alias: ["ip", "iplookup", "ipinfo"],
   category: "tools",
   description: "Lookup informasi IP address",
   usage: ".ipwho <ip>",

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'getpp',
-    alias: ['pp', 'profilepic', 'avatar'],
     category: 'group',
     description: 'Ambil foto profil target (mention/reply)',
     usage: '.getpp @user',

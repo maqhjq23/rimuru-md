@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "hourly",
-  alias: ["jam", "perjam"],
   category: "rpg",
   description: "Klaim hadiah per jam",
   usage: ".hourly",

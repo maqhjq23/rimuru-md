@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "ssweb",
-  alias: ["screenshot", "ss", "webss"],
   category: "tools",
   description: "Screenshot website",
   usage: ".ssweb <url>",
@@ -84,7 +83,7 @@ async function handler(m, { sock }) {
   try {
     const imageBuffer = await ssweb(text, mode);
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     await sock.sendMedia(m.chat, imageBuffer, null, m, {

@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "profileff",
-  alias: ["profilff", "pff"],
   category: "canvas",
   description: "Buat gambar profil FF keren",
   usage: ".profileff <nama> | <guild> | <bg_index>",

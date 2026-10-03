@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'resetlinkgc',
-    alias: ['resetlink', 'revokelink', 'newlink'],
     category: 'group',
     description: 'Reset link invite grup',
     usage: '.resetlinkgc',

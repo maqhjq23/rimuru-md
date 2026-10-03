@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
     name: "putar-play",
-    alias: ["putar-play", "putar"],
     category: "search",
     description: "Putar musik dari YouTube (Faa API)",
     usage: ".putar-play <url>",

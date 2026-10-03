@@ -34,7 +34,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "colongpp",
-  alias: ["stealpp", "malingpp", "ambilpp"],
   category: "owner",
   description: "Ambil & pakai foto profil target sebagai PP bot",
   usage: ".colongpp (reply pesan target)",

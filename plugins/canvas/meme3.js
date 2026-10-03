@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'meme3',
-    alias: ['3panel'],
     category: 'canvas',
     description: 'Membuat meme 3 panel',
     usage: '.meme3 <text1>|<text2>|<text3>',

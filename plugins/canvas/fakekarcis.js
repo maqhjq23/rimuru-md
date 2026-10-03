@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakekarcis',
-    alias: ['karcisfake', 'tiketbioskop', 'faketiketfilm'],
     category: 'canvas',
     description: 'Bikin fake karcis bioskop (buat konten/gaguan doang)',
     usage: '.fakekarcis <nama> | <film> | <jam>',

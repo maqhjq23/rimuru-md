@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: "iqc",
-    alias: ["qc2"],
     category: "canvas",
     description: "Membuat Fake Quote iOS style secara instan.",
     usage: ".iqc [text/reply]",

@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
   name: 'custompayment',
-  alias: ['setpayment', 'setpaytext'],
   category: 'owner',
   description: 'Atur teks custom untuk .payment dengan placeholder',
   usage: '.custompayment <teks> / .custompayment reset',

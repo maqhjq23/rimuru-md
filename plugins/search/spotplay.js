@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "spotplay",
-  alias: ["splay", "sp"],
   category: "search",
   description: "Putar musik dari Spotify",
   usage: ".spotplay <query>",

@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'setlimitdefault',
-    alias: ['setdefaultlimit', 'limitdefault'],
     category: 'owner',
     description: 'Set default limit untuk user baru',
     usage: '.setlimitdefault <jumlah>',

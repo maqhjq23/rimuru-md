@@ -32,7 +32,6 @@ import ytdl from "../../src/scraper/ytdl.js";
 
 const pluginConfig = {
   name: "playvid",
-  alias: ["playvideo", "playmp4"],
   category: "search",
   description: "Cari dan putar video dari YouTube",
   usage: ".playvid <query>",

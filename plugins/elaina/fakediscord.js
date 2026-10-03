@@ -35,7 +35,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: ["fakediscord", "dcfake", "fakedc"],
-  alias: [],
   category: "elaina",
   description: "Membuat screenshot chat Discord palsu",
   usage: ".fakediscord nama|pesan (reply gambar opsional)",

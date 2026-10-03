@@ -32,7 +32,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'tofigurev2',
-    alias: ['figurev2', 'figure2'],
     category: 'ai',
     description: 'Ubah gambar ke style Figure v2',
     usage: '.tofigurev2 (reply gambar)',

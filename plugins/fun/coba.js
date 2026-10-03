@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'coba',
-    alias: ['try'],
     category: 'fun',
     description: 'Coba tanyakan sesuatu ke bot',
     usage: '.coba <pertanyaan>',

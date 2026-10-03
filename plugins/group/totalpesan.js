@@ -79,7 +79,6 @@ const getFormattedDate = (date) => {
 
 const pluginConfig = {
   name: "totalpesan",
-  alias: [],
   category: "group",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

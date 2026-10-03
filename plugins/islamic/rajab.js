@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'rajab',
-  alias: ['bulanrajab', 'rajab'],
   category: 'religi',
   description: 'Informasi lengkap tentang Bulan Rajab (doa, amalan, keutamaan, dan peristiwa penting)',
   usage: '.rajab',

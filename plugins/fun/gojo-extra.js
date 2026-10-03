@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name:["gquote","gfact","ghype","gpower","gtech"],
-  alias:["gojoquote","gojofact","gojohype","gojopower","gojotech"],
   category:"fun",
   description:"Fitur tema Gojo sederhana yang tidak tersedia di Rimuru.",
   usage:".gquote",

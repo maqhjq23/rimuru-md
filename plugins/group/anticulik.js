@@ -31,7 +31,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "anticulik",
-  alias: ["antikidnap", "antiileng", "anticulikgc"],
   category: "group",
   description: "Bot otomatis keluar grup jika ditambah tanpa izin",
   usage: ".anticulik on/off",

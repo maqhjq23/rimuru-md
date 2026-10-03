@@ -67,16 +67,7 @@ const EFFECT_URLS = {
 }
 
 const pluginConfig = {
-    name: [
-        'glitchtext', 'writetext', 'advancedglow', 'typographytext', 'pixelglitch',
-        'neonglitch', 'flagtext', 'flag3dtext', 'deletingtext', 'blackpinkstyle',
-        'glowingtext', 'underwatertext', 'logomaker', 'cartoonstyle', 'papercutstyle',
-        'watercolortext', 'effectclouds', 'blackpinklogo', 'gradienttext', 'summerbeach',
-        'luxurygold', 'multicoloredneon', 'sandsummer', 'galaxywallpaper', '1917style',
-        'makingneon', 'royaltext', 'freecreate', 'galaxystyle', 'amongustext',
-        'rainytext', 'lighteffects'
-    ],
-    alias: ['ephoto'],
+    name: 'ephoto',
     category: 'ephoto',
     description: 'Buat efek text keren dengan berbagai style',
     usage: '.<effect> <text>',

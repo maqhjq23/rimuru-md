@@ -38,7 +38,6 @@ async function loadImageBuffer(url) {
 
 const pluginConfig = {
     name: 'preset',
-    alias: ['prst'],
     category: 'tools',
     description: 'Generate teks preset auto copy 😈',
     usage: '.preset linkVT|link916|link11|linkXML',

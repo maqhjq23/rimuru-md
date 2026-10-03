@@ -38,7 +38,6 @@ const pluginConfig = {
     "railfence","railfenced","caesarbrute","base36","base36d","piglatin","ncr","npr",
     "pascal","primelist","trapezoid","hexagon","cylinder","tax","taxrm","discstack","retire","timeconv","numsys","leaplist","daysmonth","zodiaccomp","fracsimp","moneyfmt","hashtag","massconv","volconv","trim","capfirst","countchar","randcolor","agesecond","nextday","gcdlist","lcmList","dedupe","strlen","isnum","revnum","punct","extractnum","extractmail","extracturl","wordwrap"
   ],
-  alias: [],
   category: "tools",
   description: "Tool matematika, teks, konversi, dan utilitas tambahan yang tidak tersedia di Rimuru.",
   usage: ".<command> <input>",

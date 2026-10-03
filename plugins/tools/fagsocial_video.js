@@ -33,7 +33,6 @@ import path from 'path';
 
 const pluginConfig = {
   name: 'fagsocial_video',
-  alias: ['fagv', 'fttv'],
   category: 'tools',
   description: 'Mengubah Video menjadi Overlay IG Reels (.fagv) atau TikTok FYP (.fttv) (Ultra HD + Size Presisi)',
   usage: '.fagv username | caption  ATAU  .fttv username | caption',

@@ -12,7 +12,6 @@ import { fileURLToPath } from 'node:url'
 
 const pluginConfig = {
     name: 'weather',
-    alias: ['cuaca'],
     category: 'tools',
     description: 'Cek cuaca kota dan buat weather card',
     usage: '.weather <kota>',

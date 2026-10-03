@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "hitungwrmlbb",
-  alias: ["wrml", "wrmlbb", "winrate"],
   category: "tools",
   description: "Hitung kebutuhan win tanpa lose untuk mencapai target win rate di Mobile Legends.",
   usage: ".hitungwrmlbb <total_match> <wr_sekarang> <wr_target>",

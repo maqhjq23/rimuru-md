@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'productinfo',
-    alias: ['infoproduk', 'detailproduk'],
     category: 'store',
     description: 'Lihat detail produk',
     usage: '.productinfo <nomor>',

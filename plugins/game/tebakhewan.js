@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('tebakhewan', {
-    alias: ['th', 'guessanimal'],
     emoji: '🐾',
     title: 'TEBAK HEWAN',
     description: 'Tebak nama hewan',

@@ -35,7 +35,6 @@ function getTesseract() {
 }
 const pluginConfig = {
   name: "ocr",
-  alias: ["totext", "imagetotext", "readtext"],
   category: "tools",
   description: "Extract teks dari gambar (Offline/Local)",
   usage: ".ocr (reply gambar)",

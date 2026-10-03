@@ -37,7 +37,6 @@ function pickRandom(list) {
 
 const pluginConfig = {
   name: "minecraftbattle",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

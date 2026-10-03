@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'readmore',
-    alias: ['selengkapnya', 'spoiler'],
     category: 'tools',
     description: 'Membuat teks baca selengkapnya (spoiler)',
     usage: '.readmore <text_awal>|<text_akhir>',

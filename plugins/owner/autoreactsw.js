@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'autoreactsw',
-    alias: ['autoreaksi', 'reactsw', 'autoreactstory'],
     category: 'owner',
     description: 'Auto react semua status/story WA',
     usage: '.autoreactsw on/off [emoji]',

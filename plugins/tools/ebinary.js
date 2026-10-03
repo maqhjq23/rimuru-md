@@ -4,7 +4,6 @@
 
 const pluginConfig = {
     name: 'ebinary',
-    alias: ['encodebinary', 'text2binary'],
     category: 'tools',
     description: 'Encode teks menjadi binary',
     usage: '.ebinary <teks>',

@@ -32,7 +32,6 @@ const COPY_API = 'https://copier.saveweb2zip.com/api';
 
 const pluginConfig = {
   name: 'web2zip',
-  alias: ['saveweb2zip'],
   category: 'tools',
   description: 'Salin website menjadi file ZIP',
   usage: '.web2zip <url>',

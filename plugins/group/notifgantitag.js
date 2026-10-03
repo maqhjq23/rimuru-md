@@ -37,7 +37,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "notifgantitag",
-  alias: ["notiflabel", "notiftag", "labeltag"],
   category: "group",
   description: "Mengatur notifikasi perubahan label/tag member",
   usage: ".notifgantitag <on/off>",

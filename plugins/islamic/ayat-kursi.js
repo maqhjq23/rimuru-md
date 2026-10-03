@@ -32,7 +32,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 import fetch from 'node-fetch'
 const pluginConfig = {
   name: "ayatkursi",
-  alias: [],
   category: "islamic",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

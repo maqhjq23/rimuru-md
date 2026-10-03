@@ -31,7 +31,6 @@ import { tiktokSearchVideo } from "../../src/scraper/tiktoksearch.js";
 
 const pluginConfig = {
   name: "playtiktok",
-  alias: ["ttplay", "tiktokplay"],
   category: "search",
   description: "Cari dan kirim satu video TikTok terbaik",
   usage: ".playtiktok <query>",

@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antiphising',
-    alias: ['antiphishing', 'antiscamlink', 'nophising'],
     category: 'group',
     description: 'Deteksi konten phising di grup',
     usage: '.antiphising <on/off/metode> [kick/remove]',

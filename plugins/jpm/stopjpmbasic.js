@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'stopjpmbasic',
-    alias: ['stopjpmb'],
     category: 'jpm',
     description: 'Menghentikan JPM Basic yang sedang berjalan',
     usage: '.stopjpmbasic',

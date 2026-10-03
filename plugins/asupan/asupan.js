@@ -32,7 +32,6 @@ import path from 'path'
 import { f } from '../../src/lib/rimuru-http.js'
 const pluginConfig = {
     name: 'asupan',
-    alias: ['asupanrandom'],
     category: 'asupan',
     description: 'Random video asupan',
     usage: '.asupan',

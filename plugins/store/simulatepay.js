@@ -33,7 +33,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'simulatepay',
-    alias: ['simpay', 'testpay', 'fakepay'],
     category: 'store',
     description: 'Simulasi pembayaran (sandbox only)',
     usage: '.simulatepay <order_id>',

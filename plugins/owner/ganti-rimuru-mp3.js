@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 import { updateAssetUrl } from '../../src/lib/rimuru-uploader.js'
 const pluginConfig = {
     name: 'ganti-rimuru.mp3',
-    alias: ['gantirimuruaudio', 'setrimuruaudio'],
     category: 'owner',
     description: 'Ganti audio rimuru.mp3',
     usage: '.ganti-rimuru.mp3 (reply/kirim audio)',

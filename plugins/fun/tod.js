@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: ["tod", "spin", "putarbotol"],
-  alias: ["todgame"],
   category: "fun",
   description: "Bermain Truth or Dare bersama teman-teman grup secara instan!",
   usage: ".tod",

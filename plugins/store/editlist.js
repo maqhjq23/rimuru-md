@@ -32,7 +32,6 @@ import FormData from 'form-data'
 
 const pluginConfig = {
     name: 'editlist',
-    alias: ['editinfo'],
     category: 'store',
     description: '✏️ Edit informasi toko (hanya di private chat)',
     usage: '.editlist <nomor> <field> <nilai>',

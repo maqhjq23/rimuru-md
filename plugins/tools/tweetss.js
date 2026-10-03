@@ -35,7 +35,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'tweetss',
-    alias: ['orshot', 'tweetimage', 'tweetimg'],
     category: 'tools',
     description: 'Membuat gambar screenshot aesthetic dari link postingan X (Twitter)',
     usage: '.tweetss <url tweet>',

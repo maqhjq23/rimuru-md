@@ -30,7 +30,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'sider',
-    alias: ['silentreader', 'deteksisider', 'srdetector'],
     category: 'group',
     description: 'Mendeteksi member yang tidak pernah chat dalam periode tertentu',
     usage: '.sider <on/off/cek/set>',

@@ -30,7 +30,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['pakustad', 'pak-ustad', 'tanyaustad'],
-    alias: [],
     category: 'fun',
     description: 'Tanya pak ustad (gambar)',
     usage: '.pakustad <pertanyaan>',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "buykoin",
-  alias: ["belikoin", "belicoin", "exptokoin", "exptocoin"],
   category: "rpg",
   description: "Tukar EXP menjadi Koin",
   usage: ".buykoin <jumlah>",

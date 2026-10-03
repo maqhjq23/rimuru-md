@@ -32,7 +32,6 @@ import { drawBrat } from "../../src/lib/rimuru-brat.js";
 
 const pluginConfig = {
   name: "bratgreen",
-  alias: ["brat2"],
   category: "sticker",
   description: "Membuat sticker brat ijo",
   usage: ".brat2 <text>",

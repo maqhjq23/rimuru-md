@@ -35,7 +35,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'self',
-    alias: ['selfmode', 'private-mode'],
     category: 'owner',
     description: 'Mengaktifkan mode self (hanya owner & bot yang bisa akses)',
     usage: '.self',

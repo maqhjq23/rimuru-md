@@ -34,7 +34,6 @@ import { getDevice } from "rimuru";
 
 const pluginConfig = {
   name: "profile",
-  alias: ["me", "profil", "myprofile", "my", "stats", "status"],
   category: "user",
   description: "Melihat profil user dengan RPG stats",
   usage: ".profile [@user]",

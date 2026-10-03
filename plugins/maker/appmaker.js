@@ -222,8 +222,7 @@ function checkImageMedia(msg) {
 }
 
 const pluginConfig = {
-  name: 'web2apk',
-  alias: ['appmaker', 'makeapk', 'tobuildapk'],
+  name: 'appmaker',
   category: 'maker',
   description: 'Mengubah URL Website menjadi Aplikasi Android (.apk)',
   usage: '.web2apk NamaApp | URL | Email (balas foto untuk icon/splash)',

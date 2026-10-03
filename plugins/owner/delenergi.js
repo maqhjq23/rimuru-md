@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'delenergi',
-    alias: ['kurangenergi', 'removeenergi', 'hapusenergi', 'delenergy'],
     category: 'owner',
     description: 'Kurangi energi user',
     usage: '.delenergi <jumlah> @user',

@@ -35,7 +35,6 @@ const allAliases = VALID_SERVERS.map(v => `sinfo${v}`)
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'Info detail server (v1-v5)',
     usage: '.serverinfov1 serverid',

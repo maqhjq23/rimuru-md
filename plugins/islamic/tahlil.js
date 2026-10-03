@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'tahlil',
-  alias: ['tahlilan', 'doatahlil', 'tahlil'],
   category: 'religi',
   description: 'Panduan Tahlil Lengkap (Doa, Bacaan, dan Tata Cara)',
   usage: '.tahlil',

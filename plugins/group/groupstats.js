@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "groupstats",
-  alias: ["statsgrup", "statsgroup"],
   category: "group",
   description: "Menampilkan statistik dasar grup saat ini",
   usage: ".groupstats",

@@ -31,7 +31,6 @@ import * as cheerio from 'cheerio';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'animedl',
-    alias: ['anime-download', 'animedownload', 'dlanime'],
     category: 'anime',
     description: 'Download anime batch/single episode dari Kusonime',
     usage: '.animedl <judul | eps>',

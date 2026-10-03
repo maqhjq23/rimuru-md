@@ -33,7 +33,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "roboguru",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

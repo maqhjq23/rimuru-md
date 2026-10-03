@@ -37,7 +37,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-zerotwoMD'
 
 const pluginConfig = {
     name: 'img2vid',
-    alias: ['image2video', 'animateimg', 'animatephoto'],
     category: 'ai',
     description: 'Ubah gambar jadi video dengan AI',
     usage: '.img2vid <prompt> (reply gambar)',

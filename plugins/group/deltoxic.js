@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'deltoxic',
-    alias: ['hapustoxic', 'remtoxic', 'removetoxic'],
     category: 'group',
     description: 'Hapus kata toxic dari daftar',
     usage: '.deltoxic <kata>',

@@ -1,6 +1,5 @@
 const pluginConfig = {
     name: 'credit',
-    alias: [],
     category: 'main',
     description: 'Menampilkan credit Rimuru MD.',
     usage: '.credit',

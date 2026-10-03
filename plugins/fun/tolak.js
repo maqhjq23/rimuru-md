@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "tolak",
-  alias: ["reject", "no", "gaktau"],
   category: "fun",
   description: "Menolak tembakan dari seseorang",
   usage: ".tolak @tag",

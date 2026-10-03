@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "arena",
-  alias: ["pvp", "battle", "fight"],
   category: "rpg",
   description: "Bertarung di arena PvP",
   usage: ".arena <@user>",

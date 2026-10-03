@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: "iqc2",
-    alias: ["qc3"],
     category: "canvas",
     description: "Membuat Fake Quote iOS style dengan informasi baterai dan provider.",
     usage: ".iqc2 [text/reply]",

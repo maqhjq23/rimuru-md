@@ -31,7 +31,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "mutegc",
-  alias: ["mutegrup", "mutebot", "blockbot", "lockbot"],
   category: "group",
   description: "Blokir command bot untuk member, hanya admin/owner yang bisa pakai",
   usage: ".mutegc",

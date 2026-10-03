@@ -31,7 +31,6 @@ import crypto from 'crypto';
 
 export const config = {
   name: "tokopedia",
-  alias: ["tokped", "toped", "tokpedsearch"],
   category: "search",
   description: "Mencari produk di Tokopedia",
   usage: ".tokopedia <kata kunci>",

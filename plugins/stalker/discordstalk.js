@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
   name: "discordstalk",
-  alias: ["dcstalk", "dsstalk", "stalkdc", "stalkdiscord"],
   category: "stalker",
   description: "Stalk akun Discord berdasarkan User ID",
   usage: ".discordstalk <userid>",

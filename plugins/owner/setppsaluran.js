@@ -32,7 +32,6 @@ const CHANNEL_ID = config.saluran?.id
 
 const pluginConfig = {
     name: "setppsaluran",
-    alias: ["setppchannel","ppchannel"],
     category: "owner",
     description: "Ganti PP channel dan kirim notifikasi ke channel",
     usage: ".setppsaluran (reply gambar)",

@@ -30,8 +30,7 @@ import canvas from '@napi-rs/canvas';
 const { createCanvas, loadImage } = canvas;
 import path from 'path';
 const pluginConfig = {
-    name: 'logo-glow',
-    alias: ['logoglow', 'neonlogo', 'glowlogo'],
+    name: 'logoglow',
     category: 'maker',
     description: 'Buat logo dengan efek neon glow',
     cooldown: 5,

@@ -39,7 +39,6 @@ let cachedThumb = getAssetBuffer("rimuru2");
 
 const pluginConfig = {
     name: 'jpmalbum',
-    alias: ['jpmab', 'jaseralbum'],
     category: 'jpm',
     description: 'Kirim album (multi foto/video) ke semua grup',
     usage: '.jpmalbum <caption>',

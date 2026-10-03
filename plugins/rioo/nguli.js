@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-rioo-bridge.js";
 
 const pluginConfig = {
-  name: "rimuru-nguli",
-  alias: ["nguli"],
+  name: "nguli",
   category: "economy",
   description: "Klaim upah nguli +10 limit dari Rimuru",
   usage: ".nguli",

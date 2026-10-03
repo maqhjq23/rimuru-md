@@ -33,7 +33,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'resetdb',
-    alias: ['cleardb', 'wipedb'],
     category: 'owner',
     description: 'Reset semua data database',
     usage: '.resetdb [confirm]',

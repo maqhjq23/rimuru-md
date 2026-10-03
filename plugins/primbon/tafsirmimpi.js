@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'tafsirmimpi',
-    alias: ['artimimpi', 'mimpi'],
     category: 'primbon',
     description: 'Cari tafsir mimpi',
     usage: '.tafsirmimpi <kata kunci>',

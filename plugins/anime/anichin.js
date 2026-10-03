@@ -131,7 +131,6 @@ const api = new Anichin()
 
 const pluginConfig = {
   name: "anichin",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

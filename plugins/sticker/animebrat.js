@@ -31,8 +31,7 @@ import config from '../../config.js'
 import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
-    name: 'bratanime',
-    alias: ['animebrat'],
+    name: 'animebrat',
     category: 'sticker',
     description: 'Membuat sticker brat',
     usage: '.animebrat <text>',

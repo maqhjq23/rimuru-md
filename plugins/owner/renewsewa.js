@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "renewsewa",
-  alias: ["perpanjangsewa", "extendsewa"],
   category: "owner",
   description: "Perpanjang durasi sewa grup",
   usage: ".renewsewa <link/id grup> <durasi>",

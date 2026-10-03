@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: "autorimuru",
-    alias: [],
     category: "fun",
     description: "Auto respon jika ada yang menyebut Rimuru",
     usage: ".autorimuru on/off",

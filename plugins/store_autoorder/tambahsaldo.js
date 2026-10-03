@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "tambahsaldo",
-    alias: ["addsaldo"],
     category: "store_autoorder",
     description: "💰 Menambah saldo pengguna secara manual",
     usage: ".tambahsaldo @user <nominal>",

@@ -31,7 +31,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'bratgura',
-    alias: ['bratanimegura', 'bratgura', 'bratganime'],
     category: 'sticker',
     description: 'Membuat sticker anime chibi dengan teks brat style',
     usage: '.bratanime4 <text>',

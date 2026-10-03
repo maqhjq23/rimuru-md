@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
     name: "dungeon",
-    alias: ["dg", "explore", "labirin"],
     category: "game",
     description: "Jelajahi dungeon dan lawan monster secara interaktif",
     usage: ".dungeon",

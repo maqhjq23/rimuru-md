@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
   name: "mcstalk",
-  alias: ["minecraftstalk", "stalkmc", "mcprofile"],
   category: "tools",
   description: "Stalk data profil / skin player Minecraft berdasarkan username",
   usage: ".mcstalk <username>",

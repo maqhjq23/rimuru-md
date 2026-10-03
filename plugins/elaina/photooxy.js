@@ -35,7 +35,6 @@ const EFFECT_ALIASES = ["photooxy", "photofx", "poxy", "oxyfx"];
 
 const pluginConfig = {
   name: EFFECT_ALIASES,
-  alias: [],
   category: "elaina",
   description: "PhotoOxy text effects yang dipindahkan ke struktur RimuruMD",
   usage: ".photooxy <url-effect>|<teks>",

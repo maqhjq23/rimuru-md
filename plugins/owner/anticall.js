@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "anticall",
-  alias: ["antitelpon", "antitelp", "rejectcall"],
   category: "owner",
   description: "Auto tolak panggilan masuk",
   usage: ".anticall on/off",

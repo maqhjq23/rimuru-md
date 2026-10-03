@@ -31,7 +31,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "slot",
-  alias: ["slots", "mesin"],
   category: "rpg",
   description: "Main slot machine gambling",
   usage: ".slot <bet>",

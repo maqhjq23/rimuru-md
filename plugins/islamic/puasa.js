@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'puasa',
-  alias: ['puasasunnah', 'puasasenin', 'puasakamis', 'puasadawud'],
   category: 'religi',
   description: 'Panduan Puasa Sunnah Lengkap (Senin-Kamis, Dawud, Arafah, Asyura, dll)',
   usage: '.puasa <nama puasa>',

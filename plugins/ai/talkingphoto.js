@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "talkingphoto",
-  alias: ["talkphoto"],
   category: "ai",
   description: "Mengubah foto menjadi talking photo/video",
   usage: ".talkingphoto <teks> | woman1|woman2|man1|man2 (reply gambar)",

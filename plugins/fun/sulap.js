@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'sulap',
-    alias: ['magic', 'magictrick'],
     category: 'fun',
     description: 'Pertunjukan sulap - kick member secara dramatis',
     usage: '.sulap',

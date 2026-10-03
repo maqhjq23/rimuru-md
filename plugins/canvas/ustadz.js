@@ -31,7 +31,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'ustadz',
-    alias: ['ustad', 'quoteustadz', 'canvasustadz'],
     category: 'canvas',
     description: 'Buat quote gaya ustadz',
     usage: '.ustadz <text>',

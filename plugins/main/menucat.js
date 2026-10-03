@@ -33,7 +33,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "menucat",
-  alias: ["mc", "category", "cat"],
   category: "main",
   description: "Menampilkan menu kategori dengan tampilan yang sama seperti AllMenu",
   usage: ".menucat <kategori>",
@@ -182,7 +181,7 @@ async function handler(m, { sock, config: botConfig, db, uptime }) {
   await sock.sendMessage(
     m.chat,
     {
-      image: getAssetBuffer("rimuru-v8"),
+      image: { url: config.assets?.["rimuru-v8"] },
       caption,
       contextInfo: { forwardingScore: 999, isForwarded: true },
     },

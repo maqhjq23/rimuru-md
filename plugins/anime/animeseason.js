@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'animeseason',
-    alias: ['season', 'musimanime', 'animemusim'],
     category: 'anime',
     description: 'Info lengkap anime musim ini (Spring/Summer/Fall/Winter) + statistik',
     usage: '.animeseason [season]',

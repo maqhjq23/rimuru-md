@@ -132,7 +132,6 @@ async function live3d(buffer, prompt) {
 
 const pluginConfig = {
   name: "editimg2",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

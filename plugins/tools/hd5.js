@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: "hd5",
-  alias: ["upscale5", "hdlocal"],
   category: "tools",
   description: "Memperjelas resolusi gambar (Local Sharp Engine)",
   usage: ".hd5 <reply/kirim gambar atau dokumen foto>",

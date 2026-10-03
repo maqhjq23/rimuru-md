@@ -32,7 +32,6 @@ import fs from "fs";
 import fetch from "node-fetch";
 const pluginConfig = {
   name: "donasi",
-  alias: ["donate", "donation", "support", "saweria", "trakteer"],
   category: "main",
   description: "Informasi donasi untuk mendukung bot dengan QRIS",
   usage: ".donasi",
@@ -49,7 +48,7 @@ const pluginConfig = {
 async function handler(m, { sock }) {
   const botName = config.bot?.name || "Rimuru-AI";
   const ownerName = config.owner?.name || "Owner";
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || botName;
 
   const donasiConfig = config.donasi || {};

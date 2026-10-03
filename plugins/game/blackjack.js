@@ -337,7 +337,6 @@ Type *\`${usedPrefix + command} stand\`* to end your turn.`;
 
 const pluginConfig = {
   name: "blackjack",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

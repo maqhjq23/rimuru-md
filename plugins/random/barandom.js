@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'barandom',
-    alias: ['bluearchive', 'ba'],
     category: 'random',
     description: 'Random gambar Blue Archive',
     usage: '.barandom',

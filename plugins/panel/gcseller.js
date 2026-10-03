@@ -79,7 +79,6 @@ VALID_SERVERS.forEach(ver => {
 
 const pluginConfig = {
     name: allCommands,
-    alias: [],
     category: 'panel',
     description: 'Daftarkan grup sebagai GC Seller panel (akses command create server)',
     usage: '.addgcsellerv1 (di dalam grup)',

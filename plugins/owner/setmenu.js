@@ -32,7 +32,6 @@ import config from "../../config.js";
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "setmenu",
-  alias: ["menuvariant", "menustyle"],
   category: "owner",
   description: "Mengatur variant tampilan menu",
   usage: ".setmenu <v1-v9>",
@@ -151,7 +150,7 @@ async function handler(m, { sock, db }) {
 
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     bodyText,
     m,
     { buttons },

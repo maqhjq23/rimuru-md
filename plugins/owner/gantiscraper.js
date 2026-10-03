@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gantiscraper",
-  alias: ["replacescraper", "updatescraper", "gantiscrape"],
   category: "owner",
   description: "Ganti code scraper yang sudah ada di src/scraper",
   usage: ".gantiscraper [namafile]",

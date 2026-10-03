@@ -32,7 +32,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "duel",
-  alias: ["pvp", "fight"],
   category: "rpg",
   description: "Duel PvP dengan player lain",
   usage: ".duel @user <bet>",

@@ -283,7 +283,6 @@ const fstik = {
 
 const pluginConfig = {
   name: "fstik",
-  alias: ["stickerinfo"],
   category: "sticker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

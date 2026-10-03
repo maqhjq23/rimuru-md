@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "heal",
-  alias: ["sembuh", "recover"],
   category: "rpg",
   description: "Pulihkan health dengan istirahat (gratis tapi lama)",
   usage: ".heal",

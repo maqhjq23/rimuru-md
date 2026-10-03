@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "genshinstalk",
-  alias: ["genshin", "stalkgenshin", "gi"],
   category: "stalker",
   description: "Melihat informasi akun Genshin Impact berdasarkan UID.",
   usage: ".genshinstalk <uid>",

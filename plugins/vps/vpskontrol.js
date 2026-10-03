@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['turnon', 'turnoff', 'restartvps', 'rebootvps'],
-    alias: [],
     category: 'vps',
     description: 'Kontrol VPS (on/off/restart)',
     usage: '.turnon <id>',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'cekonline',
-    alias: ['checkonline', 'online', 'siapayangonline', 'whosonline'],
     category: 'group',
     description: 'Cek member yang online di grup',
     usage: '.cekonline',

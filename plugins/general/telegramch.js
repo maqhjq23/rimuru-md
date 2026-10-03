@@ -95,7 +95,6 @@ async function searchTelegramChannels(query) {
 
 const pluginConfig = {
   name: "tgram",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

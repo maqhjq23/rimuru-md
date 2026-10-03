@@ -30,7 +30,6 @@ import { Client } from 'ssh2'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'installtemabilling',
-    alias: ['installthemabilling', 'temabilling'],
     category: 'panel',
     description: 'Install tema Billing untuk panel Pterodactyl via SSH',
     usage: '.installtemabilling <ip>|<password>',

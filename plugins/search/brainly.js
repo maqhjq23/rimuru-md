@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
     name: 'brainly',
-    alias: ['brain', 'jawab'],
     category: 'search',
     description: 'Cari jawaban di Brainly',
     usage: '.brainly <pertanyaan>',

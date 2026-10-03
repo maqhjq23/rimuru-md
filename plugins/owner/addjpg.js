@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'addjpg',
-    alias: ['addimage', 'tambahjpg', 'setjpg'],
     category: 'owner',
     description: 'Tambah gambar baru ke folder assets/images',
     usage: '.addjpg <nama_file.jpg> (reply gambar)',

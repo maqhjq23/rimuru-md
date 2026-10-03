@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'cc3',
-  alias: ['cc3', 'cyberpunk', 'neoncity'],
   category: 'colorgrade',
   description: 'Color Grading CC3 - Cyberpunk Neon Blue Pink',
   usage: '.cc3 (Kirim/Reply Foto)',

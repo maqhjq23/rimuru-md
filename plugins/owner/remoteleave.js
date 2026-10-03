@@ -30,7 +30,6 @@ import { generateWAMessageFromContent } from 'rimuru';
 
 const pluginConfig = {
   name: 'remoteleave',
-  alias: ['leavegroupbot'],
   category: 'owner',
   description: 'Memilih grup tertentu untuk bot tinggalkan dari satu menu',
   usage: '.remoteleave',

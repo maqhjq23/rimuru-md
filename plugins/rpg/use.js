@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "use",
-  alias: ["pake", "makan", "open"],
   category: "rpg",
   description: "Menggunakan item consumable atau membuka crate",
   usage: ".use <item>",

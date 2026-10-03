@@ -33,7 +33,6 @@ import { generateWAMessageFromContent, generateWAMessage, jidNormalizedUser } fr
 
 const pluginConfig = {
     name: 'bandingkan-hp',
-    alias: ['bandingkanhp', 'comparehp'],
     category: 'tools',
     description: 'Membandingkan dua spesifikasi smartphone dari Carisinyal.',
     usage: '.bandingkan-hp <hp1> | <hp2>',

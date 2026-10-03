@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'setname',
-    alias: ['setnamebot', 'setbotnama'],
     category: 'tools',
     description: 'Mengubah nama profil bot',
     usage: '.setname <nama baru>',

@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'superhero',
-    alias: ['hero', 'pahlawan'],
     category: 'random',
     description: 'Cari informasi superhero',
     usage: '.superhero <nama>',

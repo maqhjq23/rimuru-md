@@ -107,7 +107,6 @@ async function fakewafat({ fotourl, nama, lahir, wafat }) {
 
 const pluginConfig = {
   name: "fakewafat",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

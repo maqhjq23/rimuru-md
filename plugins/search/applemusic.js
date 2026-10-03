@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'applemusic',
-    alias: ['amusic', 'am'],
     category: 'search',
     description: 'Cari lagu di Apple Music',
     usage: '.applemusic <query>',

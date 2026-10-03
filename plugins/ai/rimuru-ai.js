@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "rimuru-ai",
-  alias: ["rimuruai", "rimuru"],
   category: "ai",
   description: "Chat dengan Rimuru AI — Asisten bot cerdas",
   usage: ".rimuru-ai <pertanyaan>",

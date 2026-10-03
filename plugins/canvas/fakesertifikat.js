@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakesertifikat',
-    alias: ['sertifikatfake', 'fakecert'],
     category: 'canvas',
     description: 'Bikin fake sertifikat penghargaan (buat konten/gaguan doang)',
     usage: '.fakesertifikat <nama> | <penghargaan>',

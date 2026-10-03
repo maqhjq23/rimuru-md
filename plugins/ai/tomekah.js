@@ -32,7 +32,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'tomekah',
-    alias: ['mekah', 'mecca', 'tomecca'],
     category: 'ai',
     description: 'Ubah background gambar ke Mekah',
     usage: '.tomekah (reply gambar)',

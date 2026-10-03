@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'slowmode',
-    alias: ['slow', 'setslowmode'],
     category: 'group',
     description: 'Slowmode grup — batasi kecepatan pesan member',
     usage: '.slowmode <on/off/onlycommand> [detik]',

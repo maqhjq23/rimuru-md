@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'apkcombo',
-    alias: ['apk', 'apksearch'],
     category: 'search',
     description: 'Cari APK di ApkCombo',
     usage: '.apkcombo <query>',

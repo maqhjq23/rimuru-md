@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "qwen3",
-  alias: ["qwen", "qw3"],
   category: "ai",
   description: "Chat dengan Qwen3 80B via OverChat",
   usage: ".qwen3 <pertanyaan>",

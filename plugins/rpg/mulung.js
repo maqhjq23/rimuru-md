@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "mulung",
-  alias: ["scavenge", "kumpulsampah"],
   category: "rpg",
   description: "Memulung untuk mengumpulkan barang",
   usage: ".mulung",

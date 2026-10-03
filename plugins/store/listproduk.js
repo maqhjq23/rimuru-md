@@ -31,7 +31,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "listproduk",
-  alias: ["produk", "katalog", "catalog"],
   category: "store",
   description: "🛍️ Lihat daftar produk yang tersedia",
   usage: ".listproduk",
@@ -103,7 +102,7 @@ async function handler(m, { sock }) {
   txt += `💡 _Ketik \`${m.prefix}beli <nomor>\` untuk memesan produk_`;
 
   if (m.isGroup) {
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
     await sock.sendMessage(
       m.chat,

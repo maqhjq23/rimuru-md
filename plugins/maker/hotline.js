@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "hotline",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

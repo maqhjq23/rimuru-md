@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekjodoh',
-    alias: ['jodoh', 'match'],
     category: 'cek',
     description: 'Cek kecocokan jodoh',
     usage: '.cekjodoh <nama1> & <nama2>',

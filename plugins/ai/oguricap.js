@@ -34,8 +34,7 @@ import fetch from "node-fetch"
 let sessions = {}
 
 const pluginConfig = {
-  name: "oguri",
-  alias: ["oguricap"],
+  name: "oguricap",
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

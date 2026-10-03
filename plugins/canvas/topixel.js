@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "topixel",
-  alias: ["pixelate", "pixelart"],
   category: "canvas",
   description: "Ubah foto kamu jadi gambar pixel art yang keren",
   usage: ".topixel [level] (reply/kirim foto)",

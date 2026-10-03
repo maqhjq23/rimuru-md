@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
-    name: 'cektiktok',
-    alias: ['cekakuntt', 'cektt', 'cektiktok'],
+    name: 'cekakuntt',
     category: 'stalker',
     description: 'Cek informasi akun TikTok (terdaftar atau manual)',
     usage: '.cektt <username>',

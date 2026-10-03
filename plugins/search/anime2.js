@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const config = {
     name: 'anime2',
-    alias: ['animeku2', 'nime2', 'ani2'],
     category: 'search',
     description: 'Cari info anime, streaming, download',
     usage: '.anime <subcommand>',

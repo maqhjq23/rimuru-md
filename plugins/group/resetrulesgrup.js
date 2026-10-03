@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'resetrulesgrup',
-    alias: ['resetgrouprules'],
     category: 'group',
     description: 'Reset rules grup ke default (admin only)',
     usage: '.resetrulesgrup',

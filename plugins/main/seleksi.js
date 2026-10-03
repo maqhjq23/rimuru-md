@@ -32,7 +32,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 import config from '../../config.js';
 const pluginConfig = {
     name: 'seleksif02',
-    alias: ['f02', 'joinf02'],
     category: 'main',
     description: 'Seleksi masuk F02',
     usage: '.seleksif02',

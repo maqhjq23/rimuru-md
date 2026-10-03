@@ -39,8 +39,7 @@ import axios from 'axios';
 import te from "../../src/lib/rimuru-error.js";
 
 const config = {
-  name: "fakeig",
-  alias: ["fakeigprofile", "igprofilememe"],
+  name: "fakeigprofile",
   category: "maker",
   description: "Membuat gambar Fake Profile Instagram",
   usage: ".fakeig Username | Bio | Postingan | Pengikut | Mengikuti (reply foto)",

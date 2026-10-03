@@ -31,7 +31,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "android1-get",
-  alias: ["an1get", "an1dl"],
   category: "search",
   description: "Download APK dari Android1",
   usage: ".android1-get <url>",
@@ -69,7 +68,7 @@ async function handler(m, { sock }) {
     }
 
     const app = data.data;
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
     if (app.url) {
       await sock.sendMessage(

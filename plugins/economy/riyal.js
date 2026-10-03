@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'riyal',
-    alias: ['sar', 'kursriyal', 'arab', 'konversiriyal', 'saudi'],
     category: 'economy',
     description: 'Konversi mata uang Rupiah ke Riyal Arab Saudi / sebaliknya',
     usage: '.riyal <nominal> <idr/sar>',

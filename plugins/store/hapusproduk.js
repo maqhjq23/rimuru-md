@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "hapusproduk",
-  alias: ["delproduk", "delproduct", "deleteproduk"],
   category: "store",
   description: "🗑️ Hapus produk dari toko",
   usage: ".hapusproduk <nomor>",

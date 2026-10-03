@@ -30,7 +30,6 @@ import axios from "axios";
 
 export const config = {
   name: "removewm",
-  alias: ["ezremove", "nobgwm", "delwm", "unwatermark"],
   category: "tools",
   description: "Menghapus watermark dari gambar (foto biasa maupun dokumen)",
   usage: ".removewm (kirim/reply gambar)",

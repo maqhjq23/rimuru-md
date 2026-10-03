@@ -84,7 +84,7 @@ try {
 } catch (e) {}
 
 function ctx() {
-  const sId = config.saluran?.id || "120363412350560864@newsletter";
+  const sId = config.saluran?.id || "120363412837402275@newsletter";
   const sName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   return {
     forwardingScore: 9999,
@@ -114,8 +114,7 @@ function send(sock, m, text, title, body) {
 }
 
 const pluginConfig = {
-  name: "mct",
-  alias: ["minecraft"],
+  name: "minecraft",
   category: "game",
   description: "Minecraft - Mining & Crafting Game",
   usage: ".mct <command>",

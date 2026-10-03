@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "juarabadminton",
-  alias: ["sertifikatbadminton", "badmintoncert", "badminton"],
   category: "canvas",
   description: "Membuat sertifikat Juara Badminton kustom",
   usage: ".juarabadminton <nama>",

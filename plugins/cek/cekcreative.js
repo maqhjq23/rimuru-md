@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekcreative',
-    alias: ['creative', 'kreatif'],
     category: 'cek',
     description: 'Cek tingkat kreativitas kamu',
     usage: '.cekcreative <nama>',

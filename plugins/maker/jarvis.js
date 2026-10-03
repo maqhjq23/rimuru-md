@@ -35,7 +35,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "jarvis",
-  alias: ["jarvismeme", "mj"],
   category: "maker",
   description: "Membuat meme Jarvis dengan teks custom",
   usage: ".jarvis <teks>",

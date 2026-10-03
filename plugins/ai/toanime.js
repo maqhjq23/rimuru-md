@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js'
 import { live3d } from '../../src/scraper/seaart.js'
 const pluginConfig = {
     name: 'toanime',
-    alias: ['anime', 'animefy', 'ghibli'],
     category: 'ai',
     description: 'Ubah foto menjadi gaya anime/Ghibli Studio',
     usage: '.toanime (reply/kirim gambar)',

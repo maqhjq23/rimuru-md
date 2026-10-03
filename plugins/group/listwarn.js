@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import * as timeHelper from '../../src/lib/rimuru-time.js'
 const pluginConfig = {
   name: "listwarn",
-  alias: ["warnings", "cekwarn", "warnlist"],
   category: "group",
   description: "Melihat daftar warning member",
   usage: ".listwarn atau .listwarn @user",

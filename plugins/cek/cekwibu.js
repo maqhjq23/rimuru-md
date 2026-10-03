@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekwibu',
-    alias: ['wibu', 'weeb'],
     category: 'cek',
     description: 'Cek seberapa wibu kamu',
     usage: '.cekwibu <nama>',

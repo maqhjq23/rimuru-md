@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "marry",
-  alias: ["nikah", "wedding", "propose"],
   category: "rpg",
   description: "Menikahi player lain",
   usage: ".marry @user",

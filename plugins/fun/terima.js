@@ -31,7 +31,6 @@ import * as timeHelper from "../../src/lib/rimuru-time.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "terima",
-  alias: ["accept", "yes"],
   category: "fun",
   description: "Menerima tembakan dari seseorang",
   usage: ".terima @tag",

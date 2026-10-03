@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'sampah',
-    alias: ['clearsampah', 'cleartemp', 'deltemp'],
     category: 'owner',
     description: 'Menghapus semua sampah di temp',
     usage: '.sampah',

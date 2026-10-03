@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'autoanimewinbu',
-    alias: ['aaw', 'autoanime'],
     category: 'anime',
     description: 'Auto upload ongoing anime & donghua dari winbu.net (720p Pixeldrain)',
     usage: '.autoanimewinbu <start|stop|status|cek|list|reset|addgrup|delgrup>',

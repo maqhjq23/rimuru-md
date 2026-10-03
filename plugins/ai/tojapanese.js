@@ -32,7 +32,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'tojapanese',
-    alias: ['japanese', 'japanesestyle'],
     category: 'ai',
     description: 'Ubah gambar ke style Japanese',
     usage: '.tojapanese (reply gambar)',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js'
 const pluginConfig = {
     name: 'gay',
-    alias: ['howgay'],
     category: 'fun',
     description: 'Menunjuk member paling gay di grup',
     usage: '.gay',

@@ -39,7 +39,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 
 const pluginConfig = {
   name: "pin",
-  alias: ["pinsearch", "pinterestsearch", "pins"],
   category: "search",
   description: "Cari gambar di Pinterest (album)",
   usage: ".pin <query>",
@@ -194,7 +193,7 @@ async function handler(m, { sock, config }) {
     } catch (albumErr) {
       console.log("[Pins] Album gagal, kirim satu-satu:", albumErr.message);
 
-      const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+      const saluranId = config.saluran?.id || "120363412837402275@newsletter";
       const saluranName =
         config.saluran?.name || config.bot?.name || "Rimuru-AI";
 

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "meditation",
-  alias: ["rest", "istirahat", "tidur", "sleep"],
   category: "rpg",
   description: "Istirahat untuk pulihkan HP dan stamina",
   usage: ".meditation",

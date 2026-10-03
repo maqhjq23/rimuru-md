@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "harilibur",
-  alias: ["libur", "harinasional"],
   category: "info",
   description: "Menampilkan informasi hari libur dan hari nasional mendatang",
   usage: ".harilibur",

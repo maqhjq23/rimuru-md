@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'struk',
-    alias: ['printstruk', 'buatstruk', 'pdfstruk'],
     category: 'tools',
     description: 'Membuat struk belanja simpel (Nama Store, No Telp, Produk, Jumlah, Harga, Tanggal)',
     usage: '.struk <Nama Store> | <No Telp> | <Produk> | <Jumlah> | <Harga>',

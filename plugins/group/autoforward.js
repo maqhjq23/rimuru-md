@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'autoforward',
-    alias: ['autofw', 'autofwd'],
     category: 'group',
     description: 'Auto forward pesan yang masuk ke grup ke grup ini',
     usage: '.autoforward <on/off>',

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "rpg",
-  alias: ["togglerpg"],
   category: "group",
   description: "Mengaktifkan atau menonaktifkan fitur RPG di grup",
   usage: ".rpg <on/off>",

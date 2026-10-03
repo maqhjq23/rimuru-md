@@ -30,14 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import ms from "ms";
 const pluginConfig = {
   name: "akses",
-  alias: [
-    "addakses",
-    "delakses",
-    "listakses",
-    "addaccess",
-    "delaccess",
-    "listaccess",
-  ],
   category: "owner",
   description: "Grant temporary/permanent command access to users",
   usage: ".addakses <cmd> <duration> <user>",

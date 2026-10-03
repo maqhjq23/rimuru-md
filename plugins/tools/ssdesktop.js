@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: 'ssdesktop',
-    alias: ['ssdesktop', 'sspc', 'sspcweb', 'ssd'],
     category: 'tools',
     description: 'Mengambil screenshot website tampilan PC/Desktop',
     usage: '.ssdesktop <url>',

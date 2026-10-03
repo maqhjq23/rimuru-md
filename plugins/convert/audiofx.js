@@ -67,7 +67,6 @@ for (const name of EFFECT_NAMES) {
 
 const pluginConfig = {
     name: [...EFFECT_NAMES],
-    alias: [],
     category: 'convert',
     description: 'Audio effects & voice changer',
     usage: '.<effect>',

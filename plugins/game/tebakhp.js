@@ -31,7 +31,6 @@ import { games } from '../../src/lib/rimuru-games.js'
 // 1. REGISTRASI GAME KE ENGINE
 games.register('tebakhp', {
     // === METADATA ===
-    alias: ['thp', 'merekhp', 'brandhp'], 
     emoji: '📱',                          
     title: 'TEBAK MEREK HP',                
     description: 'Tebak merek smartphone berdasarkan petunjuk ciri khas atau serinya',

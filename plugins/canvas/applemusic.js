@@ -31,7 +31,6 @@ import FormData from "form-data";
 
 const pluginConfig = {
   name: "applemusic-canvas",
-  alias: ["applemusic", "applecanvas"],
   category: "canvas",
   description: "Buat gambar pemutar Apple Music dari foto",
   usage: ".applemusic-canvas judul | artis (reply gambar)",

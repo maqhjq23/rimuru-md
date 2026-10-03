@@ -31,7 +31,6 @@ import fs from 'fs'
 import path from 'path'
 const pluginConfig = {
     name: 'ukhty',
-    alias: ['ukht'],
     category: 'asupan',
     description: 'Video ukhty',
     usage: '.ukhty',

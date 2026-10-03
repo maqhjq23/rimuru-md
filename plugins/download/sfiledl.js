@@ -31,7 +31,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'sfiledl',
-    alias: ['sfile', 'sfiledownload'],
     category: 'download',
     description: 'Download file dari Sfile.mobi',
     usage: '.sfiledl <url>',

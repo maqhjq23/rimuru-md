@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'ceksocmed',
-    alias: ['sosmed', 'medsos'],
     category: 'cek',
     description: 'Cek tingkat kecanduan sosmed',
     usage: '.ceksocmed <nama>',

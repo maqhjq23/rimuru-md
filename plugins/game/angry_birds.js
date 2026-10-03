@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'angrybirds',
-    alias: ['angrybird', 'abirds'],
     category: 'game',
     description: 'Angry Birds mini - tembak burung ke target!',
     usage: '',

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "addstok",
-  alias: ["addstock", "importstok", "importstock"],
   category: "store",
   description: "📦 Tambah stok item ke produk (hanya di private chat)",
   usage:

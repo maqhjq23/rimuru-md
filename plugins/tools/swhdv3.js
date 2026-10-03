@@ -35,7 +35,6 @@ const execPromise = promisify(exec);
 
 const pluginConfig = {
   name: "swhdv3",
-  alias: ["swhd3"],
   category: "tools",
   description: "Convert document to image/video (Ultra Fast & Zero Buffering)",
   usage: ".swhdv3 [caption]",

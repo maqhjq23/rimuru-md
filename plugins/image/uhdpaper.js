@@ -63,7 +63,6 @@ async function UhdpaperSearch(query) {
 
 const pluginConfig = {
   name: "uhdpaper",
-  alias: [],
   category: "image",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "fakenote",
-  alias: [],
   category: "maker",
   description: "Generate gambar Note speech bubble meme",
   usage: ".fakenote name|pesan|avatar_url",

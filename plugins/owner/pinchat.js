@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: ['pinchat', 'pin'],
-    alias: [],
     category: 'owner',
     description: 'Pin/unpin chat',
     usage: '.pinchat <nomor/reply> atau .pinchat buka <nomor>',

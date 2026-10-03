@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import instagramDownloader from "../../src/scraper/ig.js";
 const pluginConfig = {
   name: "instagramdl",
-  alias: ["igdl", "ig", "instagram"],
   category: "download",
   description: "Download video/foto Instagram",
   usage: ".instagramdl <url>",

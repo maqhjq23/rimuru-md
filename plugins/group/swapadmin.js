@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'swapadmin',
-    alias: ['swapadmin', 'tukaradmin'],
     category: 'group',
     description: 'Menghapus semua admin saat ini dan menjadikan owner bot sebagai admin tunggal',
     usage: '.swapadmin',

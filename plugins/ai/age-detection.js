@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "age-detection",
-  alias: ["detectage", "age-detect"],
   category: "tools",
   description: "Deteksi perkiraan usia dari foto",
   usage: ".age-detection (reply gambar)",

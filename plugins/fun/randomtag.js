@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'randomtag',
-    alias: ['rtag'],
     category: 'group',
     description: 'Tag member random di group',
     usage: '.randomtag',

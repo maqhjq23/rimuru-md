@@ -39,7 +39,6 @@ import fs from "fs"
 
 const pluginConfig = {
   name: "imgprompt",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { getTimeGreeting } from "../../src/lib/rimuru-formatter.js";
 const pluginConfig = {
   name: "daily",
-  alias: ["claim", "harian", "bonus"],
   category: "user",
   description: "Claim hadiah harian (Exp, Money, Potion)",
   usage: ".daily",

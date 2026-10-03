@@ -30,7 +30,6 @@ import axios from "axios"
 
 const pluginConfig = {
   name: "scanrepo",
-  alias: ["scanrepodev"],
   category: "tools",
   description: "Scan repository GitHub untuk security risk",
   usage: ".scanrepo <github-url>",

@@ -33,7 +33,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "ryo",
-  alias: [],
   category: "sticker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

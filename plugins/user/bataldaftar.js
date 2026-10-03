@@ -30,7 +30,6 @@ import { clearRegistrationSession } from "./daftar.js";
 
 const pluginConfig = {
   name: "bataldaftar",
-  alias: ["cancelreg", "canceldaftar", "regcancel"],
   category: "user",
   description: "Batalkan sesi pendaftaran yang sedang aktif",
   usage: ".bataldaftar",

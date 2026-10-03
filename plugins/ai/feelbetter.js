@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "feelbetter",
-  alias: ["fb", "feelbetterbot", "healing"],
   category: "ai",
   description: "Chat dengan FeelBetterBot — AI yang siap mendengarkan tanpa menghakimi",
   usage: ".feelbetter <curhat/pertanyaan>",

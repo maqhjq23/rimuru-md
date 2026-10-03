@@ -33,7 +33,6 @@ import mime from "mime-types";
 
 const pluginConfig = {
     name: 'qrcodefile',
-    alias: ['qrfile', 'fileqr', 'filetoqr', 'qruguu'],
     category: 'tools',
     description: 'Mengupload media/file ke Uguu.se dan membuat QR Code berisi URL file tersebut',
     usage: '.qrcodefile (kirim dengan caption atau reply media/file/viewonce/dokumen)',

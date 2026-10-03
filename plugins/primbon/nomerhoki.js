@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'nomerhoki',
-    alias: ['nomorhoki', 'ceknomor'],
     category: 'primbon',
     description: 'Cek keberuntungan nomor HP',
     usage: '.nomerhoki <nomor>',

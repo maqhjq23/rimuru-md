@@ -8,7 +8,6 @@ import { resolve } from 'node:path'
 
 const pluginConfig = {
     name: 'npmdl',
-    alias: ['npmdownload'],
     category: 'tools',
     description: 'Download package NPM dalam format tarball .tgz',
     usage: '.npmdl <package atau URL NPM>',

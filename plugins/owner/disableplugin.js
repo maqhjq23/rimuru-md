@@ -31,7 +31,6 @@ import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "disableplugin",
-  alias: ["dplugin", "plugindisable", "offplugin"],
   category: "owner",
   description: "Menonaktifkan plugin tertentu",
   usage: ".disableplugin <nama_plugin>",

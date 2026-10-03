@@ -31,7 +31,6 @@ import { calculateLevel, getRole } from '../../src/lib/rimuru-level.js'
 
 const pluginConfig = {
     name: 'exp',
-    alias: ['cekexp', 'myexp', 'xp'],
     category: 'user',
     description: 'Cek exp user',
     usage: '.exp [@user]',

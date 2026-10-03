@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "tocodeqr",
-  alias: ["qrurl", "linktoqr"],
   category: "tools",
   description: "Convert link menjadi QR Code",
   usage: ".tocodeqr <link>",

@@ -55,7 +55,6 @@ async function createImage(url, conn) {
 
 const pluginConfig = {
   name: "ttimg",
-  alias: ["tiktokimg"],
   category: "download",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "cooking",
-  alias: ["chef"],
   category: "rpg",
   description: "Masak makanan untuk stamina dan HP",
   usage: ".cooking <recipe>",

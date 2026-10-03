@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: 'sstablet',
-    alias: ['sstablet', 'sstab', 'sweb'],
     category: 'tools',
     description: 'Mengambil screenshot website tampilan tablet',
     usage: '.sstablet <url>',

@@ -51,7 +51,6 @@ async function uguu(buffer) {
 
 const pluginConfig = {
   name: "fakegroupv2",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

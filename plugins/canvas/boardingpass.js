@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "boardingpass",
-  alias: ["nasapass", "boarding"],
   category: "canvas",
   description: "Membuat tiket NASA Boarding Pass kustom",
   usage: ".boardingpass <nama>",

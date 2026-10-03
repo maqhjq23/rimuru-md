@@ -31,7 +31,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'addpremall',
-    alias: ['addpremiumall', 'setpremall'],
     category: 'owner',
     description: 'Menambahkan semua member grup ke premium',
     usage: '.addprem all',

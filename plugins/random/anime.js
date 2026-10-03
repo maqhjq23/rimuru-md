@@ -40,7 +40,6 @@ const nexrayTypes = [
 
 const pluginConfig = {
   name: ["loli", ...nexrayTypes],
-  alias: [],
   category: "random",
   description: "Random gambar anime/reaction (Nexray Source)",
   usage: ".<nama> (lihat daftar di bawah)",

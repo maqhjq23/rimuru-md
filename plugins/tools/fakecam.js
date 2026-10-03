@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'fakecam',
-  alias: ['paplive', 'fakekamera', 'iphonecam'],
   category: 'tools',
   description: 'Menimpa UI Kamera iOS iPhone Klasik Presisi',
   usage: '.fakecam (reply/kirim foto)',

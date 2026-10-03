@@ -31,7 +31,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "gempa",
-  alias: ["bmkg", "infogempa", "earthquake"],
   category: "info",
   description: "Info gempa terkini dari BMKG",
   usage: ".gempa",

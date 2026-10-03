@@ -30,7 +30,6 @@ import fetch from 'node-fetch';
 
 const pluginConfig = {
   name: "iqc3",
-  alias: ["canvasiqc3", "iqc3maker"],
   category: "maker",
   description: "Membuat gambar Canvas IQC dari teks",
   usage: ".iqc3 <teks>",

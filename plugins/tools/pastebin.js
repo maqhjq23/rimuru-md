@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { sendToolsPreview } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "pastebin",
-  alias: ["paste", "pb"],
   category: "tools",
   description: "Upload teks ke Pastebin",
   usage: ".pastebin <text>",

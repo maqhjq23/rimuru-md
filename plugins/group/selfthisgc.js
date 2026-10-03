@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "selfthisgc",
-  alias: ["selfgc", "selfgroup", "selfthisgroup"],
   category: "group",
   description: "Aktifkan mode self hanya di grup ini",
   usage: ".selfthisgc",

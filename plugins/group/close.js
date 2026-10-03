@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'close',
-    alias: ['tutup', 'closegroup', 'tutupgroup'],
     category: 'group',
     description: 'Menutup grup agar hanya admin yang bisa chat',
     usage: '.close',

@@ -31,7 +31,6 @@ import { canUseAm, markSuccess } from '../../src/lib/am-roles.js';
 
 const pluginConfig = {
   name: "ambulk",
-  alias: ["amremlist", "bulkam", "ambulkgen"],
   category: "tools",
   description: "Membuat beberapa akun Alight Motion Premium sekaligus (bulk)",
   usage: ".ambulk <jumlah> <prefix>",

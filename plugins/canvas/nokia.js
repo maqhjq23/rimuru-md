@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "nokia",
-  alias: ["nokia"],
   category: "canvas",
   description: "Buat meme nokia",
   usage: ".nokia <nama> | <pesan>",

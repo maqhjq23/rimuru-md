@@ -31,7 +31,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "list",
-  alias: ["liststore", "daftar", "info"],
   category: "store",
   description: "📋 Lihat daftar informasi toko",
   usage: ".list atau .list <nomor>",

@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['delvps', 'deldroplet', 'deletevps'],
-    alias: [],
     category: 'vps',
     description: 'Hapus VPS DigitalOcean',
     usage: '.delvps <id>',

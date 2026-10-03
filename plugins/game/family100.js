@@ -44,7 +44,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "family100",
-  alias: ["f100", "survei"],
   category: "game",
   description: "Survey says! Tebak jawaban teratas survei",
   usage: ".family100",

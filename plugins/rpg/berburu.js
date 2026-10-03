@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "berburu",
-  alias: ["huntanimal", "buru"],
   category: "rpg",
   description: "Berburu hewan untuk mendapat item",
   usage: ".berburu",

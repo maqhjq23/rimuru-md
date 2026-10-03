@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "alchemy",
-  alias: ["potion", "brew", "ramuan"],
   category: "rpg",
   description: "Buat potion dan ramuan dari herba",
   usage: ".alchemy <potion>",

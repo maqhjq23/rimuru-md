@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js';
 const pluginConfig = {
     name: 'faketag',
-    alias: ['ftag', 'fake'],
     category: 'tools',
     description: 'Fake tag ala Rimuru',
     usage: '.faketag @user|pesan tag|pesan',

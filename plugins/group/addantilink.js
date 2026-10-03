@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'addantilink',
-    alias: ['addalink', 'addblocklink'],
     category: 'group',
     description: 'Menambah link ke daftar antilink',
     usage: '.addantilink <domain/pattern>',

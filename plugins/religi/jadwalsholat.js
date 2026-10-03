@@ -38,7 +38,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "jadwalsholat",
-  alias: ["sholat", "prayertime", "jadwalsolat", "waktusolat", "waktusholat"],
   category: "religi",
   description: "Menampilkan jadwal sholat real-time dari myquran.com",
   usage: ".jadwalsholat <kota>",
@@ -67,7 +66,7 @@ async function handler(m, { sock }) {
     const lokasi = jadwalData.lokasi || kota.lokasi;
     const daerah = jadwalData.daerah || "";
     const today = moment.tz("Asia/Jakarta").format("dddd, DD MMMM YYYY");
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     const caption = `🕌 *ᴊᴀᴅᴡᴀʟ sʜᴏʟᴀᴛ*

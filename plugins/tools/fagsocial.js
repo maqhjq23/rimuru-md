@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'fagsocial',
-  alias: ['fag', 'ftt'],
   category: 'tools',
   description: 'Mengubah Foto menjadi Overlay IG Reels (.fag) atau TikTok FYP (.ftt) dengan responsif penuh',
   usage: '.fag username | caption  ATAU  .ftt username | caption',

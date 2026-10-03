@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "fishing",
-  alias: ["rpgfish", "mancing"],
   category: "rpg",
   description: "Memancing untuk mendapatkan ikan (RPG)",
   usage: ".fishing",

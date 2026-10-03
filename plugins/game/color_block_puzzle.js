@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'colorblock',
-    alias: ['colorblockpuzzle', 'cbp'],
     category: 'game',
     description: 'Puzzle kotak warna - geser balok kiri/kanan, samakan warna biar hancur!',
     usage: '',

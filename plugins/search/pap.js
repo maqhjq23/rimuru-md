@@ -36,7 +36,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 
 const pluginConfig = {
   name: "pap",
-  alias: ["papcewe", "papcowo", "papfemboy"],
   category: "search",
   description: "Minta pap cewe, cowo, atau femboy dari Pinterest",
   usage: ".pap <cewe/cowo/femboy>",

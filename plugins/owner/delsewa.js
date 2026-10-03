@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "delsewa",
-  alias: ["sewadel", "hapussewa", "removesewa"],
   category: "owner",
   description: "Hapus grup dari whitelist sewa",
   usage: ".delsewa <link/id grup>",

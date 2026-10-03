@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js";
 import rimuruApi from "../../src/lib/rimuru-apimanager.js";
 const pluginConfig = {
   name: "sendngl",
-  alias: [],
   category: "tools",
   description: "Send NGL",
   usage: ".sendngl <url> | <text>",

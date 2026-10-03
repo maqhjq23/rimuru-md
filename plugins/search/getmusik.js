@@ -32,7 +32,6 @@ import { musicSessions } from './carimusik.js';
 
 const pluginConfig = {
     name: 'getmusik',
-    alias: ['dlmusik', 'downloadmusik'],
     category: 'search',
     description: 'Download lagu dari hasil carimusik',
     usage: '.getmusik <nomor>',

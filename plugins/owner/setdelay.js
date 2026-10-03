@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'setdelay',
-    alias: ['delay', 'setdelaybot', 'botdelay'],
     category: 'owner',
     description: 'Mengatur delay respon bot (cooldown global)',
     usage: '.setdelay <detik>',

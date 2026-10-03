@@ -34,7 +34,6 @@ import { downloadMediaMessage, getContentType } from 'rimuru';
 
 const pluginConfig = {
   name: 'smeme-animated',
-  alias: ['smeme-animated', 'smemevid'],
   category: 'sticker',
   description: 'Buat stiker meme animasi',
   usage: '.smeme-animated <teks_atas>|<teks_bawah>',

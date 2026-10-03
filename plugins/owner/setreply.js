@@ -32,7 +32,6 @@ import config from "../../config.js";
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "setreply",
-  alias: ["replyvariant", "replystyle"],
   category: "owner",
   description: "Mengatur variant tampilan reply",
   usage: ".setreply <v1-v11>",
@@ -163,7 +162,7 @@ async function handler(m, { sock, db }) {
 
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     bodys,
     m,
     { buttons },

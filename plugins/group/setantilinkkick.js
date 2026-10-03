@@ -10,7 +10,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'setantilinkkick',
-    alias: ['setalkick', 'setlinkkick', 'setantlinkkick'],
     category: 'group',
     description: 'Mengubah batas peringatan AntiLinkKick',
     usage: '.setantilinkkick <1-20>',

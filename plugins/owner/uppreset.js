@@ -32,7 +32,6 @@ const CHANNEL_ID = config.saluran?.id
 
 const pluginConfig = {
 name: "uppreset",
-alias: ["uploadpreset","sendpreset"],
 category: "owner",
 description: "Upload preset ke channel",
 usage: ".uppreset link5mb | linkxml | caption",

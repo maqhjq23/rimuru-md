@@ -33,8 +33,7 @@ import axios from 'axios';
 const PASTEBIN_API_KEY = 'PXckLHLn4g-XTbETtJ6uRH0dQh6khXRB'; // API Key Dev Pastebin
 
 const pluginConfig = {
-  name: "up-pb",
-  alias: ["uppastebin"],
+  name: "uppastebin",
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

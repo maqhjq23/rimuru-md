@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "autohapusproduk",
-    alias: ["autodelproduk"],
     category: "store_autoorder",
     description: "🛍️ Menghapus produk dari autoorder store",
     usage: ".autohapusproduk <id_produk/nomor>",

@@ -33,7 +33,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'mimpi',
-    alias: ['dream', 'dreamworld'],
     category: 'fun',
     description: 'Jelajahi dunia mimpimu berdasarkan nama',
     usage: '.mimpi <nama>',

@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: ["chatdeepai", "deepaiv2"],
-  alias: [],
   category: "elaina",
   description: "Chat DeepAI/DeepSeek tanpa API key",
   usage: ".chatdeepai <pertanyaan>",

@@ -31,8 +31,7 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
-    name: "alightmotiondl",
-    alias: ["alightmotion", "amdl"],
+    name: "alightmotion",
     category: "downloader",
     description: "Download project/preset Alight Motion",
     usage: ".amdl <link>",

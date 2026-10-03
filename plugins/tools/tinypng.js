@@ -31,7 +31,6 @@ import makeFetchCookie from 'fetch-cookie';
 
 export const config = {
   name: "tinypng",
-  alias: ["compress", "presgambar", "tiny"],
   category: "tools",
   description: "Mengompresi dan mengecilkan ukuran gambar (PNG/JPG/WEBP) baik foto biasa maupun dokumen",
   usage: ".tinypng (kirim/reply gambar)",

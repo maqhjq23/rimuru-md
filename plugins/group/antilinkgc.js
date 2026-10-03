@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'antilinkgc',
-    alias: ['algc', 'antilinkgrup'],
     category: 'group',
     description: 'Anti link WhatsApp (grup, saluran, wa.me)',
     usage: '.antilinkgc <on/off/metode> [kick/remove]',

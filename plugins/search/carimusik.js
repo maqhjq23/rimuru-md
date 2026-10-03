@@ -33,7 +33,6 @@ export const musicSessions = new Map();
 
 const pluginConfig = {
   name: 'carimusik',
-  alias: ['searchmusik', 'musiksearch', 'cari lagu'],
   category: 'search',
   description: 'Cari lagu dan siapkan hasil untuk diunduh',
   usage: '.carimusik <judul lagu>',

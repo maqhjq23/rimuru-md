@@ -30,7 +30,6 @@ import { findParticipantByNumber } from '../../src/lib/rimuru-lid.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'kick',
-    alias: ['remove', 'tendang'],
     category: 'group',
     description: 'Kick member dari grup',
     usage: '.kick @user',

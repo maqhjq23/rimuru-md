@@ -30,7 +30,6 @@ import { snackvideo } from 'btch-downloader'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'snackvideodl',
-    alias: ['svdl', 'snackvideo', 'sv'],
     category: 'download',
     description: 'Download video SnackVideo',
     usage: '.svdl <url>',

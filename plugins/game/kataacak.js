@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('kataacak', {
-    alias: ['ka', 'acakkata'],
     emoji: '🔤',
     title: 'KATA ACAK',
     description: 'Susun huruf acak'

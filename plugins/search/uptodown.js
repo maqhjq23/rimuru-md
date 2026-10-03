@@ -103,7 +103,6 @@ class Uptodown {
 
 const pluginConfig = {
   name: "uptodown",
-  alias: [],
   category: "search",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -30,7 +30,6 @@ import { nightActionHandler } from './werewolf.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'wwprotect',
-    alias: ['protect', 'guardian', 'wpr'],
     category: 'game',
     description: 'Guardian night action - Protect target',
     usage: '.wwprotect <nomor>',

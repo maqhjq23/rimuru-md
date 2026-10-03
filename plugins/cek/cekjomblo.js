@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekjomblo',
-    alias: ['jomblo', 'single'],
     category: 'cek',
     description: 'Cek tingkat kejombloan kamu',
     usage: '.cekjomblo <nama>',

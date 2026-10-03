@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('tebakkimia', {
-    alias: ['kimia', 'chemistry', 'unsur'],
     emoji: '🧪',
     title: 'TEBAK KIMIA',
     description: 'Tebak unsur kimia',

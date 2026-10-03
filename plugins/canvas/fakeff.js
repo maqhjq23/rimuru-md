@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "fakeff",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar banner Fake FF (Solo)",
   usage: ".fakeff <teks>|[bgNum]",

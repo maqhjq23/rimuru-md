@@ -127,7 +127,6 @@ class NCS {
 
 const pluginConfig = {
   name: "playncs",
-  alias: ["ncssearch", "ncsplay"],
   category: "music",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

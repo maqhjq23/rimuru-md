@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js"
 
 const pluginConfig = {
   name: "ping",
-  alias: ["speed", "p", "latency", "sys", "status"],
   category: "main",
   description: "Cek performa dan status sistem bot secara real-time (Canvas Epic)",
   usage: ".ping",

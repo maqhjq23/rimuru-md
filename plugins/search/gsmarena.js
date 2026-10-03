@@ -31,7 +31,6 @@ import gsmarena from "gsmarena-api";
 
 const pluginConfig = {
   name: "gsmarena",
-  alias: ["gsm", "phonespec", "spesifikasi"],
   category: "search",
   description: "Cari spesifikasi HP di GSMArena",
   usage: ".gsmarena <nama hp>",

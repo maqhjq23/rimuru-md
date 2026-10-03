@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'welcomeall',
-    alias: ['wcall', 'globalwelcome'],
     category: 'owner',
     description: 'Aktifkan/nonaktifkan welcome di semua grup',
     usage: '.welcomeall <on/off>',

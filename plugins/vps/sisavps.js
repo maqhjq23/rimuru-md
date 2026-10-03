@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['sisavps', 'sisadroplet', 'vpsquota'],
-    alias: [],
     category: 'vps',
     description: 'Cek sisa kuota VPS',
     usage: '.sisavps',

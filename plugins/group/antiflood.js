@@ -10,7 +10,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antiflood',
-    alias: ['floodguard', 'noflood'],
     category: 'group',
     description: 'Deteksi banjir pesan cepat dan kick bertahap',
     usage: '.antiflood <on/off/status>',

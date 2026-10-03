@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "fakefbkomen",
-  alias: ["fbkomen", "komenfb"],
   category: "canvas",
   description: "Bikin gambar komentar palsu facebook",
   usage: ".fakefbkomen <nama>|<komentar> (reply/kirim foto)",

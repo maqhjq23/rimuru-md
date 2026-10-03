@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "juaraml",
-  alias: [],
   category: "canvas",
   description: "Bikin sertifikat juara Mobile Legends",
   usage: ".juaraml <nama>",

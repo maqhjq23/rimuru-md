@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import scrapeWWCharacter from '../../src/scraper/wwchar.js';
 const pluginConfig = {
     name: 'wwchar',
-    alias: [],
     category: 'info',
     description: 'Informasi karakter Wuthering Waves',
     usage: '.wwchar <nama karakter>',

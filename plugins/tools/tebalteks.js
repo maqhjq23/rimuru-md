@@ -38,7 +38,6 @@ async function loadImageBuffer(url) {
 
 const pluginConfig = {
     name: 'tebalteks',
-    alias: ['boldtext'],
     category: 'tools',
     description: 'Teks tebal ala Rimuru 😈💗 (4 style)',
     usage: '.tebalteks <teks>',

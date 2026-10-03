@@ -33,7 +33,6 @@ import { join } from 'node:path';
 
 const pluginConfig = {
     name: 'buatquotes',
-    alias: ['bq', 'quoteanime', 'animequote'],
     category: 'canvas',
     description: 'Membuat gambar quote bertema anime secara custom.',
     usage: '.buatquotes [id background] | <teks> | [nama pembuat]',

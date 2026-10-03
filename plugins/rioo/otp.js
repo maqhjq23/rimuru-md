@@ -32,16 +32,6 @@ import path from "node:path";
 
 const pluginConfig = {
   name: "rimuru-otp",
-  alias: [
-    "otpmenu",
-    "otplayanan",
-    "otpprofile",
-    "otporder",
-    "otpgetorder",
-    "otpsms",
-    "otpcancel",
-    "otpcancelsms",
-  ],
   category: "owner",
   description: "Layanan OTP Rimuru dengan API dan key yang dipindahkan ke config Rimuru",
   usage: ".otpmenu / .otplayanan / .otporder <id> / .otpgetorder <id> / .otpsms <id> / .otpcancel <id>",

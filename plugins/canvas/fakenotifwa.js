@@ -32,7 +32,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
   name: "fakenotifwa",
-  alias: ["fakenotif", "notifwa"],
   category: "maker",
   description: "Membuat gambar tampilan fake notifikasi WhatsApp iOS via AlwaysCodex API",
   usage: ".fakenotifwa nama|pesan|jam|tanggal (atau reply gambar untuk PP)",

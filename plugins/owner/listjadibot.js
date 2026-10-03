@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getAllJadibotSessions, getActiveJadibots } from '../../src/lib/rimuru-jadibot-manager.js'
 const pluginConfig = {
     name: 'listjadibot',
-    alias: ['jadibotlist', 'alljadibot'],
     category: 'owner',
     description: 'Lihat semua session jadibot yang tersimpan',
     usage: '.listjadibot',

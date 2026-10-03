@@ -32,7 +32,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "jadwalbola",
-  alias: ["bola", "football", "soccer", "jadwalsepakbola"],
   category: "info",
   description: "Lihat jadwal pertandingan sepak bola",
   usage: ".jadwalbola [liga]",
@@ -108,7 +107,7 @@ async function handler(m, { sock }) {
       grouped[date].push(match);
     }
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     let text = `⚽ *ᴊᴀᴅᴡᴀʟ ᴘᴇʀᴛᴀɴᴅɪɴɢᴀɴ*\n\n`;

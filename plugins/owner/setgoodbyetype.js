@@ -32,7 +32,6 @@ import config from "../../config.js";
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "setgoodbyetype",
-  alias: ["goodbyetype", "goodbyevariant", "goodbyestyle"],
   category: "owner",
   description: "Mengatur variant tampilan goodbye message",
   usage: ".setgoodbyetype",
@@ -116,7 +115,7 @@ async function handler(m, { sock, db }) {
     `> Pilih tipe goodbye dari tombol di bawah 👇`;
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     bodyText,
     m,
     { buttons },

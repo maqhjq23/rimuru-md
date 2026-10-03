@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'zodiak',
-    alias: ['horoscope', 'ramalan'],
     category: 'primbon',
     description: 'Ramalan zodiak',
     usage: '.zodiak <nama zodiak>',

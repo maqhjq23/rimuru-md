@@ -30,7 +30,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['unblock', 'unblocknomor'],
-    alias: [],
     category: 'owner',
     description: 'Buka blokir nomor WhatsApp',
     usage: '.unblock <nomor/reply/mention>',

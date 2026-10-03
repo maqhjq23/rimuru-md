@@ -37,7 +37,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const pluginConfig = {
   name: "carifitur",
-  alias: ["searchcmd", "findcmd", "cari", "search", "cf"],
   category: "main",
   description: "Mencari fitur berdasarkan keyword dengan detail lengkap",
   usage: ".carifitur <keyword>",
@@ -232,7 +231,7 @@ async function handler(m, { sock }) {
         `🔍 *ʜᴀsɪʟ ᴘᴇɴᴄᴀʀɪᴀɴ*\n\n> Tidak ditemukan fitur dengan keyword \`${keyword}\``,
       );
     }
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
     let text = `🔍 *ʜᴀsɪʟ ᴘᴇɴᴄᴀʀɪᴀɴ: "${keyword}"*\n`;
     text += `> Ditemukan *${matches.length}* fitur\n`;
@@ -261,7 +260,7 @@ async function handler(m, { sock }) {
     m.react("✅");
     await sock.sendButton(
       m.chat,
-      getAssetBuffer("rimuru"),
+      config.assets?.["rimuru"],
       text,
       m,
       {

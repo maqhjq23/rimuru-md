@@ -30,10 +30,6 @@ import axios from 'axios'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'islami',
-    alias: [
-        'asmaulhusna', 'niatsholat', 'niatshalat', 'surah', 'doa', 'berdoa', 
-        'gislam'
-    ],
     category: 'religi',
     description: 'Kumpulan fitur Islami (Asmaul Husna, Niat Sholat, Surah, Doa, Artikel, Kata Mutiara)',
     usage: '.islami <fitur>',

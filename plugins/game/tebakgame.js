@@ -34,7 +34,6 @@ let timeout = 120000
 let poin = 4999
 const pluginConfig = {
   name: "tebakgame",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

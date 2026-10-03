@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import * as timeHelper from '../../src/lib/rimuru-time.js'
 const pluginConfig = {
     name: 'checksewa',
-    alias: ['ceksewa', 'sisasewa'],
     category: 'group',
     description: 'Cek sisa waktu sewa bot di grup ini',
     usage: '.checksewa',

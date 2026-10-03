@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'faketiket',
-    alias: ['tiketfake', 'faketicket', 'fakepesawat'],
     category: 'canvas',
     description: 'Bikin fake tiket pesawat (buat konten/gaguan doang)',
     usage: '.faketiket <dari> | <tujuan> | <nama>',

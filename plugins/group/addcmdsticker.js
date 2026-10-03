@@ -30,7 +30,6 @@ import { getQuotedStickerHash, addStickerCommand, listStickerCommands } from '..
 import { getPlugin } from '../../src/lib/rimuru-plugins.js'
 const pluginConfig = {
     name: 'addcmdsticker',
-    alias: ['addstickercmd', 'setsticker', 'stickeradd'],
     category: 'group',
     description: 'Jadikan sticker sebagai shortcut command',
     usage: '.addcmdsticker <command> (reply sticker)',

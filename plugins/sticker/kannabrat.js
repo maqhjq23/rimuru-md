@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'kannabrat',
-    alias: ['kanna', 'kannagen'],
     category: 'sticker',
     description: 'Membuat sticker Kanna dengan teks',
     usage: '.kannabrat <teks>',

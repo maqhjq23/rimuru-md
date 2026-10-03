@@ -31,7 +31,6 @@ import * as cheerio from "cheerio";
 
 const pluginConfig = {
   name: "mcaddons",
-  alias: ["mcmap"],
   category: "general",
   description: "Mencari Minecraft Bedrock addon dan map terbaru",
   usage: ".mcaddons [atau .mcmap]",

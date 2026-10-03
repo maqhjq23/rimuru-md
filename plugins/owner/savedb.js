@@ -33,7 +33,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'savedb',
-    alias: ['backupdb', 'downloaddb', 'getdb'],
     category: 'owner',
     description: 'Download file database',
     usage: '.savedb',

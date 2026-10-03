@@ -30,7 +30,6 @@ import { generateWAMessageFromContent, proto } from "rimuru";
 
 const pluginConfig = {
   name: ["sprem", "stickerpremium", "premiumsticker"],
-  alias: [],
   category: "owner",
   description: "Kirim ulang sticker sebagai premium (Lottie/AI)",
   usage: ".sprem (reply sticker)",

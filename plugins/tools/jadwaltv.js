@@ -35,7 +35,6 @@ import * as cheerio from 'cheerio'
 
 const pluginConfig = {
   name: "jadwaltv",
-  alias: [],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

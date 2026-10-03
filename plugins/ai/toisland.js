@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'toisland',
-    alias: ['island', 'tropical'],
     category: 'ai',
     description: 'Ubah foto menjadi suasana pulau tropis',
     usage: '.toisland (reply/kirim gambar)',

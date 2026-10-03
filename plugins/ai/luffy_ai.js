@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
   name: "luffyai",
-  alias: ["luffy", "monkeydluffy", "mugiwara"],
   category: "ai",
   description: "Chat dengan Monkey D. Luffy — Calon Raja Bajak Laut dari Topi Jerami! 🏴‍☠️",
   usage: ".luffyai <pertanyaan>",

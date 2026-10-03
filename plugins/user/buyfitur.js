@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'buyfitur',
-    alias: ['belifitur', 'purchasefeature', 'buyfeature'],
     category: 'user',
     description: 'Beli fitur premium (1 fitur = 3000 koin)',
     usage: '.buyfitur [nama_fitur]',

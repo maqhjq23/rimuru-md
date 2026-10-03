@@ -30,7 +30,6 @@ import { stopJadibot, isJadibotActive, getJadibotStatus } from '../../src/lib/ri
 
 const pluginConfig = {
     name: 'stopjadibot',
-    alias: ['berhentijadibot', 'stopbot', 'unjadibot'],
     category: 'main',
     description: 'Hentikan sesi jadibot kamu',
     usage: '.stopjadibot',

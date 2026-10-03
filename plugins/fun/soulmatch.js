@@ -33,7 +33,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'soulmatch',
-    alias: [],
     category: 'fun',
     description: 'Cek kecocokan jiwa dengan seseorang',
     usage: '.soulmatch nama1|nama2',

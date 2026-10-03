@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakekartupelajar',
-    alias: ['kartupelajarfake', 'fakestudentid', 'fakekps'],
     category: 'canvas',
     description: 'Bikin fake kartu pelajar (buat konten/gaguan doang)',
     usage: '.fakekartupelajar <nama> | <sekolah>',

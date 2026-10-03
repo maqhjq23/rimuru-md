@@ -34,7 +34,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'fakepaspor',
-    alias: ['pasporfake', 'fakepassport'],
     category: 'canvas',
     description: 'Bikin fake paspor (buat konten/gaguan doang)',
     usage: '.fakepaspor <nama> | <umur> | <negara>',

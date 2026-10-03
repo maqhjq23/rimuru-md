@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'getjpg',
-    alias: ['lihatjpg', 'showjpg'],
     category: 'owner',
     description: 'Ambil gambar dari folder assets/images',
     usage: '.getjpg <nama_file.jpg>',

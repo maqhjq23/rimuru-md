@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "expedition",
-  alias: ["ekspedisi", "exp", "explore"],
   category: "rpg",
   description: "Kirim ekspedisi otomatis untuk item",
   usage: ".expedition <start/claim/status>",

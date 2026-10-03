@@ -30,7 +30,6 @@ import { generateWAMessageContent, generateWAMessageFromContent } from '@itsliaa
 import crypto from 'crypto';
 const pluginConfig = {
     name: 'upsw',
-    alias: ['upstory','storygc'],
     category: 'group',
     description: 'Upload story untuk grup (border hijau)',
     usage: '.upsw <teks> / reply media',

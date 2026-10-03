@@ -31,7 +31,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
   name: 'payment',
-  alias: ['pay', 'qris'],
   category: 'owner',
   description: 'Menampilkan info payment',
   usage: '.payment',

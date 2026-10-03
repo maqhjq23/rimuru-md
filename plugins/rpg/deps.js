@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "deps",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

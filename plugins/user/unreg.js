@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "unreg",
-  alias: ["unregister", "hapusdaftar"],
   category: "user",
   description: "Hapus data pendaftaran kamu dari bot",
   usage: ".unreg",
@@ -54,7 +53,7 @@ async function handler(m, { sock }) {
     );
   }
 
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   const unregisteredAt = new Date().toISOString();
 

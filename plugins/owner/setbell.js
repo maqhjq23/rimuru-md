@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "setbell",
-  alias: ["set"],
   category: "owner",
   description: "Aktif/nonaktifkan AutoAI Bell berbasis Termai/XTerm",
   usage: ".set bell on|off",

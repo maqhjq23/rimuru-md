@@ -30,7 +30,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'muslimai',
-    alias: ['islamai', 'quranai'],
     category: 'ai',
     description: 'AI untuk bertanya tentang Islam dan Al-Quran',
     usage: '.muslimai <pertanyaan>',

@@ -31,7 +31,6 @@ import * as cheerio from 'cheerio';
 
 const pluginConfig = {
   name: 'dongeng',
-  alias: ['cerita', 'dongengku'],
   category: 'internet',
   description: 'Cari dan baca dongeng dari 1000dongeng.com',
   usage: '.dongeng <judul>',

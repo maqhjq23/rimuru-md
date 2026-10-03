@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: ["admincount","groupage","groupcreator","exportmember","lockinfo","unlockinfo","ephemeral","seticon","delicon","quicklock","quickunlock","votekick","setmotd","motd","previewwelcome"],
-  alias: ["jumlahadmin","umurgc","creatorgrup","kunciinfo","bukainfo","pesansementara","gantiicon","hapusicon","ql","qu","vk","setm","showmotd","welpreview"],
   category: "group",
   description: "Utilitas admin grup tambahan yang tidak tersedia di Rimuru.",
   usage: ".<command>",

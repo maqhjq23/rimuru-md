@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "autobeli",
-    alias: ["autoorder", "autobuy"],
     category: "store_autoorder",
     description: "🛒 Membeli produk autoorder secara otomatis pakai saldo",
     usage: ".autobeli <nomor/id_produk>",

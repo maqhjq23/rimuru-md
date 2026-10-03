@@ -31,7 +31,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'santuy',
-    alias: ['santuyvid'],
     category: 'asupan',
     description: 'Video santuy',
     usage: '.santuy',

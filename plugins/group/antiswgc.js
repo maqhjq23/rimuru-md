@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antiswgc',
-    alias: ['antiswgroup', 'antiswmentiongc', 'antiswtaggc'],
     category: 'group',
     description: 'Deteksi tipe SW group mention atau status mention yang masuk ke grup',
     usage: '.antiswgc <on/off>',

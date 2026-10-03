@@ -36,7 +36,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "musikapaini",
-  alias: ["whatmusic", "shazam", "recognizemusic", "mai"],
   category: "tools",
   description: "Identifikasi lagu dari audio",
   usage: ".musikapaini (reply audio)",

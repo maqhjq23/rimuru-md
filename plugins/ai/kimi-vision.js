@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "kimi-vision",
-  alias: ["kimivision", "kimi-v"],
   category: "ai",
   description: "Analisis gambar memakai Kimi Vision",
   usage: ".kimi-vision <pertanyaan> (reply gambar)",

@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: "wmp1",
-  alias: ["canvaswmp1", "wmp1meme"],
   category: "maker",
   description: "Membuat gambar Canvas WMP1 dengan teks custom",
   usage: ".wmp1 <teks1|teks2|teks3|teks4>",

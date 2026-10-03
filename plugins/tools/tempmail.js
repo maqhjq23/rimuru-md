@@ -31,7 +31,6 @@ import { TempMailCreate, TempMailInbox } from "../../src/scraper/tempmail.js";
 
 const pluginConfig = {
   name: "tempmail",
-  alias: ["tmpmail", "tmp", "trashmail"],
   category: "tools",
   description: "Buat email sementara & cek inbox",
   usage: ".tempmail create/inbox",

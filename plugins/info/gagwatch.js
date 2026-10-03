@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "gag2watch",
-  alias: ["gag2-watch"],
   category: "info",
   description: "Cek informasi stok GAG2 Watch",
   usage: ".gag2-watch",

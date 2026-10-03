@@ -107,7 +107,6 @@ function buildSyntheticSwGcRawMessage(sock, remoteJid, content, messageId) {
 
 const pluginConfig = {
   name: "swgc",
-  alias: ["statusgrup", "swgroup", "groupstory", "toswgc"],
   category: "owner",
   description: "Post Group Status/Story ke grup pilihan (border hijau)",
   usage: ".swgc <teks> atau reply media",

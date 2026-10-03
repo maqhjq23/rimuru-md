@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'ganti-namabot',
-    alias: ['setnamabot', 'setnamebot', 'gantibot'],
     category: 'owner',
     description: 'Ganti nama bot di config.js',
     usage: '.ganti-namabot <nama baru>',

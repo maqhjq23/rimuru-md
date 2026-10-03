@@ -30,7 +30,6 @@ import { GoogleSearch } from "../../src/scraper/google.js";
 
 const pluginConfig = {
   name: "google",
-  alias: ["gsearch", "googlenews"],
   category: "search",
   description: "Cari berita di Google News",
   usage: ".google <query>",

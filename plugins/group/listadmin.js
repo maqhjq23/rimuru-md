@@ -30,7 +30,6 @@ import { getParticipantJid } from '../../src/lib/rimuru-lid.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'listadmin',
-    alias: ['admins', 'adminlist'],
     category: 'group',
     description: 'Menampilkan daftar admin grup',
     usage: '.listadmin',

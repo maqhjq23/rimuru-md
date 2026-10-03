@@ -31,7 +31,6 @@ import fs from "fs";
 
 const pluginConfig = {
   name: "speedbot",
-  alias: ["speed-bot", "serverinfo"],
   category: "tools",
   description: "Menampilkan statistik performa server bot",
   usage: ".speedbot",

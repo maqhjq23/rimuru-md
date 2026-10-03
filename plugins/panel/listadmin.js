@@ -35,7 +35,6 @@ const allAliases = VALID_SERVERS.map(v => `admins${v}`)
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'List semua admin panel (v1-v5)',
     usage: '.listadminv1 atau .listadminv2',

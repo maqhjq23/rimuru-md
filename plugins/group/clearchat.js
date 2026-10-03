@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['clearchat', 'cc', 'cleangc', 'deletechat', 'delchat'],
-    alias: [],
     category: 'group',
     description: 'Membersihkan chat grup',
     usage: '.clearchat',

@@ -52,7 +52,6 @@ async function uploadUguu(buffer) {
 
 const pluginConfig = {
   name: "pack",
-  alias: [],
   category: "sticker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

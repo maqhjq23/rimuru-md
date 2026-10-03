@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'yen',
-    alias: ['jpy', 'kursyen', 'jepang', 'konversiyen'],
     category: 'economy',
     description: 'Konversi mata uang Rupiah ke Yen Jepang / sebaliknya',
     usage: '.yen <nominal> <idr/jpy>',

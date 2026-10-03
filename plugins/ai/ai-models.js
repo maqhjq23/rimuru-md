@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "webpilot",
-  alias: ["gpt-oss2b", "glm47", "meta-ai", "deepseek-pro", "claude-45"],
   category: "ai",
   description: "Model AI tambahan yang dipindahkan dari Aqua",
   usage: ".webpilot <pertanyaan>",

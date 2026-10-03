@@ -4,7 +4,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
   name: 'tiktoksc',
-  alias: ['searchtt', 'tthtml'],
   category: 'search',
   description: 'TikTok HTML Feed Airich — video vertikal langsung di WhatsApp',
   usage: '.tiktoksc <kata kunci>',

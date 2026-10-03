@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "searchthatsong",
-  alias: ["sts", "carilagu"],
   category: "search",
   description: "Mencari detail sebuah lagu dari lirik atau potongan kata",
   usage: ".searchthatsong <potongan lirik>",

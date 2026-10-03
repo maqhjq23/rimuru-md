@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "challenge",
-  alias: ["daily", "dailychallenge", "tantangan"],
   category: "rpg",
   description: "Daily challenge untuk hadiah spesial",
   usage: ".challenge",

@@ -497,7 +497,6 @@ async function kirimForwardSigned(conn, chatId, html, judul) {
 
 const pluginConfig = {
   name: "catur",
-  alias: ['chess', 'caturn', 'rcatur'],
   category: "game",
   description: "Inline Chess game",
   usage: ".catur",

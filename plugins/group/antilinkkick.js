@@ -10,7 +10,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antilinkkick',
-    alias: ['alkick', 'antilinkwarn', 'linkkick'],
     category: 'group',
     description: 'Hapus link, beri peringatan, lalu kick saat batas tercapai',
     usage: '.antilinkkick <on/off/status/reset>',

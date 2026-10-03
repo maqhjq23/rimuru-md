@@ -32,7 +32,6 @@ import config from '../../config.js';
 // plugins/autoclean.js
 const pluginConfig = {
     name: 'autoclean',
-    alias: ['autoclear', 'cleanstore', 'hapusstore'],
     category: 'owner',
     description: 'Auto hapus file baileys_store.json jika ukuran > 50MB (bisa on/off)',
     usage: '.autoclean [on/off/status]',

@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'hangingpolaroid',
-  alias: ['polaroid2', 'pola', 'bingkai', 'frame'],
   category: 'maker',
   description: 'Membuat foto bingkai Polaroid gantung yang otomatis menyesuaikan ukuran foto asli (Responsive pure SVG)',
   usage: '.pola (Kirim/Reply Foto)',

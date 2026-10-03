@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { downloadContentFromMessage } from 'rimuru'
 const pluginConfig = {
     name: 'rvo',
-    alias: [],
     category: 'group',
     description: 'Membuka pesan 1x lihat yang di-reply',
     usage: '.rvo (reply pesan 1x lihat)',

@@ -31,7 +31,6 @@ import FormData from 'form-data';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'wasted',
-    alias: ['gta', 'gtawasted'],
     category: 'maker',
     description: 'Efek wasted GTA pada foto',
     usage: '.wasted (reply foto)',

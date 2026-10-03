@@ -36,7 +36,6 @@ import fetch from 'node-fetch'
 const { getBinaryNodeChild, getBinaryNodeChildren } = (await import('@itsliaaa/baileys')).default
 const pluginConfig = {
   name: "oadd",
-  alias: [],
   category: "owner",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

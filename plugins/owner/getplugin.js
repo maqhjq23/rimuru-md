@@ -32,7 +32,6 @@ import config from "../../config.js";
 import { AIRich } from "../../src/lib/rimuru-builder.js";
 const pluginConfig = {
   name: "getplugin",
-  alias: ["gp", "getcode", "plugincode", "sourcecode"],
   category: "owner",
   description: "Dapatkan source code plugin",
   usage: ".getplugin <nama plugin>",

@@ -31,7 +31,6 @@ import path from 'path';
 
 const pluginConfig = {
   name: 'fotorandom002',
-  alias: ['fotorimuru','randomfotozero'],
   category: 'anime',
   description: 'Rimuru random image 💗',
   usage: '.foto-randomrimuru',

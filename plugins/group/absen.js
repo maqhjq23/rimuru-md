@@ -30,7 +30,6 @@ import moment from 'moment-timezone'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'absen',
-    alias: ['hadir', 'present'],
     category: 'group',
     description: 'Tandai kehadiran di sesi absen',
     usage: '.absen',

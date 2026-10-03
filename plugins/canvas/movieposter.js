@@ -30,7 +30,6 @@ import { createMoviePoster, GENRES } from '../../src/lib/elaina/moviePoster.js';
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "movieposter",
-  alias: ["posterfilm", "movieposterelaina"],
   category: "canvas",
   description: "Buat poster film bergaya sinematik dari nama, genre, dan judul",
   usage: ".movieposter nama|genre|judul|tagline",

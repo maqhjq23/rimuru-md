@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "setrole",
-  alias: ["setroleuser"],
   category: "owner",
   description: "Mengatur role/karakter hubungan user yang dipakai AutoAI",
   usage: ".setrole @user|role atau reply pesan",

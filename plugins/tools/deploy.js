@@ -32,7 +32,6 @@ import AdmZip from 'adm-zip'
 
 const pluginConfig = {
     name: 'deploy',
-    alias: ['vercel'],
     category: 'owner',
     description: 'Deploy HTML atau file ZIP ke Vercel',
     usage: '.deploy <namawebsite>',

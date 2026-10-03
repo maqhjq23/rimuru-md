@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "notiflimit",
-    alias: ["notifenergi"],
     category: "owner",
     description: "Mengaktifkan atau mematikan notifikasi potong limit secara global.",
     usage: ".notiflimit",

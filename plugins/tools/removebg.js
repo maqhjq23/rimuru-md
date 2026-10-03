@@ -32,7 +32,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'removebg',
-    alias: ['rmbg', 'nobg', 'hapusbg'],
     category: 'tools',
     description: 'Menghapus background gambar',
     usage: '.removebg (reply gambar)',

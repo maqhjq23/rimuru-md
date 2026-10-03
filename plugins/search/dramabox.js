@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import dramaboxsearch from '../../src/scraper/dramabox.js';
 const pluginConfig = {
     name: 'dramabox',
-    alias: ['drama', 'dramasearch'],
     category: 'search',
     description: 'Cari drama di DramaBox',
     usage: '.dramabox <query>',

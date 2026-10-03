@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js'
 const pluginConfig = {
     name: 'templateplugin',
-    alias: ['tplplugin', 'plugin-template'],
     category: 'owner',
     description: 'Generate plugin template (Owner Only)',
     usage: '.templateplugin',

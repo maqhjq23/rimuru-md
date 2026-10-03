@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekotaku',
-    alias: ['otaku'],
     category: 'cek',
     description: 'Cek tingkat otaku kamu',
     usage: '.cekotaku <nama>',

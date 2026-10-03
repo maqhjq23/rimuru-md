@@ -30,7 +30,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'gantiidsaluran',
-    alias: ['setidsaluran'],
     category: 'owner',
     description: 'Mengganti semua ID saluran di SC',
     usage: '.gantiidsaluran|id',

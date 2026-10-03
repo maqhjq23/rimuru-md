@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "fakeffduo",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar banner Fake FF (Duo)",
   usage: ".fakeffduo <nama1>|<nama2>|[bgNum]",

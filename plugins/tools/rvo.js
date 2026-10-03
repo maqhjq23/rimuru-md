@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "rvo",
-  alias: ["readvo", "readviewonce", "readview"],
   category: "tools",
   description: "Baca pesan sekali lihat (view once)",
   usage: ".rvo (reply pesan view once)",

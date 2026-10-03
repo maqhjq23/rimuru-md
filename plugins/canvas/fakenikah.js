@@ -30,7 +30,6 @@ import { createCanvas, loadImage } from '@napi-rs/canvas';
 
 const pluginConfig = {
     name: 'fakenikah',
-    alias: ['nikahfake', 'fakemarriage'],
     category: 'canvas',
     description: 'Bikin fake sertifikat nikah (buat konten/gaguan doang)',
     usage: '.fakenikah <nama1> | <nama2>',

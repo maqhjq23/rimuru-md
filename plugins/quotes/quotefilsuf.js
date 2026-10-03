@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const config = {
   name: "quotefilsuf",
-  alias: ["katafilsuf", "filsuf", "quotesfilsuf", "filsafat"],
   category: "quotes",
   description: "Mendapatkan kata-kata bijak / quote acak dari filsuf terkenal",
   usage: ".quotefilsuf",

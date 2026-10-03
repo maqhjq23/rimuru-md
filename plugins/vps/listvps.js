@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['listvps', 'listdroplet', 'vpslist'],
-    alias: [],
     category: 'vps',
     description: 'List semua VPS DigitalOcean',
     usage: '.listvps',

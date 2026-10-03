@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'time',
-    alias: ['waktu'],
     category: 'tools',
     description: 'Menampilkan waktu berdasarkan negara',
     usage: '.time <negara>',

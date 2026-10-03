@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'liststok',
-    alias: ['liststock', 'stok', 'stock'],
     category: 'store',
     description: '📋 Lihat daftar stok item produk',
     usage: '.liststok <nomor_produk>',

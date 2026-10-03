@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekprocastinator',
-    alias: ['procrastinator', 'nunda'],
     category: 'cek',
     description: 'Cek tingkat suka menunda',
     usage: '.cekprocastinator <nama>',

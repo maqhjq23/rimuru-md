@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "murrotal",
-  alias: ["murottal", "audioquran", "quraudio"],
   category: "islamic",
   description: "Dengarkan audio murottal Al-Quran berdasarkan surah",
   usage: ".murrotal <nama surah>",

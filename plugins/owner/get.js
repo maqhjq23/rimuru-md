@@ -33,7 +33,6 @@ import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "get",
-  alias: ["fetch", "http", "request", "curl"],
   category: "owner",
   description: "Advanced HTTP request tool (Owner Only)",
   usage: ".get <url> [options]",

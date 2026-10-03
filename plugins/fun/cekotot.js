@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekotot',
-    alias: ['ototcheck', 'cekmuscle'],
     category: 'fun',
     description: 'Cek seberapa berotot kamu (random)',
     usage: '.cekotot <nama>',

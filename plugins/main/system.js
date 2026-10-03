@@ -33,7 +33,6 @@ import { promisify } from 'util'
 const execAsync = promisify(exec);
 const pluginConfig = {
     name: 'system',
-    alias: ['ram', 'cpu', 'disk', 'latency', 'ping'],
     category: 'main',
     description: 'Menampilkan informasi sistem (RAM, CPU, Disk, Latency)',
     usage: '.ram | .cpu | .disk | .ping',

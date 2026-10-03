@@ -31,7 +31,6 @@ import fs from 'fs'
 import path from 'path'
 const pluginConfig = {
     name: 'tovn',
-    alias: ['tovoicenote', 'toptt', 'audiotovn'],
     category: 'tools',
     description: 'Mengubah audio/video menjadi voice note',
     usage: '.tovn (reply/caption audio/video)',

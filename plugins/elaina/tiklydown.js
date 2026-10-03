@@ -35,7 +35,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: ["tiklydown", "ttdl2", "tiktokalt"],
-  alias: [],
   category: "elaina",
   description: "Downloader TikTok alternatif",
   usage: ".tiklydown <url>",

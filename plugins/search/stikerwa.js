@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'stikerwa',
-    alias: ['stickerwa', 'wasearch', 'wassticker', 'stkrwa'],
     category: 'search',
     description: 'Cari sticker WhatsApp',
     usage: '.stikerwa <query>',

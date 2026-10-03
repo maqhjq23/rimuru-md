@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "debiner",
-  alias: ["bintotext", "bin2teks", "decodebiner"],
   category: "tools",
   description: "Mengubah kode binary menjadi teks",
   usage: ".debiner <binary>",

@@ -3,7 +3,6 @@ import { randomUUID } from "node:crypto";
 
 const config = {
   name: "ytplay",
-  alias: ["ytp"],
   category: "download",
   description: "Putar video YouTube dengan HTML AI Rich + Direct Player",
   usage: ".ytplay <judul/link>",

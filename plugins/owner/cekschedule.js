@@ -33,7 +33,6 @@ import { getTodaySchedule, extractPrayerTimes } from '../../src/lib/rimuru-shola
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'cekschedule',
-    alias: ['cekscheduler', 'schedulerstatus', 'schedstatus'],
     category: 'owner',
     description: 'Melihat status semua scheduler bot',
     usage: '.cekschedule',

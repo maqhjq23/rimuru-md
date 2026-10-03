@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'quotesimage',
-    alias: ['quoteimg', 'quotes-image', 'qimg'],
     category: 'random',
     description: 'Random quotes image',
     usage: '.quotesimage',

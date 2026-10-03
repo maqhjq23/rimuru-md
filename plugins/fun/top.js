@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'top',
-    alias: ['top5', 'toplist'],
     category: 'fun',
     description: 'Random top 5 member untuk kategori tertentu',
     usage: '.top <kategori>',

@@ -64,7 +64,6 @@ function clearSession(jid) {
 
 const pluginConfig = {
   name: "dafont",
-  alias: ["font", "daffont", "carifont"],
   category: "tools",
   description: "Cari dan download font dari DaFont",
   usage: ".dafont <nama font>",

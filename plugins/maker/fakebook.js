@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "fakebook",
-  alias: ["bookquote", "quotebuku", "fakebuku"],
   category: "maker",
   description: "Membuat gambar quote estetis gaya halaman buku",
   usage: ".fakebook <teks>",

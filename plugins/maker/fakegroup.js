@@ -33,7 +33,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
     name: 'fakegroup',
-    alias: ['fgc'],
     category: 'maker',
     description: 'Membuat fake tampilan grup WhatsApp',
     usage: '.fakegroup <url|title|member|time>',

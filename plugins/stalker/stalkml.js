@@ -30,7 +30,6 @@ import fetch from "node-fetch";
 
 const pluginConfig = {
     name: 'stalkml',
-    alias: ['mlstalk', 'ceknickml', 'nickml'],
     category: 'stalker',
     description: 'Mengetahui nama/nickname akun Mobile Legends berdasarkan ID dan Server.',
     usage: '.stalkml <id> | <server>',

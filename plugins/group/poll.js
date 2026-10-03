@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'poll',
-    alias: ['voting', 'vote', 'survei'],
     category: 'group',
     description: 'Buat polling/voting di grup',
     usage: '.poll <pertanyaan> | <opsi1>, <opsi2>, ...',

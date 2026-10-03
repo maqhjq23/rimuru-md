@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "cekidgc",
-  alias: ["idgc", "idgrup", "groupid", "infogc", "groupinfo"],
   category: "group",
   description: "Cek ID dan info lengkap grup",
   usage: ".cekidgc [link grup]",
@@ -146,7 +145,7 @@ async function handler(m, { sock }) {
       }
     } catch {}
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     const infoText =

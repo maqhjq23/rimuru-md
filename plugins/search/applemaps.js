@@ -30,7 +30,6 @@ import fetch from 'node-fetch';
 
 const pluginConfig = {
   name: "applemaps",
-  alias: ["maps", "applemap", "carilokasi"],
   category: "search",
   description: "Cari lokasi dan detail tempat menggunakan Apple Maps",
   usage: ".applemaps <nama_tempat/lokasi>",

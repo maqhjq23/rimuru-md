@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from "../../src/lib/rimuru-error.js";
 
 const config = {
-  name: "remini",
-  alias: ["hd", "enhance", "upscale"],
+  name: "hd",
   category: "tools",
   description: "Enhance gambar jadi HD",
   usage: ".remini (reply gambar)",

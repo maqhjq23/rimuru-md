@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
   name: "kasedaiki",
-  alias: ["kasedai", "aiki"],
   category: "anime",
   description: "Kirim gambar random kasedaiki",
   usage: ".kasedaiki",

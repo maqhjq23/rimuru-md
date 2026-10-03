@@ -32,7 +32,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'startschedule',
-    alias: ['startscheduler', 'schedstart', 'resumeschedule'],
     category: 'owner',
     description: 'Memulai ulang scheduler tertentu atau semua',
     usage: '.startschedule <nama|all>',

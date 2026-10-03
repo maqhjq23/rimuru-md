@@ -37,7 +37,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "tourl",
-  alias: ["upload", "catbox", "url"],
   category: "tools",
   description: "Upload media ke multiple host dan dapatkan URL",
   usage: ".tourl (reply/kirim media)",

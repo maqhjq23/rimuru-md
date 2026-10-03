@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'fuckmylife',
-    alias: ['fml'],
     category: 'fun',
     description: 'Random FML story',
     usage: '.fuckmylife',

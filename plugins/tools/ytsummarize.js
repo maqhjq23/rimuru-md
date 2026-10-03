@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
     name: 'ytsummarize',
-    alias: ['ytsummary', 'summarizeyt', 'ringkasyt'],
     category: 'tools',
     description: 'Ringkasan video YouTube dengan AI',
     usage: '.ytsummarize <url>',

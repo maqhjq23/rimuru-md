@@ -6,7 +6,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: 'myip',
-    alias: ['botip', 'publicip'],
     category: 'tools',
     description: 'Cek IP publik server bot',
     usage: '.myip',

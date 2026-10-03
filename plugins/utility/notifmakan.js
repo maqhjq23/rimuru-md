@@ -30,7 +30,6 @@ import { setNotifMakan, toggleNotif, getNotif, deleteNotif, parseJadwal } from '
 
 const pluginConfig = {
     name: 'notifmakan',
-    alias: ['jadwalmakan', 'makanreminder'],
     category: 'group',
     description: 'Atur pengingat waktu makan otomatis',
     usage: '.notifmakan on <jam1,jam2,...> [menu] / off / edit <jam1,jam2,...> [menu]',

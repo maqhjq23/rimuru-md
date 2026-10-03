@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'ayat',
-  alias: ['ayatpilihan', 'suratpilihan'],
   category: 'religi',
   description: 'Kumpulan Ayat Pilihan Al-Quran (Arsy, Kursi, Ruqyah, dll)',
   usage: '.ayat <nama ayat>',

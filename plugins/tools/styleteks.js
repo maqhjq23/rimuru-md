@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'styleteks',
-    alias: ['fancytext', 'font', 'gaya', 'tulisan', 'fontstyle'],
     category: 'tools',
     description: 'Mengubah teks biasa menjadi berbagai gaya tulisan keren (fancy text).',
     usage: '.styleteks <teks>',

@@ -31,7 +31,6 @@ import FormData from 'form-data'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['qrcustom', 'qrcode', 'qr'],
-    alias: [],
     category: 'tools',
     description: 'Generate QR code custom dengan logo',
     usage: '.qrcustom <url>',

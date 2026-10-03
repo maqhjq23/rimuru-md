@@ -31,7 +31,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'kisahnabi',
-    alias: ['nabi', 'storynabi', 'ceritanabi'],
     category: 'islamic',
     description: 'Kisah para nabi dan rasul',
     usage: '.kisahnabi <nama_nabi>',

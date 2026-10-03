@@ -36,7 +36,6 @@ const execPromise = promisify(exec);
 
 const pluginConfig = {
   name: "alultimate",
-  alias: ['alultimate', 'purestatus'],
   category: "tools",
   description: "Convert document/link to image/video HD (Anti-Buffering) v2",
   usage: ".swhd2 [link / caption]",

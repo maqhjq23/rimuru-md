@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const config = {
     name: 'bacaansholat',
-    alias: ['bacaan', 'bacaan salat'],
     category: 'religi',
     description: 'Bacaan sholat lengkap dari takbir sampai salam',
     usage: '.bacaansholat',

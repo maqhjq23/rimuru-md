@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'totalfitur',
-    alias: ['totalfeature', 'totalcmd', 'countplugin', 'distribusi'],
     category: 'main',
     description: 'Lihat total fitur/command bot',
     usage: '.totalfitur',

@@ -40,7 +40,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "daftar",
-  alias: ["register", "reg"],
   category: "user",
   description: "Daftar sebagai user bot melalui sesi reply interaktif",
   usage: ".daftar",
@@ -65,7 +64,7 @@ const REGISTRATION_IMAGE_CANDIDATES = [
 ];
 
 function getRegistrationContextInfo() {
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
   return {
@@ -90,10 +89,9 @@ function getRegistrationRewards() {
 }
 
 async function getRegistrationImage() {
-  const { getCachedThumb } = await import("../../src/lib/rimuru-serialize.js");
   for (const key of REGISTRATION_IMAGE_CANDIDATES) {
-    const buf = getAssetBuffer(key);
-    if (buf) return buf;
+    const url = config.assets?.[key];
+    if (typeof url === "string" && /^https?:\/\//.test(url)) return url;
   }
 
   return null;
@@ -192,7 +190,7 @@ async function sendRegistrationPrompt(sock, m, text, options = {}) {
     return await sock.sendMessage(
       m.chat,
       {
-        image,
+        image: typeof image === "string" ? { url: image } : image,
         caption: text,
         contextInfo: getRegistrationContextInfo(),
       },

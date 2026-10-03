@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'ceknamadana',
-    alias: ['cekdana'],
     category: 'tools',
     description: 'Cek Nama Pengguna Dana',
     usage: '.cekdana',

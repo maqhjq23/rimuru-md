@@ -104,7 +104,6 @@ let handler = async (m, { text, sock }) => {
 export default handler;
 const pluginConfig = {
   name: 'xhs',
-  alias: [],
   category: 'download',
   description: 'Downloader XHS/RedNote untuk video atau gambar.',
   usage: '.xhs <url>',

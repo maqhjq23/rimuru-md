@@ -32,7 +32,6 @@ import axios from 'axios';
 import FormData from 'form-data';
 const config = {
     name: 'shzupload',
-    alias: ['shz', 'uploadshz'],
     category: 'tools',
     description: 'Upload file ke shz.al',
     usage: '.shz <path file> atau reply gambar',

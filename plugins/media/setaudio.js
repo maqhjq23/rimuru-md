@@ -34,7 +34,6 @@ import path from 'path'
 
 const pluginConfig = {
   name: "setaudio",
-  alias: [],
   category: "media",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

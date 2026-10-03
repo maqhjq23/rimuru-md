@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: "fakesw",
-  alias: ["fsw", "swfake"],
   category: "tools",
   description: "Generate gambar Fake Status WhatsApp",
   usage: ".fakesw sw|views|caption (Reply Gambar)",

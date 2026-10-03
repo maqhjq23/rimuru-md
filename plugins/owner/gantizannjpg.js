@@ -30,7 +30,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'ganti-zann.jpg',
-    alias: ['ganzann', 'setzann'],
     category: 'owner',
     description: 'Ganti gambar Zann.jpg (thumbnail menu)',
     usage: '.ganti-zann.jpg (reply/kirim gambar)',

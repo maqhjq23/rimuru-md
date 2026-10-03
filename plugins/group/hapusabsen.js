@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'hapusabsen',
-    alias: ['deleteabsen', 'tutupabsen', 'closeabsen', 'resetabsen'],
     category: 'group',
     description: 'Hapus/tutup sesi absen (admin only)',
     usage: '.hapusabsen',

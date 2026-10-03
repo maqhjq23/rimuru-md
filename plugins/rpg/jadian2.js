@@ -91,7 +91,6 @@ Maukah kamu menjadi pasanganku? 💕`,
 
 const pluginConfig = {
   name: "tembak2",
-  alias: ["terima2", "tolak2", "putus2", "pasangan2"],
   category: "rpg",
   description: "Fitur hubungan: tembak, terima, tolak, putus, dan cek pasangan",
   usage:

@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "darkangel",
-  alias: [],
   category: "canvas",
   description: "Bikin card dark angel dari fotomu",
   usage: ".darkangel <teks> (reply/kirim foto)",

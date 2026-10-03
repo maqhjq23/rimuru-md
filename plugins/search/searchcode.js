@@ -68,7 +68,6 @@ async function scrapeCodeSearch(query) {
 
 const pluginConfig = {
   name: "searchcode",
-  alias: [],
   category: "search",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

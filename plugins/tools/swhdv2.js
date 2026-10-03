@@ -36,7 +36,6 @@ const execPromise = promisify(exec);
 
 const pluginConfig = {
   name: "swhdv2",
-  alias: ["swhd2"],
   category: "tools",
   description: "Convert document/URL to image/video (HD, Anti-Buffering & Heavy File Support)",
   usage: ".swhdv2 [caption] atau .swhdv2 <link_tourl>",

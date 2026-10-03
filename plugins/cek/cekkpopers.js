@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekkpopers',
-    alias: ['kpopers', 'kpop'],
     category: 'cek',
     description: 'Cek tingkat kpopers kamu',
     usage: '.cekkpopers <nama>',

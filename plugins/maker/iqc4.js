@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "iqc4",
-  alias: ["canvasiqc4", "iqcv2"],
   category: "maker",
   description: "Generate gambar IQC v2 (WA Reaction) dengan teks otomatis",
   usage: ".iqc4 <teks>",

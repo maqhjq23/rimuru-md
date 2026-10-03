@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "fakewa",
-  alias: [],
   category: "canvas",
   description: "Bikin profil WA palsu",
   usage: ".fakewa <nama>|<nomor>|[status] (reply/kirim foto)",

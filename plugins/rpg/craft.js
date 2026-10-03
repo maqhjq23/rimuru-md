@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "craft",
-  alias: ["buat", "create"],
   category: "rpg",
   description: "Craft item dari materials",
   usage: ".craft <item>",

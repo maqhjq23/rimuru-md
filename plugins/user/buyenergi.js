@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'buyenergi',
-    alias: ['belienergi', 'purchaseenergi', 'buyenergy'],
     category: 'user',
     description: 'Beli energi dengan koin (1 energi = 100 koin)',
     usage: '.buyenergi <jumlah>',

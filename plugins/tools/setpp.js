@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'setpp',
-    alias: ['setprofilebot', 'setppbot', 'setfotobot'],
     category: 'tools',
     description: 'Mengubah foto profil bot',
     usage: '.setpp (reply gambar)',

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "casino",
-  alias: ["judi", "gamble"],
   category: "rpg",
   description: "Bermain casino untuk judi",
   usage: ".casino <jumlah>",

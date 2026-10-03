@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "izen",
-  alias: ["skiplink", "izen"],
   category: "tools",
   description: "Bypass shortlink / skiplink menggunakan izen",
   usage: ".izen link",

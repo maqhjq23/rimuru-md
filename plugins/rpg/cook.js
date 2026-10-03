@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "cook",
-  alias: ["masak"],
   category: "rpg",
   description: "Memasak makanan untuk menambah health",
   usage: ".cook",

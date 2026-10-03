@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "streamer",
-  alias: ["live", "vtuber"],
   category: "rpg",
   description: "Live streaming game dapet donasi besar tapi resiko dibanned platform!",
   usage: ".streamer",

@@ -32,7 +32,6 @@ const API_BASE_URL = 'https://api.nexray.web.id';
 
 const pluginConfig = {
   name: 'lifefact',
-  alias: ['funfacthidup', 'livefunfact'],
   category: 'fun',
   description: 'Fakta statistik kehidupan berdasarkan tanggal lahir',
   usage: '.lifefact YYYY-MM-DD',

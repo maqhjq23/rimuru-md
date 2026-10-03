@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "autohapusstok",
-    alias: ["autodelstok"],
     category: "store_autoorder",
     description: "📦 Menghapus stok digital tertentu dari produk",
     usage: ".autohapusstok <id_produk/nomor> | <nomor_stok>",

@@ -31,7 +31,6 @@ import { f } from './../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'emojimix',
-    alias: ['mixemoji', 'emix'],
     category: 'sticker',
     description: 'Gabungkan 2 emoji menjadi 1',
     usage: '.emojimix <emoji1><emoji2>',

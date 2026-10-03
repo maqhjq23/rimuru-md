@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { nightActionHandler } from './werewolf.js'
 const pluginConfig = {
     name: 'wwsorcerer',
-    alias: ['sorcerer', 'wws'],
     category: 'game',
     description: 'Sorcerer night action - Check if target is Seer',
     usage: '.wwsorcerer <nomor>',

@@ -35,7 +35,6 @@ import config from '../../config.js'
 import util from 'util'
 const pluginConfig = {
     name: 'eval',
-    alias: ['$', 'ev', 'evaluate', '=>'],
     category: 'owner',
     description: 'Jalankan kode JavaScript (Owner Only)',
     usage: '=> <code> atau .$ <code>',

@@ -33,7 +33,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js';
 import { getRandomCaption, addCaption, getCaptionCount, getAllCaptions } from '../../src/lib/zerotwoCaption.js';
 const pluginConfig = {
     name: 'autopost',
-    alias: ['apost', 'autopostchannel'],
     category: 'owner',
     description: 'Auto post gambar random ke channel/saluran (NEWSLETTER)',
     usage: '.autopost <on/off/set>',

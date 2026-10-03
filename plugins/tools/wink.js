@@ -31,7 +31,6 @@ import winkEnhance from "../../src/scraper/wink.js";
 
 const pluginConfig = {
   name: "wink",
-  alias: ["winkenhance", "winkhd", "wenhance"],
   category: "tools",
   description: "Meningkatkan kualitas video menjadi Ultra HD dengan Wink AI",
   usage: ".wink (reply video)",

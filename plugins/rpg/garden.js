@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "garden",
-  alias: ["kebun", "farm", "tanam"],
   category: "rpg",
   description: "Berkebun dan panen tanaman",
   usage: ".garden <plant/harvest/status>",

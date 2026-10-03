@@ -43,7 +43,6 @@ jangan hapus wm ini banggg
 
 const pluginConfig = {
   name: "moveon",
-  alias: [],
   category: "fun",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

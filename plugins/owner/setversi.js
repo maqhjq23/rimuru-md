@@ -32,7 +32,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'setversi',
-    alias: ['setversion', 'gantiversi', 'updateversion'],
     category: 'owner',
     description: 'Update versi bot di config.js',
     usage: '.setversi <versi_baru>',

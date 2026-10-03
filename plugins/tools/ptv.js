@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'ptv',
-    alias: ['pvideo', 'circlevideo'],
     category: 'tools',
     description: 'Kirim video sebagai PTV (circle video)',
     usage: '.ptv (reply video)',

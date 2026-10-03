@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "ngemis",
-  alias: ["minta", "gembel"],
   category: "rpg",
   description: "Ngemis di jalanan dengan peluang dapat Nasi Bungkus (Tambah stamina)",
   usage: ".ngemis",

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 export const config = {
   name: "asyntai",
-  alias: ["asynt", "asyntai-chat"],
   category: "ai",
   description: "Bercakap-cakap dengan AI dari Asynt AI",
   usage: ".asyntai <pesan>",

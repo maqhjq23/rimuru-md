@@ -32,7 +32,6 @@ import { execSync, exec } from 'child_process';
 
 const pluginConfig = {
     name: 'updatescript',
-    alias: ['updatebot', 'updatesc'],
     category: 'owner',
     description: 'Update script otomatis dari GitHub dengan backup data penting',
     usage: '.updatescript',

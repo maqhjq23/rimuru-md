@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekhoki',
-    alias: ['hoki', 'lucky'],
     category: 'cek',
     description: 'Cek seberapa hoki kamu',
     usage: '.cekhoki <nama>',

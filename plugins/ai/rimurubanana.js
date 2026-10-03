@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { live3d } from "../../src/scraper/seaart.js";
 const pluginConfig = {
   name: "rimurubanana",
-  alias: [],
   category: "ai",
   description: "Edit gambar dengan AI menggunakan prompt",
   usage: ".rimurubanana <prompt>",

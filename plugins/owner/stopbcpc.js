@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: 'stopbcpc',
-  alias: ['stopbroadcastpc'],
   category: 'owner',
   description: 'Hentikan broadcast private yang sedang berjalan',
   usage: '.stopbcpc',

@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "fakeboard",
-  alias: ["boardquote", "quoteboard", "papanquote"],
   category: "maker",
   description: "Membuat gambar papan quote/kutipan dengan author custom",
   usage: ".fakeboard <teks>|<author>",

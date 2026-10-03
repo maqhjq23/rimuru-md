@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "fakeff3",
-  alias: ["fffake3", "fakecardff3", "profileff3"],
   category: "maker",
   description: "Membuat kartu profil/lobby Free Fire palsu (v3)",
   usage: ".fakeff3 username|lobby",

@@ -30,7 +30,6 @@ import moment from "moment-timezone";
 import config from "../../config.js";
 const pluginConfig = {
   name: "cekabsen",
-  alias: ["listabsen", "daftarabsen", "lihathadir"],
   category: "group",
   description: "Lihat daftar peserta yang sudah absen",
   usage: ".cekabsen",
@@ -65,7 +64,7 @@ async function handler(m, { sock }) {
       .map((jid, i) => `┃ ${i + 1}. @${jid.split("@")[0]}`)
       .join("\n");
   }
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   await m.reply(
     `📋 *DAFTAR YANG UDAH ABSEN*\n\n` +

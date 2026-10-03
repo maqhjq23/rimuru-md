@@ -30,7 +30,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'gantilinksaluran',
-    alias: ['setlinksaluran'],
     category: 'owner',
     description: 'Mengganti semua link saluran di SC',
     usage: '.gantilinksaluran|link',

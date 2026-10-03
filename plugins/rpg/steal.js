@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "steal",
-  alias: ["mencuri", "curi", "pickpocket"],
   category: "rpg",
   description: "Mencuri dari NPC untuk gold",
   usage: ".steal",

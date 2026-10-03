@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'addmp3',
-    alias: ['addaudio', 'tambahmp3', 'setmp3', 'addmusik'],
     category: 'owner',
     description: 'Tambah file MP3/Audio ke folder assets/audio',
     usage: '.addmp3 <nama_file.mp3> (reply audio)',

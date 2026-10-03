@@ -32,7 +32,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "rob",
-  alias: ["rampok", "mug"],
   category: "rpg",
   description: "Rampok uang player lain (berisiko)",
   usage: ".rob @user",

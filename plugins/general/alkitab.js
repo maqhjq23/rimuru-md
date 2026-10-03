@@ -34,7 +34,6 @@ import axios from 'axios'
 import * as cheerio from 'cheerio'
  const pluginConfig = {
   name: "alkitab",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

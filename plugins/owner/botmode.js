@@ -31,7 +31,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'botmode',
-    alias: ['setmode', 'mode'],
     category: 'owner',
     description: 'Mengatur mode bot (md/cpanel/store/pushkontak/all)',
     usage: '.botmode <mode>',

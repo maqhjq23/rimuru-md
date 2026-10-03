@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "antimedia",
-  alias: ["am", "nomedia"],
   category: "group",
   description: "Mengatur antimedia di grup (blokir gambar/video/audio/dokumen)",
   usage: ".antimedia <on/off>",

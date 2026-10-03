@@ -41,7 +41,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: "shareteks",
-  alias: ["bagiteks"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

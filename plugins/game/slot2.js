@@ -258,7 +258,6 @@ async function kirimSlot(conn, chatId) {
 
 const pluginConfig = {
     name: 'slot2',
-    alias: ['slots2', 'mesin2', 'mesinslot2'],
     category: 'game',
     description: 'Inline Fruit Bonanza slot game',
     usage: '.slot2',

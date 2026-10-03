@@ -127,7 +127,6 @@ async function translateToIndonesian(text) {
 
 const pluginConfig = {
   name: "listhero",
-  alias: ["heroml"],
   category: "info",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

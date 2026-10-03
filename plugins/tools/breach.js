@@ -86,7 +86,6 @@ async function checkDataBreach(email) {
 
 const pluginConfig = {
   name: "breach",
-  alias: [],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

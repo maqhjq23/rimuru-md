@@ -36,7 +36,6 @@ import axios from "axios";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "fakestory3",
-  alias: ["fstory3", "igstory3", "quotestory"],
   category: "canvas",
   description: "Fake Instagram story dengan text overlay",
   usage: ".fakestory3 <nama>|<text1>|<text2>",

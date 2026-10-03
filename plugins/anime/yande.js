@@ -84,7 +84,6 @@ ID : ${img.id}`,
 
 const pluginConfig = {
   name: "yande",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

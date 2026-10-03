@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js'
 const pluginConfig = {
     name: 'benefitpartner',
-    alias: ['partnerbenefits', 'keuntunganpartner'],
     category: 'info',
     description: 'Lihat keuntungan menjadi partner bot',
     usage: '.benefitpartner',

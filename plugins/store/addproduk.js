@@ -32,7 +32,6 @@ import FormData from 'form-data'
 
 const pluginConfig = {
     name: 'addproduk',
-    alias: ['addproduct'],
     category: 'store',
     description: '➕ Tambah produk baru ke toko (hanya di private chat)',
     usage: '.addproduk <nama>|<harga>|<tipe>|<stok>|<deskripsi>',

@@ -2,7 +2,6 @@ import crypto from "node:crypto";
 
 const config = {
   name:"compresspdf",
-  alias:["komprespdf","pdfcompress"],
   category:"tools",
   description:"Mengompres file PDF",
   usage:".compresspdf <reply/kirim PDF>",

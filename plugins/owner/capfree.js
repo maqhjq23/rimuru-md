@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const config = {
   name: "capfree",
-  alias: ["capgratis", "setfree"],
   category: "owner",
   description: "Mengecap banyak fitur sekaligus menjadi gratis",
   usage: ".capfree <nama_fitur1> <nama_fitur2> ...",

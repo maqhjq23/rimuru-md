@@ -35,13 +35,10 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
  * Enhanced for RimuruAI
  */
 import config from "../../config.js";
-import fs from "fs";
 import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
-import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "werewolf",
-  alias: ["ww", "wwgc"],
   category: "game",
   description: "Main Werewolf Game bersama player lain",
   usage: ".ww <create|join|start|vote|player|exit|delete>",
@@ -64,10 +61,8 @@ let thumbWin = null;
 
 try {
   thumbWW = getAssetBuffer("rimuru-games");
-  if (fs.existsSync(path.join(process.cwd(), "assets", "images", "rimuru.jpg"))) {
-    thumbNight = fs.readFileSync(path.join(process.cwd(), "assets", "images", "rimuru.jpg"));
-    thumbDay = fs.readFileSync(path.join(process.cwd(), "assets", "images", "rimuru.jpg"));
-  }
+  thumbNight = getAssetBuffer("rimuru");
+  thumbDay = getAssetBuffer("rimuru");
   thumbWin = getAssetBuffer("rimuru-winner");
 } catch (e) {
   console.log("[WW] Failed to load thumbnails:", e.message);
@@ -115,7 +110,7 @@ const PHASE_DURATION = {
 };
 
 function wwCtx(mentions) {
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   return {
     forwardingScore: 9999,

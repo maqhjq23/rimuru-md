@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "stamina",
-  alias: ["energy", "cekstamina"],
   category: "rpg",
   description: "Cek dan pulihkan stamina",
   usage: ".stamina / .stamina isi",

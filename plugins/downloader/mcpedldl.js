@@ -31,7 +31,6 @@ import path from 'node:path';
 
 export const config = {
   name: "mcpedldl",
-  alias: ["dlmcpedl", "mcpedldownload", "mcdl"],
   category: "downloader",
   description: "Mengunduh file atau mengambil detail dari MCPEDL",
   usage: ".mcpedldl <url/slug>",

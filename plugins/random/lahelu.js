@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'lahelu',
-    alias: ['randommeme'],
     category: 'random',
     description: 'Random gambar lahelu',
     usage: '.lahelu',

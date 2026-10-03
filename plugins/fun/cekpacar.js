@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'cekpacar',
-    alias: ['pacar', 'pasangan', 'gebetan'],
     category: 'fun',
     description: 'Cek status hubungan seseorang',
     usage: '.cekpacar atau .cekpacar @tag',

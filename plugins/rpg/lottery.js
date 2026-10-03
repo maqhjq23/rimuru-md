@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "lottery",
-  alias: ["gacha", "spin", "undian"],
   category: "rpg",
   description: "Gacha/lottery untuk hadiah random",
   usage: ".lottery <1/10>",

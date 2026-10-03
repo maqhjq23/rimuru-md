@@ -55,7 +55,6 @@ import axios from "axios";
 import sharp from "sharp";
 const pluginConfig = {
   name: "menu",
-  alias: ["help", "bantuan", "commands", "m"],
   category: "main",
   description: "Menampilkan menu utama bot",
   usage: ".menu",
@@ -407,7 +406,7 @@ function getContextInfo(
   thumbBuffer,
   renderLargerThumbnail = false,
 ) {
-  const saluranId = botConfig.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = botConfig.saluran?.id || "120363412837402275@newsletter";
   const saluranName =
     botConfig.saluran?.name || botConfig.bot?.name || "Rimuru-AI";
   const saluranLink = botConfig.saluran?.link || "";
@@ -483,7 +482,7 @@ async function legacyMenuHandler(m, { sock, config: botConfig, db, uptime }) {
     console.error("Gagal load assets:", e.message);
   }
   const prefix = botConfig.command?.prefix || ".";
-  const saluranId = botConfig.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = botConfig.saluran?.id || "120363412837402275@newsletter";
   const saluranName =
     botConfig.saluran?.name || botConfig.bot?.name || "Rimuru-AI";
   const saluranLink =
@@ -508,8 +507,8 @@ async function legacyMenuHandler(m, { sock, config: botConfig, db, uptime }) {
     });
     switch (menuVariant) {
       case 1:
-        if (videoBuffer || getAssetBuffer("rimuru-mp4", config.assets)) {
-          const pvideo = videoBuffer || getAssetBuffer("rimuru-mp4", config.assets);
+        if (videoBuffer || config.assets?.["rimuru-mp4"]) {
+          const pvideo = videoBuffer || config.assets?.["rimuru-mp4"];
           const senderNo = String(m.sender || "").split("@")[0];
           const totalFitur = totalCmds + Object.values(getCasesByCategory()).flat().length;
           const userStatus = m?.isOwner ? "Owner" : m?.isPremium ? "Premium" : "Free";
@@ -561,7 +560,7 @@ _Select a category to see commands._`;
           ];
 
           await sock.sendMessage(m.chat, {
-            video: pvideo,
+            video: Buffer.isBuffer(pvideo) ? pvideo : { url: pvideo },
             gifPlayback: true,
             caption: paimonLikeText,
             mentions: [m.sender],
@@ -618,7 +617,7 @@ _Select a category to see commands._`;
           s += "╰─⬣\n\n"
         });
         const media = await prepareWAMessageMedia({
-          image: getAssetBuffer("rimuru", config.assets)
+          image: { url: config.assets?.["rimuru"] }
         }, { upload: sock.waUploadToServer })
         const readmore = String.fromCharCode(8206).repeat(4001)
         await sock.relayMessage(
@@ -799,7 +798,7 @@ Welcome to ${config.bot?.name}, Our bot will help you
           }
         }
         const media4 = await prepareWAMessageMedia({
-          video: getAssetBuffer("rimuru-mp4", config.assets),
+          video: { url: config.assets?.["rimuru-mp4"] },
           gifPlayback: true
         }, { upload: sock.waUploadToServer });
         let singlePush = categories.sorted.map(cat => {
@@ -966,7 +965,7 @@ Enjoy your use brother.`
           }
         }
         const media4 = await prepareWAMessageMedia({
-          video: getAssetBuffer("rimuru-mp4", config.assets),
+          video: { url: config.assets?.["rimuru-mp4"] },
           gifPlayback: true
         }, { upload: sock.waUploadToServer });
         const msg4 = generateWAMessageFromContent(m.chat, {
@@ -1295,11 +1294,11 @@ I'm ${botName}, your intelligent assistant powered by ${config.bot?.developer}. 
 
         const { generateWAMessageFromContent } = await import("rimuru");
         const menuMedia = await prepareWAMessageMedia({
-          image: await getAssetBuffer("rimuru")
+          image: { url: config.assets?.["rimuru"] }
         }, { upload: sock.waUploadToServer });
 
         const videoLive = await prepareWAMessageMedia({
-          video: await getAssetBuffer("rimuru-mp4")
+          video: { url: config.assets?.["rimuru-mp4"] }
         }, { upload: sock.waUploadToServer });
 
         const msg = generateWAMessageFromContent(m.chat, {
@@ -1647,7 +1646,7 @@ I'm ${botName}, your intelligent assistant powered by ${config.bot?.developer}. 
               key: {
                 fromMe: false,
                 participant: "0@s.whatsapp.net",
-                remoteJid: typeof saluranId !== "undefined" ? saluranId : "120363412350560864@newsletter",
+                remoteJid: typeof saluranId !== "undefined" ? saluranId : "120363412837402275@newsletter",
               },
               message: {
                 conversation: "🔊 Playing Audio Menu..."

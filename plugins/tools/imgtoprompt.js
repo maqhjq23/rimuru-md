@@ -37,7 +37,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'imgtoprompt',
-    alias: ['img2prompt', 'imagetoprompt', 'i2p'],
     category: 'tools',
     description: 'Mengubah gambar menjadi prompt AI',
     usage: '.imgtoprompt (reply gambar)',

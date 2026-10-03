@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'antiremove',
-    alias: ['antidelete', 'antihapus', 'ar'],
     category: 'group',
     description: 'Mengaktifkan/menonaktifkan anti hapus pesan di grup',
     usage: '.antiremove <on/off>',

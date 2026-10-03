@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: ['fakecall', 'fakecall-android', 'fakecall-ios'],
-    alias: ['fakecallwa'],
     category: 'canvas',
     description: 'Membuat gambar fake call WhatsApp (Tersedia versi Android dan iOS)',
     usage: '.fakecall nama | durasi',

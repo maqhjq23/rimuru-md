@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import scrapeHokCharacter from '../../src/scraper/hokinfo.js';
 const pluginConfig = {
     name: 'hok',
-    alias: ['hokinfo', 'honorofkings'],
     category: 'info',
     description: 'Informasi karakter Honor of Kings',
     usage: '.hok <nama karakter>',

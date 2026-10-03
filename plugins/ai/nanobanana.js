@@ -32,7 +32,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: 'nanobanana',
-    alias: ['nano', 'imgedit'],
     category: 'ai',
     description: 'Edit gambar dengan AI menggunakan prompt',
     usage: '.nanobanana <prompt>',

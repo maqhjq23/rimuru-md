@@ -30,7 +30,6 @@ import { RedNoteDL } from "../../src/scraper/rednote.js";
 
 const pluginConfig = {
   name: "rednotedl",
-  alias: ["rednote", "xhsdl", "xiaohongshu"],
   category: "download",
   description: "Download video/foto dari RedNote (XiaoHongShu)",
   usage: ".rednotedl <url>",

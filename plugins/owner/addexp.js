@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import * as levelHelper from '../../src/lib/rimuru-level.js'
 const pluginConfig = {
     name: 'addexp',
-    alias: ['tambahexp', 'giveexp', 'addxp'],
     category: 'owner',
     description: 'Tambah exp user (max 9 Miliar)',
     usage: '.addexp <jumlah> @user',

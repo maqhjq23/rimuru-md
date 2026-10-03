@@ -33,7 +33,6 @@ import os from "os";
 
 export const config = {
   name: "vocalcut",
-  alias: ["vocal", "separatortrack", "vocal-remover", "remvocals"],
   category: "tools",
   description: "Mempisahkan Vokal dan Musik/Instrumen dari file audio atau Voice Note",
   usage: ".vocalcut (kirim/reply audio)",

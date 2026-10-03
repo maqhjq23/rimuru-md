@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'ai',
-    alias: ['ai4chat', 'gemini'],
     category: 'ai',
     description: 'Chat cerdas dengan AI (mendukung tabel, kode, dll via AIRich)',
     usage: '.ai <pertanyaan>',

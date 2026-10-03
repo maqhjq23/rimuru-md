@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'cekpartner',
-    alias: ['partnerinfo'],
     category: 'cek',
     description: 'Cek detail status partner user',
     usage: '.cekpartner @user',

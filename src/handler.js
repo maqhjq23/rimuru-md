@@ -431,7 +431,7 @@ async function handleSmartTriggers(m, sock, db) {
     db.setting("smartTriggers") ?? config.features?.smartTriggers ?? false;
 
   try {
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
     const botName = config.bot?.name || "Rimuru-AI";
 
@@ -2065,7 +2065,7 @@ async function groupHandler(update, sock) {
         await sendGoodbyeMessage(sock, groupJid, participant, groupMeta);
       }
 
-      const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+      const saluranId = config.saluran?.id || "120363412837402275@newsletter";
       const saluranName =
         config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
@@ -2101,11 +2101,7 @@ async function groupHandler(update, sock) {
       if (rankCfg && groupData[rankCfg.notifKey] === true) {
         const author = update.author || null;
         if (!groupHandler[rankCfg.imgKey]) {
-          try {
-            groupHandler[rankCfg.imgKey] = getAssetBuffer(rankCfg.assetKey);
-          } catch {
-            groupHandler[rankCfg.imgKey] = null;
-          }
+          groupHandler[rankCfg.imgKey] = rankCfg.imgPath;
         }
         if (groupHandler[rankCfg.imgKey]) {
           const pNum = participant.split("@")[0];
@@ -2125,7 +2121,7 @@ async function groupHandler(update, sock) {
             }
           };
 
-          const media4 = await prepareWAMessageMedia({ image: groupHandler[rankCfg.imgKey] }, { upload: sock.waUploadToServer });
+          const media4 = await prepareWAMessageMedia({ image: { url: groupHandler[rankCfg.imgKey] } }, { upload: sock.waUploadToServer });
 
           const promoteButtons = [
             {
@@ -2168,7 +2164,7 @@ async function groupHandler(update, sock) {
                     isForwarded: true,
                     forwardingScore: 9999,
                     forwardedNewsletterMessageInfo: {
-                      newsletterJid: config.saluran?.id || "120363412350560864@newsletter",
+                      newsletterJid: config.saluran?.id || "120363412837402275@newsletter",
                       newsletterName: config.saluran?.name || config.bot?.name || "Rimuru-AI",
                       serverMessageId: 127,
                     },

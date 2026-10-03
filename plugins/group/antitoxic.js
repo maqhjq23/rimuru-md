@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'antitoxic',
-    alias: ['toxic', 'antitoxik'],
     category: 'group',
     description: 'Mengatur antitoxic di grup',
     usage: '.antitoxic <on/off/warn/metode>',

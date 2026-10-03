@@ -32,7 +32,6 @@ import { isLid, lidToJid } from '../../src/lib/rimuru-lid.js'
 
 const pluginConfig = {
     name: 'unban',
-    alias: ['delban', 'unblock'],
     category: 'owner',
     description: 'Menghapus user dari daftar banned',
     usage: '.unban <nomor/@tag>',

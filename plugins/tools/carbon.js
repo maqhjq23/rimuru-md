@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js"
 
 const pluginConfig = {
     name: "carbon",
-    alias: ["carbonify", "carboncode"],
     category: "tools",
     description: "Membuat gambar kode dengan tampilan carbon style",
     usage: ".carbon <kode>",

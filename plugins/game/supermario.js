@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'supermario',
-    alias: ['mario'],
     category: 'game',
     description: 'Super Mario Bros mini - lompatin musuh & kumpulin koin!',
     usage: '',

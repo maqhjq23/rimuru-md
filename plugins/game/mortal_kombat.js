@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'mortalkombat',
-    alias: ['mortal', 'mk'],
     category: 'game',
     description: 'Mortal Kombat mini - fight 1 vs 1!',
     usage: '',

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "weekly",
-  alias: ["mingguan"],
   category: "rpg",
   description: "Claim hadiah mingguan (lebih besar dari daily)",
   usage: ".weekly",

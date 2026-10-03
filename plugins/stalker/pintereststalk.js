@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "pintereststalk",
-  alias: ["pinterestid", "stalkpinterest", "stalkpin"],
   category: "stalker",
   description: "Melihat informasi lengkap akun Pinterest berdasarkan username.",
   usage: ".pintereststalk <username>",

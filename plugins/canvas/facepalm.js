@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "facepalm",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar facepalm dari fotomu",
   usage: ".facepalm (reply/kirim foto)",

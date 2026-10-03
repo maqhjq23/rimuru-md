@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'bratvid2',
-    alias: ['bratv2'],
     category: 'sticker',
     description: 'Generate brat video v2',
     usage: '.bratvid2 <text>',

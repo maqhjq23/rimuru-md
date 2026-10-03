@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "nulis",
-  alias: ["author", "wattpad"],
   category: "rpg",
   description: "Nulis cerpen atau artikel untuk dapet royalti",
   usage: ".nulis",

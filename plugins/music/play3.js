@@ -35,7 +35,6 @@ import sharp from 'sharp'
 
 const pluginConfig = {
     name: 'play3',
-    alias: ['musik3', 'ytm3', 'rimuruplay'],
     category: 'downloader',
     description: 'Cari lagu di YouTube, lirik synced, audio HD, player HTML interaktif',
     usage: '.play3 <judul lagu / link youtube>',

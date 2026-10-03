@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "douyindl",
-  alias: ["douyin", "dydl"],
   category: "download",
   description: "Download video/audio dari Douyin (TikTok China)",
   usage: ".douyindl <url>",

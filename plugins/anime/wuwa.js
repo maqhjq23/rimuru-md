@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'wuwa',
-    alias: ['wuwasheet', 'wutheringwaves', 'wuwa-sheets'],
     category: 'anime',
     description: 'Menampilkan sheet material karakter Wuthering Waves',
     usage: '.wuwa <nama karakter>',

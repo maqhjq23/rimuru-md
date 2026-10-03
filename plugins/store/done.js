@@ -31,7 +31,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "done",
-  alias: ["selesai", "kirim", "confirm"],
   category: "store",
   description:
     "✅ Konfirmasi transaksi selesai dan kirim data ke pembeli (reply pesan pembeli)",
@@ -167,7 +166,7 @@ async function handler(m, { sock }) {
     minute: "2-digit",
   });
 
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
   const typeIcon = trx.productType === "fisik" ? "📦" : "🔑";

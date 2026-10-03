@@ -11,7 +11,6 @@ import crypto from 'node:crypto'
 
 const pluginConfig = {
     name: 'breakout',
-    alias: ['arrowbreakout'],
     category: 'game',
     description: 'Game webview Arrow Breakout interaktif',
     usage: '.breakout',

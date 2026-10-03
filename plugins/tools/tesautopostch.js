@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js';
 const pluginConfig = {
     name: 'tesautopostch',
-    alias: ['testch', 'testautopost'],
     category: 'tools',
     description: 'Test autopost ke channel sekarang',
     usage: '.tesautopostch [pagi/siang/sore/malam]',

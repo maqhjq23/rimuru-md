@@ -34,7 +34,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const pluginConfig = {
     name: 'clanlogo',
-    alias: ['setlogo', 'clanicon'],
     category: 'clan',
     description: 'Set logo clan (reply gambar)',
     usage: '.clanlogo (reply gambar)',

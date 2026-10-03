@@ -37,8 +37,7 @@ const __dirname = fileURLToPath(new URL(".", import.meta.url));
 // plugins/play-zero.js
 
 const pluginConfig = {
-    name: 'play-zero',
-    alias: ['playzero', 'pz', 'lagu'],
+    name: 'playzero',
     category: 'music',
     description: 'Download & putar audio dari YouTube langsung (tanpa API)',
     usage: '.play-zero <judul lagu>',

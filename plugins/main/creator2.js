@@ -116,7 +116,6 @@ let handler = async (m, { sock }) => {
 }
 const pluginConfig = {
   name: 'creator2',
-  alias: ['owner2'],
   category: 'main',
   description: 'Varian kontak owner dari Tensura.',
   usage: '.creator2',

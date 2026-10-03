@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "gift",
-  alias: ["kasih", "hadiah"],
   category: "rpg",
   description: "Beri hadiah ke pasangan untuk meningkatkan love",
   usage: ".gift <item> <jumlah>",

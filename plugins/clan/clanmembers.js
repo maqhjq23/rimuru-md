@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'clanmembers',
-    alias: ['clanmember', 'guildmembers'],
     category: 'clan',
     description: 'Lihat daftar member clan',
     usage: '.clanmembers',

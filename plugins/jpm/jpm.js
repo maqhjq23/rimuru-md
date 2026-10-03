@@ -54,32 +54,6 @@ import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
 
 const pluginConfig = {
   name: "jpm",
-  alias: [
-    "jasher",
-    "jaser",
-    "jpmht",
-    "jpmhidetag",
-    "jpmch",
-    "jpmchannel",
-    "autojpm",
-    "autojasher",
-    "stopjpm",
-    "stopjasher",
-    "setdelayjpm",
-    "delayjpm",
-    "jedajpm",
-    "setjedajpm",
-    "jpmupdate",
-    "updatejpm",
-    "broadcastupdate",
-    "blacklistjpm",
-    "bljpm",
-    "jpmbl",
-    "jpmblacklist",
-    "blautojpm",
-    "blacklistautojpm",
-    "autojpmbl",
-  ],
   category: "jpm",
   description:
     "Sistem JPM lengkap: broadcast, hidetag, channel, auto, blacklist, delay, update",
@@ -281,7 +255,7 @@ async function sendInteractiveMessage(
   }
 
   const botName = config.bot?.name || "Rimuru-AI";
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || botName;
 
   const msg = generateWAMessageFromContent(

@@ -30,7 +30,6 @@ import { getRandomItem } from '../../src/lib/rimuru-game-data.js'
 import { fetchBuffer } from '../../src/lib/rimuru-utils.js'
 const pluginConfig = {
     name: 'renungan',
-    alias: ['motivasi', 'mutiara'],
     category: 'fun',
     description: 'Random gambar renungan/motivasi',
     usage: '.renungan',

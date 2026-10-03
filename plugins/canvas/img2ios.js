@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "img2ios",
-  alias: ["toios"],
   category: "canvas",
   description: "Bikin gambarmu menjadi gaya foto iOS",
   usage: ".img2ios (reply/kirim foto)",

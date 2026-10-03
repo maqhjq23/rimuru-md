@@ -36,7 +36,6 @@ let poin = 4999
 
 const pluginConfig = {
   name: "tebakbola",
-  alias: ["whobola"],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

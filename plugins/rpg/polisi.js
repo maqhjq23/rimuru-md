@@ -41,7 +41,6 @@ function getRandomInt(min, max) {
 
 const pluginConfig = {
   name: "polisi",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

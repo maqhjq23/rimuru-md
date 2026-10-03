@@ -31,7 +31,6 @@ import { calculateLevel, getRole, checkAndNotifyLevelUp } from './../../src/lib/
 
 const pluginConfig = {
     name: 'addlevel',
-    alias: ['tambahlevel', 'givelevel', 'addlvl'],
     category: 'owner',
     description: 'Tambah level user (via exp)',
     usage: '.addlevel <jumlah> @user',

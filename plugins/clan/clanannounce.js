@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'clanannounce',
-    alias: ['announce', 'clanbroadcast', 'pengumuman'],
     category: 'clan',
     description: 'Kirim pengumuman ke semua member clan',
     usage: '.clanannounce <pesan>',

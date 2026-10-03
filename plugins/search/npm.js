@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "npm",
-  alias: ["npmsearch", "npmjs", "npmfind"],
   category: "search",
   description: "Search package di NPM registry",
   usage: ".npm <query>",

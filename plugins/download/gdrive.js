@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'gdrive',
-    alias: ['drive', 'drivedl', 'driveurl'],
     category: 'download',
     description: 'Download file dari Google Drive',
     usage: '.gdrive <url>',

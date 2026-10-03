@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: ['mutechat', 'mute'],
-    alias: [],
     category: 'owner',
     description: 'Mute/unmute chat',
     usage: '.mutechat <nomor/reply> atau .mutechat buka <nomor>',

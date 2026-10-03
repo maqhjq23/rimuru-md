@@ -34,7 +34,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "converter",
-  alias: ["convert", "konversi"],
   category: "tools",
   description: "Convert file ke format lain",
   usage: ".converter <format> (reply file)",
@@ -126,7 +125,7 @@ async function handler(m, { sock }) {
       return m.reply(`❌ *ɢᴀɢᴀʟ ᴄᴏɴᴠᴇʀᴛ*\n\n> ${result.error}`);
     }
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     await sock.sendMessage(

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'setrules',
-    alias: ['setbotrules', 'setaturanbot'],
     category: 'owner',
     description: 'Set rules/aturan bot custom',
     usage: '.setrules <text>',

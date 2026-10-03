@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gpt2image",
-  alias: ["gptimg2img", "image2image"],
   category: "ai",
   description: "Image-to-image memakai GPT2Image",
   usage: ".gpt2image <prompt> (reply gambar)",

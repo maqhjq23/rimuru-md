@@ -32,7 +32,6 @@ import pakasir from '../../src/lib/pakasir.js';
 
 const pluginConfig = {
     name: 'cancelorder',
-    alias: ['batalorder', 'batalkanorder'],
     category: 'store',
     description: 'Batalkan order',
     usage: '.cancelorder <order_id>',

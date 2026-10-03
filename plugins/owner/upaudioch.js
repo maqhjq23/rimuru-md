@@ -30,7 +30,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'upaudioch',
-    alias: ['tovnsaluran', 'uploadaudioch', 'upaudiosaluran'],
     category: 'owner',
     description: 'Upload audio ke saluran (channel) WhatsApp',
     usage: '.upaudioch (reply audio) <teks>',

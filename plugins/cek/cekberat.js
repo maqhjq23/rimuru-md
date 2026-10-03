@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekberat',
-    alias: ['berat', 'weight'],
     category: 'cek',
     description: 'Cek berat badan random',
     usage: '.cekberat <nama>',

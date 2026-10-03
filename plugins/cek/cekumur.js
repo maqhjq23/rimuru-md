@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekumur',
-    alias: ['umur', 'age'],
     category: 'cek',
     description: 'Cek umur mental kamu',
     usage: '.cekumur <nama>',

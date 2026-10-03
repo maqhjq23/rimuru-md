@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('tebakdrakor', {
-    alias: ['drakor', 'kdrama'],
     emoji: '🇰🇷',
     title: 'TEBAK DRAKOR',
     description: 'Tebak judul drama Korea',

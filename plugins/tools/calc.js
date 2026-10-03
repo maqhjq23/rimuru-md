@@ -32,7 +32,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 // update by xnuvers007
 const pluginConfig = {
   name: "calc",
-  alias: ["ulat", "or", "kalk", "ulator"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

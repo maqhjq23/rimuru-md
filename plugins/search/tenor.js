@@ -31,7 +31,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'tenor',
-    alias: ['gif', 'gifsearch'],
     category: 'search',
     description: 'Cari GIF dari Tenor',
     usage: '.tenor <query>',

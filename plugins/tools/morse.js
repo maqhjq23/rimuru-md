@@ -73,7 +73,6 @@ const morseToText = (morse) => {
 
 const pluginConfig = {
   name: "morse",
-  alias: ["demorse"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

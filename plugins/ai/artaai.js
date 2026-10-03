@@ -167,7 +167,6 @@ const arta = {
 
 const pluginConfig = {
   name: 'arta',
-  alias: ['artagen', 'artai', 'aiarta'],
   category: 'ai',
   description: 'Membuat gambar AI menggunakan Arta AI Generator',
   usage: '.arta Prompt | Style | Negative Prompt',

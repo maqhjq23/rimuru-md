@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'apkzoic',
-    alias: ['apkz'],
     category: 'search',
     description: 'Cari APK MOD di ApkZoic',
     usage: '.apkzoic <query>',

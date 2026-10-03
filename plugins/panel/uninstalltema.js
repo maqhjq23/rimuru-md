@@ -30,7 +30,6 @@ import { Client } from 'ssh2'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['uinstalltema', 'uninstalltema', 'removetema', 'hapustema'],
-    alias: [],
     category: 'panel',
     description: 'Uninstall tema Pterodactyl via SSH',
     usage: '.uinstalltema <ip>|<password>',

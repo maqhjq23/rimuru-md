@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: ["arsip", "archive"],
-  alias: [],
   category: "owner",
   description: "Arsipkan/buka arsip chat",
   usage: ".arsip <nomor/reply> atau .arsip buka <nomor>",

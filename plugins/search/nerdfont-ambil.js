@@ -76,7 +76,6 @@ async function nerdfonts() {
 }
 const pluginConfig = {
   name: "nerdfont-ambil",
-  alias: ["dafont-ambil", "fontambil"],
   category: "search",
   description: "Cari font di DaFont",
   usage: ".nerdfont-ambil <query>",

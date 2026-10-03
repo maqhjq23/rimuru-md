@@ -36,7 +36,6 @@ ffmpeg.setFfmpegPath(ffmpegInstaller.path)
 
 const pluginConfig = {
     name: 'tovideo',
-    alias: ['tovid', 'stickertovideo', 'giftomp4', 'webmtomp4'],
     category: 'tools',
     description: 'Mengubah sticker animasi menjadi video MP4',
     usage: '.tovideo (reply/caption sticker animasi)',

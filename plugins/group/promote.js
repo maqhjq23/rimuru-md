@@ -30,7 +30,6 @@ import { getParticipantJid } from '../../src/lib/rimuru-lid.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'promote',
-    alias: ['jadiadmin', 'admin'],
     category: 'group',
     description: 'Jadikan member sebagai admin',
     usage: '.promote @user',

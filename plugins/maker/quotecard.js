@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "quotecard",
-  alias: ["qcard", "cardquote", "makerquote"],
   category: "maker",
   description: "Generate quote card dengan background gradient dan tipografi elegan",
   usage: ".quotecard teks|author",

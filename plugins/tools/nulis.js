@@ -37,7 +37,6 @@ import config from "../../config.js";
 import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
 const pluginConfig = {
   name: "nulis",
-  alias: ["tulis", "write"],
   category: "tools",
   description: "Generate tulisan tangan di kertas",
   usage: ".nulis <teks>",

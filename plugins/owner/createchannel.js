@@ -32,7 +32,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'createchannel',
-  alias: ['createch'],
   category: 'owner',
   description: 'Membuat WhatsApp Channel/newsletter baru',
   usage: '.createchannel <nama>|<deskripsi>',

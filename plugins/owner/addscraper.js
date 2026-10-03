@@ -32,7 +32,6 @@ import { downloadContentFromMessage } from '@itsliaaa/baileys';
 
 const pluginConfig = {
     name: 'addscraper',
-    alias: ['addscraper', 'newscraper', 'createscraper', 'tambahscraper'],
     category: 'owner',
     description: 'Menambahkan scraper baru ke src/scraper/ (Owner only)',
     usage: '.addscraper <nama>',

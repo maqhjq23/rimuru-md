@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'taubat',
-    alias: ['taubatnasuha', 'taubat-nasuha', 'doataubat'],
     category: 'religi',
     description: 'Panduan taubat nasuha lengkap dengan doa, latin, arti, dan tata caranya',
     usage: '.taubat',

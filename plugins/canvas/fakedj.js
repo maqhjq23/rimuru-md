@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'fakedj',
-    alias: ['djfake'],
     category: 'canvas',
     description: 'Membuat gambar fake DJ dari teks',
     usage: '.fakedj <teks>',

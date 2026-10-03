@@ -4,7 +4,6 @@
 
 const pluginConfig = {
     name: 'dbinary',
-    alias: ['decodebinary', 'binary2text'],
     category: 'tools',
     description: 'Decode binary menjadi teks',
     usage: '.dbinary <binary>',

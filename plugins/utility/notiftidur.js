@@ -30,7 +30,6 @@ import { setNotifTidur, toggleNotif, getNotif, deleteNotif, parseJadwal } from '
 
 const pluginConfig = {
     name: 'notiftidur',
-    alias: ['jadwaltidur', 'tidurreminder', 'sleepreminder'],
     category: 'group',
     description: 'Atur pengingat waktu tidur otomatis',
     usage: '.notiftidur on <jam1,jam2,...> / off / edit <jam1,jam2,...>',

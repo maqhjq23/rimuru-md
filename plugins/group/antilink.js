@@ -10,7 +10,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antilink',
-    alias: ['al', 'antilinkgroup', 'nolink'],
     category: 'group',
     description: 'Hapus otomatis semua link yang dikirim member grup',
     usage: '.antilink <on/off>',

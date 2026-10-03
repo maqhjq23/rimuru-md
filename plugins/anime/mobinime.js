@@ -137,7 +137,6 @@ const mob = new Mobinime()
 
 const pluginConfig = {
   name: "mobinime",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

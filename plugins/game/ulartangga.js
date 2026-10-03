@@ -33,12 +33,9 @@ import {
   DICE_STICKERS,
 } from "../../src/lib/rimuru-game-ulartangga.js";
 import config from "../../config.js";
-import fs from "fs";
-import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "ulartangga",
-  alias: ["ut", "snakeladder", "sl"],
   category: "game",
   description: "Main ular tangga bersama player lain dengan visual board",
   usage: ".ulartangga <create|join|start|info|exit|delete>",
@@ -65,19 +62,12 @@ function uniqueMentions(mentions = []) {
 
 let thumbUT = null;
 try {
-  const thumbPath = path.join(
-    process.cwd(),
-    "assets",
-    "image",
-    "rimuru-games.jpg",
-  );
-  if (fs.existsSync(thumbPath)) {
-    thumbUT = fs.readFileSync(thumbPath);
-  }
+  const { getAssetBuffer } = await import("../../src/lib/rimuru-asset-manager.js");
+  thumbUT = getAssetBuffer("rimuru-games");
 } catch (e) { }
 
 function utCtx(mentions) {
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
   const normalizedMentions = uniqueMentions(mentions);
   return {

@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'ganti-asset',
-    alias: ['gantiasset', 'setasset'],
     category: 'owner',
     description: 'All-in-one tools untuk ganti asset secara interaktif',
     usage: '.ganti-asset (reply media)',

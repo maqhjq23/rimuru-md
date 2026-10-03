@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js';
 
 const config = {
     name: 'topcurrency',
-    alias: ['topmatauang', 'rankcurrency'],
     category: 'economy',
     description: 'Lihat leaderboard per mata uang',
     usage: '.topcurrency <matauang>',

@@ -30,7 +30,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'gimage',
-    alias: ['googleimage', 'image'],
     category: 'downloads',
     description: 'Mencari dan mendownload gambar dari Google',
     usage: '.gimage [nama gambar]',

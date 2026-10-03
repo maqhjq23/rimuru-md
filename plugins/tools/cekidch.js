@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'cekidch',
-    alias: ['idch', 'channelid', 'infoch', 'channelinfo'],
     category: 'tools',
     description: 'Cek ID dan info lengkap channel dari link',
     usage: '.cekidch <link channel>',

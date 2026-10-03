@@ -30,7 +30,6 @@ import { createCanvas, loadImage } from '@napi-rs/canvas';
 
 const pluginConfig = {
     name: 'fakeijazah',
-    alias: ['ijazahfake', 'fakediploma'],
     category: 'canvas',
     description: 'Bikin fake ijazah (buat konten/gaguan doang)',
     usage: '.fakeijazah <nama> | <gelar> | <universitas>',

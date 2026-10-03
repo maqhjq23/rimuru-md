@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "cosba",
-  alias: ["cosplayba", "cosba"],
   category: "random",
   description: "Random gambar cosplay Blue Archive",
   usage: ".cosba",

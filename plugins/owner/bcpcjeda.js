@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
   name: 'bcpcjeda',
-  alias: ['delaybcpc', 'jedabcpc', 'setjedabcpc'],
   category: 'owner',
   description: 'Atur jeda broadcast private chat',
   usage: '.bcpcjeda <waktu> (contoh: 5s, 2m, 1h)',

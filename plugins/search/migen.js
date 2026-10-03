@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import fetch from 'node-fetch';
 const pluginConfig = {
     name: 'meigen',
-    alias: ['meigens'],
     category: 'search',
     description: 'Cari prompt dari Meigen AI',
     usage: '.meigen <query>',

@@ -38,7 +38,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "sertiftolol",
-  alias: ["sertifikattolol"],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

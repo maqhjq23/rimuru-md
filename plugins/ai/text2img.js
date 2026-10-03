@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "text2img",
-  alias: [],
   category: "ai",
   description: "Buat gambar dari teks",
   usage: ".text2img <teks>",

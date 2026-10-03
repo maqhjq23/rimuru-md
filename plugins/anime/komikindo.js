@@ -106,7 +106,6 @@ async function getDetail(url) {
 
 const pluginConfig = {
   name: "komikindo",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

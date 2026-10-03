@@ -43,7 +43,6 @@ jangan hapus wm ini banggg
 
 const pluginConfig = {
   name: "spamtag",
-  alias: [],
   category: "group",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

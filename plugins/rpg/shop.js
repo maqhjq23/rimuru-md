@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "shop",
-  alias: ["beli", "jual", "toko", "store", "buy", "sell"],
   category: "rpg",
   description: "Beli dan jual item RPG",
   usage: ".shop <buy/sell> <item> <jumlah>",

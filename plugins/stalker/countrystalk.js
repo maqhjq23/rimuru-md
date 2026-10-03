@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
     name: "countrystalk",
-    alias: ["stalknegara", "infonegara"],
     category: "stalker  ",
     description: "Mencari informasi detail tentang suatu negara",
     usage: ".country <nama negara>",

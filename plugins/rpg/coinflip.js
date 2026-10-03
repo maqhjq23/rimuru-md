@@ -31,7 +31,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "coinflip",
-  alias: ["cf", "flip", "toss"],
   category: "rpg",
   description: "Gambling coin flip",
   usage: ".coinflip <heads/tails> <bet>",

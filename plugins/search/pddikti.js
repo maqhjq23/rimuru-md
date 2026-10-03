@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "pddikti",
-  alias: ["dikti", "carimahasiswa"],
   category: "search",
   description: "Cari data Mahasiswa, Dosen, PT, dan Prodi dari PDDIKTI",
   usage: ".pddikti <mode> <query>",

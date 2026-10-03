@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "play",
-  alias: ["playaudio"],
   category: "search",
   description: "Putar musik dari YouTube",
   usage: ".play <query>",

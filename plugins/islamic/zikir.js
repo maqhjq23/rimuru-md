@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'zikir',
-  alias: ['dzikir', 'wirid', 'zikirpagi', 'zikirpetang'],
   category: 'religi',
   description: 'Kumpulan Zikir Harian (Pagi, Petang, Setelah Sholat, dan Lainnya)',
   usage: '.zikir <pagi/petang/sholat>',

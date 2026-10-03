@@ -30,7 +30,6 @@ import { getAllPlugins } from '../../src/lib/rimuru-plugins.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'benefitpremium',
-    alias: ['premiumbenefits', 'premiumfitur', 'benefitprem'],
     category: 'main',
     description: 'Lihat penjelasan dan daftar fitur khusus Premium',
     usage: '.benefitpremium',

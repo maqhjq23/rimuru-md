@@ -31,7 +31,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
  */
 const pluginConfig = {
   name: "suppbypass",
-  alias: ["supportbypass", "bypasslist", "listbypass"],
   category: "tools",
   description: "List shortlink yang bisa di-bypass",
   usage: ".suppbypass",

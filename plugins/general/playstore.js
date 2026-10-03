@@ -70,7 +70,6 @@ async function PlayStore(search) {
 
 const pluginConfig = {
   name: "playstore",
-  alias: ["ps"],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

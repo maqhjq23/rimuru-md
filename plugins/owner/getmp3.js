@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'getmp3',
-    alias: ['getaudio', 'ambilmp3', 'ambilaudio'],
     category: 'owner',
     description: 'Ambil file MP3/Audio dari folder assets/audio',
     usage: '.getmp3 <nama_file.mp3>',

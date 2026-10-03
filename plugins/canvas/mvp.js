@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "mvp",
-  alias: ["sertifikatmvp", "mvp"],
   category: "canvas",
   description: "Buat sertifikat MVP",
   usage: ".mvp <nama>",

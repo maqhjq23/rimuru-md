@@ -30,7 +30,6 @@ import { createTarotCard, getTarotCard } from '../../src/lib/elaina/tarotCard.js
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "tarot",
-  alias: ["karturama", "tarotcard"],
   category: "fun",
   description: "Generate kartu tarot harian lengkap dengan visual card",
   usage: ".tarot [nomor/nama] [terbalik|upright]",

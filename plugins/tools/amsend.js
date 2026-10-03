@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 /** Digabung ke .amprem — alias amsend tetap jalan via amprem */
 const pluginConfig = {
   name: "amsend",
-  alias: ["sendam", "amremlink"],
   category: "tools",
   description: "Alias: kirim link AM (pakai .amprem)",
   usage: ".amsend <email>  (redirect ke alur .amprem)",

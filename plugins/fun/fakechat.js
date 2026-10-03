@@ -31,7 +31,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'fakechat',
-    alias: ['fc', 'fakemsg'],
     category: 'fun',
     description: 'Generate fake WhatsApp chat',
     usage: '.fakechat @user | pesan',

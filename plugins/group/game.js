@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "game",
-  alias: ["togglegame"],
   category: "group",
   description: "Mengaktifkan atau menonaktifkan fitur game di grup",
   usage: ".game <on/off>",

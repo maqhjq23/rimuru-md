@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'meme2',
-    alias: ['changemymind'],
     category: 'canvas',
     description: 'Membuat meme change my mind',
     usage: '.meme2 <teks>',

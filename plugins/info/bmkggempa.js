@@ -34,7 +34,6 @@ import { load } from 'cheerio'
 
 const pluginConfig = {
   name: "bmkggempa",
-  alias: [],
   category: "info",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

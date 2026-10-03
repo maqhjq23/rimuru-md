@@ -627,7 +627,6 @@ function formatEruption(item) {
 
 const config={
   name:'gunungapi',
-  alias:['magma','gunung','erupsi','volcano'],
   category:'info',
   description:'Informasi aktivitas gunung api Indonesia dari MAGMA ESDM',
   usage:'.magma | .magma status <kode> | .magma gunung <nama> | .magma list <halaman>',

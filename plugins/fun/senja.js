@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'senja',
-    alias: ['katacinta', 'romanticquotes'],
     category: 'fun',
     description: 'Random kata-kata senja/romantis',
     usage: '.senja',

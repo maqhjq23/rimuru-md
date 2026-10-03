@@ -38,7 +38,6 @@ function getRandomDate() {
 
 const pluginConfig = {
   name: "kematian",
-  alias: [],
   category: "fun",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "autotyping",
-  alias: ["typing", "autoketik"],
   category: "owner",
   description: "Auto typing indicator saat menerima pesan",
   usage: ".autotyping on/off",

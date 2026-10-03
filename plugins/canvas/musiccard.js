@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "musiccard",
-  alias: ["mcard", "spotifycard"],
   category: "maker",
   description: "Membuat kartu musik (music card) keren dari gambar yang dikirim.",
   usage: ".musiccard <judul>|<nama artis>",

@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'nisfusyaban',
-  alias: ['nisfu', 'malamnisfu', 'syaban'],
   category: 'religi',
   description: 'Informasi lengkap tentang Malam Nisfu Syaban (doa, amalan, keutamaan)',
   usage: '.nisfusyaban',

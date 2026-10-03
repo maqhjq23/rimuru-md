@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import { parseMention, delay } from '../../src/lib/rimuru-utils.js'
 const pluginConfig = {
   name: "tictactoe",
-  alias: ["ttt", "xo"],
   category: "game",
   description: "Main TicTacToe dengan player lain",
   usage: ".tictactoe [room name] atau .ttt",

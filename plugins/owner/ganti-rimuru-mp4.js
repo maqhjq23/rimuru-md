@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 import { updateAssetUrl } from '../../src/lib/rimuru-uploader.js'
 const pluginConfig = {
     name: 'ganti-rimuru.mp4',
-    alias: ['gantirimuruvideo', 'setrimuruvideo'],
     category: 'owner',
     description: 'Ganti video rimuru.mp4',
     usage: '.ganti-rimuru.mp4 (reply/kirim video)',

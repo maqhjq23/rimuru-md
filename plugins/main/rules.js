@@ -32,7 +32,6 @@ import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js"
 
 const pluginConfig = {
     name: "rules",
-    alias: ["aturanbot", "botrules", "peraturanbot"],
     category: "main",
     description: "Menampilkan rules dan aturan penggunaan bot secara lengkap",
     usage: ".rules",
@@ -91,11 +90,11 @@ async function handler(m, { sock }) {
         rulesText = buildDefaultRules(botName, m.prefix)
     }
 
-    const imageBuffer = getAssetBuffer("rimuru-rules")
+    const imageUrl = config.assets?.["rimuru-rules"]
 
-    if (imageBuffer) {
+    if (imageUrl) {
         await sock.sendMessage(m.chat, {
-            image: imageBuffer,
+            image: { url: imageUrl },
             caption: rulesText,
         }, { quoted: m })
     } else {

@@ -32,7 +32,6 @@ import path from 'path';
 
 const pluginConfig = {
     name: 'liatgacha',
-    alias: ['lihat-gacha', 'listgacha', 'daftargacha', 'lg'],
     category: 'owner',
     description: 'Melihat semua karakter yang tersedia di database gacha',
     usage: '.liat-gacha',

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'notifdemote',
-    alias: [],
     category: 'group',
     description: 'Toggle notifikasi saat ada yang dicopot dari admin',
     usage: '.notifdemote on/off',

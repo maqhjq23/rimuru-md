@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "setgoodbye",
-  alias: ["customgoodbye"],
   category: "group",
   description: "Set custom goodbye message",
   usage: ".setgoodbye <pesan>",

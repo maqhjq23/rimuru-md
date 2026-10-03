@@ -30,7 +30,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: "ambilfile",
-    alias: ["getfile","downloadfile"],
     category: "owner",
     description: "Ambil file dari project bot tanpa perlu .js",
     usage: ".ambilfile <nama file>",

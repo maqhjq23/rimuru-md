@@ -33,7 +33,6 @@ import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
 import fs from "fs";
 const pluginConfig = {
   name: "jodoh",
-  alias: ["match", "shipcouple", "ship"],
   category: "fun",
   description: "Jodohkan 2 member random dengan kecocokan",
   usage: ".jodoh",

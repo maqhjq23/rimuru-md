@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'oh-no',
-    alias: ['ohno', 'ohnomeme'],
     category: 'canvas',
     description: 'Membuat meme oh no',
     usage: '.oh-no <teks>',

@@ -32,7 +32,6 @@ import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js"
 
 const pluginConfig = {
     name: "rulesgrup",
-    alias: ["grouprules", "aturangrup", "grules"],
     category: "group",
     description: "Menampilkan rules dan aturan grup secara lengkap",
     usage: ".rulesgrup",
@@ -84,11 +83,11 @@ async function handler(m, { sock }) {
     const customRules = groupData.groupRules
     const rulesText = customRules || DEFAULT_GROUP_RULES
 
-    const imageBuffer = getAssetBuffer("rimuru-rules")
+    const imageUrl = config.assets?.["rimuru-rules"]
 
-    if (imageBuffer) {
+    if (imageUrl) {
         await sock.sendMessage(m.chat, {
-            image: imageBuffer,
+            image: { url: imageUrl },
             caption: rulesText,
         }, { quoted: m })
     } else {

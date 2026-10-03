@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 const pluginConfig = {
   name: "training",
-  alias: ["train", "latihan", "workout"],
   category: "rpg",
   description: "Latihan untuk meningkatkan stats",
   usage: ".training <attack/defense/health>",

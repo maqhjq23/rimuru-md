@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getRandomItem } from '../../src/lib/rimuru-game-data.js'
 const pluginConfig = {
     name: 'bucin',
-    alias: ['gombal', 'love', 'romantis'],
     category: 'fun',
     description: 'Random kata-kata bucin/romantis',
     usage: '.bucin',

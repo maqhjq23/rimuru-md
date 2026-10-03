@@ -44,7 +44,6 @@ const hololiveModels = {
 
 const pluginConfig = {
   name: 'holotts',
-  alias: ['hololive', 'hololivetts', 'vnholo'],
   category: 'tts',
   description: 'TTS suara karakter Hololive via RVC Hugging Face',
   usage: '.holotts <karakter>|<teks>',

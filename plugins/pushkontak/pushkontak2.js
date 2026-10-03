@@ -33,7 +33,6 @@ import { getGroupMode } from '../group/botmode.js';
 
 const pluginConfig = {
     name: 'pushkontak2',
-    alias: ['puskontak2', 'push2'],
     category: 'pushkontak',
     description: 'Push pesan dengan nama kontak ke semua member grup',
     usage: '.pushkontak2 <pesan>|<namakontak>',

@@ -75,8 +75,7 @@ async function nerdfonts() {
   }
 }
 const pluginConfig = {
-  name: "dafont",
-  alias: ["nerdfont", "font"],
+  name: "nerdfont",
   category: "search",
   description: "Cari font di DaFont",
   usage: ".dafont <query>",

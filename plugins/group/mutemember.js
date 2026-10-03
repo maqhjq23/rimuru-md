@@ -31,7 +31,6 @@ import { isLid, lidToJid, resolveAnyLidToJid } from '../../src/lib/rimuru-lid.js
 
 const pluginConfig = {
     name: 'mutemember',
-    alias: ['mutmember', 'silentmember', 'bisukanmember'],
     category: 'group',
     description: 'Bisukan member tertentu (pesan akan dihapus bot)',
     usage: '.mutemember <@tag/reply/nomor>',

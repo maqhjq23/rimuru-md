@@ -36,7 +36,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 */
 const pluginConfig = {
   name: "copilot",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

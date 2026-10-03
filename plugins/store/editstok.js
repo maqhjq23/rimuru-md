@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'editstok',
-    alias: ['editstock'],
     category: 'store',
     description: '✏️ Edit stok item produk (hanya di private chat)',
     usage: '.editstok <nomor_produk> <nomor_item>|<detail_baru>',

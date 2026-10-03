@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'facebookdl',
-    alias: ['fbdown', 'fb', 'facebook', 'fbdl'],
     category: 'download',
     description: 'Download video Facebook',
     usage: '.facebookdl <url>',

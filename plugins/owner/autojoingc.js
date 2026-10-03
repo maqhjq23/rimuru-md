@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "autojoingc",
-  alias: ["autojoin", "autojoingroup"],
   category: "owner",
   description: "Auto join grup dari link yang terdeteksi di chat",
   usage: ".autojoingc on/off",

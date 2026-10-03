@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const config = {
   name: "quotetokoh",
-  alias: ["katatokoh", "quotes", "quotestokoh", "katabijak"],
   category: "quotes",
   description: "Mendapatkan kata-kata bijak / quote acak dari tokoh terkenal",
   usage: ".quotetokoh",

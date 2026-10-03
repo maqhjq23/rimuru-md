@@ -35,7 +35,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
     name: "advance-comparation",
-    alias: ["bandingkan-device", "compare"],
     category: "search",
     description: "Bandingkan dua perangkat (smartphone, tablet, laptop, dll)",
     usage: ".bandingkan-device [type] <query>",

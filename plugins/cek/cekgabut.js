@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekgabut',
-    alias: ['gabut', 'bored'],
     category: 'cek',
     description: 'Cek tingkat keGabutan kamu',
     usage: '.cekgabut <nama>',

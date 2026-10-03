@@ -33,7 +33,6 @@ import { getOwnerName } from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "ganti-namaowner",
-  alias: ["setnamaowner", "setnameowner", "setownername"],
   category: "owner",
   description: "Ganti nama owner (utama atau tambahan)",
   usage: ".ganti-namaowner <nomor> <nama baru>",

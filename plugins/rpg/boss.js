@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "boss",
-  alias: ["raidboss", "bigboss"],
   category: "rpg",
   description: "Lawan boss untuk hadiah besar",
   usage: ".boss",

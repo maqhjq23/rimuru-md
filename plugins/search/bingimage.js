@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 import rimuruApi from "../../src/lib/rimuru-apimanager.js";
 const pluginConfig = {
   name: "bingimage",
-  alias: ["imagesearch", "carigambar", "bingimg"],
   category: "search",
   description: "Cari artwork di Pixiv",
   usage: ".carigambar <query>",

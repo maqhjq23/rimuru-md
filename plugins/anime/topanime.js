@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "topanime",
-  alias: ["top-anime", "waifutop"],
   category: "anime",
   description: "Melihat daftar karakter anime / waifu terpopuler",
   usage: ".topanime",

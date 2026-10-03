@@ -33,7 +33,6 @@ import axios from 'axios'
 
 const pluginConfig = {
   name: "sad",
-  alias: [],
   category: "music",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

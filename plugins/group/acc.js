@@ -30,7 +30,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'acc',
-    alias: ['accall', 'joinrequest', 'reqjoin'],
     category: 'group',
     description: 'Kelola permintaan masuk grup (accept/reject)',
     usage: '.acc <list|approve|reject> [all|nomor]',

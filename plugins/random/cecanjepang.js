@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'cecanjepang',
-    alias: ['cewekjepang', 'cewekjpn'],
     category: 'cecan',
     description: 'Random gambar cewek cantik Jepang',
     usage: '.cecanjepang',

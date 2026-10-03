@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "caribug",
-  alias: ["debug", "findbug"],
   category: "tools",
   description: "Cari bug di kode pemrograman",
   usage: ".caribug [kode] atau reply kode",

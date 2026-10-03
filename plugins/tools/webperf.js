@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: ['webperf', 'webperformance', 'cekweb', 'speedtest'],
-    alias: [],
     category: 'tools',
     description: 'Cek performa dan speed website',
     usage: '.webperf <url>',

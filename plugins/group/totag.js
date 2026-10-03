@@ -30,7 +30,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'totag',
-    alias: ['tagall2', 'mentionall'],
     category: 'group',
     description: 'Tag semua member dengan reply pesan',
     usage: '.totag (reply pesan)',

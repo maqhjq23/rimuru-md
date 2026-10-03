@@ -31,7 +31,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "invoicemaker",
-  alias: ["invoice", "faktur", "nota"],
   category: "tools",
   description: "Membuat invoice/nota penjualan",
   usage: ".invoicemaker <toko>|<invoice>|<tanggal>|<status>|<items>|<total>",
@@ -128,7 +127,7 @@ async function handler(m, { sock }) {
     const imageUrl = response.data.data.image.url;
     const data = response.data.data;
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     let caption = `🧾 *ɪɴᴠᴏɪᴄᴇ ɢᴇɴᴇʀᴀᴛᴇᴅ*\n\n`;

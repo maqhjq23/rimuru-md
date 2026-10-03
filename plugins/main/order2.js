@@ -98,7 +98,6 @@ text: orderMsg
 }
 const pluginConfig = {
   name: 'sewa2',
-  alias: ['premium2'],
   category: 'main',
   description: 'Varian paket sewa/premium dari Tensura.',
   usage: '.sewa2 <kode>',

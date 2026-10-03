@@ -30,7 +30,6 @@ import axios from 'axios';
 
 export const config = {
   name: "shinigami",
-  alias: ["shini", "shinigamisearch"],
   category: "search",
   description: "Mencari manga/manhwa di Shinigami",
   usage: ".shinigami <judul/genre>",

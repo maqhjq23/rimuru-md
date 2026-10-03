@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import { DEFAULT_TOXIC_WORDS } from './antitoxic.js'
 const pluginConfig = {
     name: 'listtoxic',
-    alias: ['toxiclist', 'katatoxic', 'lihatkata'],
     category: 'group',
     description: 'Lihat daftar kata toxic',
     usage: '.listtoxic',

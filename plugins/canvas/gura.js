@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gura",
-  alias: ["guracanvas"],
   category: "canvas",
   description: "Bikin efek canvas gura dari fotomu",
   usage: ".gura (reply/kirim foto)",

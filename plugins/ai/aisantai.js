@@ -34,7 +34,6 @@ import crypto from 'crypto';
 
 const pluginConfig = {
     name: 'aisantai',
-    alias: ['ceai', 'chateverywhere', 'ce', 'chatgpt'],
     category: 'ai',
     description: 'Chat dengan AI santai (ChatEverywhere)',
     usage: '.aisantai <pesan>',

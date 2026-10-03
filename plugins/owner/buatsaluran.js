@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: ["buatsaluran", "createsaluran", "createnewsletter"],
-  alias: [],
   category: "owner",
   description: "Buat saluran/newsletter baru",
   usage: ".buatsaluran <nama>|<deskripsi>",

@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'clearsessions',
-    alias: ['clearsession', 'delsession', 'delsessions'],
     category: 'owner',
     description: 'Menghapus semua session di storage/sessions/',
     usage: '.clearsessions',

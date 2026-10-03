@@ -699,7 +699,6 @@ requestAnimationFrame(loop);
 
 const pluginConfig = {
   name: 'speedydash',
-  alias: ['speedydashgame'],
   category: 'game',
   description: 'Main game endless runner Speedy Dash langsung di chat, kumpulin ring dan hindari musuh',
   usage: '',

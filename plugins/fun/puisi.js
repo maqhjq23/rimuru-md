@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'puisi',
-    alias: ['puisiku', 'sajak'],
     category: 'fun',
     description: 'Random puisi Indonesia',
     usage: '.puisi',

@@ -7,7 +7,6 @@ import { spawn } from 'node:child_process'
 
 const config = {
   name: 'jjcapcut',
-  alias: ['jjlist', 'jjsearch', 'jjrender'],
   category: 'tools',
   description: 'Generate video JJ CapCut dari template.',
   usage: '.jjlist | .jjsearch <query> | .jjrender <nomor/id>',

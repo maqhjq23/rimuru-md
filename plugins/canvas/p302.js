@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "p302",
-  alias: ["p302"],
   category: "canvas",
   description: "Buat logo 3D metal (p302)",
   usage: ".p302 <teks>",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js';
 const pluginConfig = {
     name: 'hangman',
-    alias: ['tebakkata2', 'hangman'],
     category: 'game',
     description: 'Tebak kata (huruf per huruf)',
     usage: '.hangman',

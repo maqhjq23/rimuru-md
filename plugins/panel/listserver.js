@@ -36,7 +36,6 @@ const allAliases = VALID_SERVERS.map(v => `servers${v}`)
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'List semua server di panel (v1-v5)',
     usage: '.listserverv1 atau .listserverv2',

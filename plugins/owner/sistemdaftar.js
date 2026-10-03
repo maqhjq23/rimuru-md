@@ -30,7 +30,7 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import config from "../../config.js";
 
 function getRegistrationContextInfo() {
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
   return {
@@ -73,7 +73,6 @@ function getRegistrationStats(db) {
 
 const pluginConfig = {
   name: "sistemdaftar",
-  alias: ["regmode", "wajibdaftar", "togglereg"],
   category: "owner",
   description: "Kelola sistem wajib daftar dan statistik pendaftaran",
   usage: ".sistemdaftar <on/off/stats>",

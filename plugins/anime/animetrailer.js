@@ -31,7 +31,6 @@ import yts from 'yt-search';
 import { createCanvas, loadImage } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'animetrailer',
-    alias: ['traileranime', 'animepv', 'animepromo'],
     category: 'anime',
     description: 'Cari dan share trailer / PV anime terbaru dari YouTube',
     usage: '.animetrailer <judul anime>',

@@ -44,7 +44,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
   name: "pinvid",
-  alias: ["pinvideo", "pinterestv", "pinv"],
   category: "search",
   description: "Search video Pinterest (album)",
   usage: ".pinvid <query>",
@@ -212,7 +211,7 @@ async function handler(m, { sock }) {
         albumErr.message,
       );
 
-      const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+      const saluranId = config.saluran?.id || "120363412837402275@newsletter";
       const saluranName =
         config.saluran?.name || config.bot?.name || "Rimuru-AI";
 

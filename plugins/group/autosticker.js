@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'autosticker',
-    alias: ['autostiker', 'as'],
     category: 'group',
     description: 'Toggle auto sticker - otomatis jadikan gambar/video jadi sticker',
     usage: '.autosticker on/off',

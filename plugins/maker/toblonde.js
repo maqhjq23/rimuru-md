@@ -46,7 +46,6 @@ async function uguu(filePath) {
 
 const pluginConfig = {
   name: "toblonde",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

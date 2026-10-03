@@ -33,7 +33,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: ["achievement","titles"],
-  alias: ["achieve","prestasi","title","gelar"],
   category: "rpg",
   description: "Achievement dan gelar RPG tambahan berbasis data Rimuru.",
   usage: ".achievement | .titles",

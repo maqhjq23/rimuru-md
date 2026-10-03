@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "delplugin",
-  alias: ["delpl", "hapusplugin", "removeplugin"],
   category: "owner",
   description: "Hapus plugin berdasarkan nama",
   usage: ".delplugin <nama>",

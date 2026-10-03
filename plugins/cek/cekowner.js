@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'cekowner',
-    alias: ['ownerinfo'],
     category: 'cek',
     description: 'Cek apakah user adalah owner bot',
     usage: '.cekowner @user',

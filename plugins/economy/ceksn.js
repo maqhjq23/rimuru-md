@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "ceksn",
-  alias: [],
   category: "economy",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

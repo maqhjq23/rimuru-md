@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'antitagsw',
-    alias: ['antitag', 'antistatustag'],
     category: 'group',
     description: 'Mengaktifkan/menonaktifkan anti tag status di grup',
     usage: '.antitagsw <on/off>',

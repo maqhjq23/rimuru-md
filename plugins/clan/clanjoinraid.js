@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'clanraidjoin',
-    alias: ['raidjoin', 'raidkill'],
     category: 'clan',
     description: 'Join raid clan dan kill monster',
     usage: '.clanraidjoin',

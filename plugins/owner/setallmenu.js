@@ -33,7 +33,6 @@ import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "setallmenu",
-  alias: ["allmenuvariant", "allmenustyle"],
   category: "owner",
   description: "Mengatur variant tampilan allmenu",
   usage: ".setallmenu <v1-v9>",
@@ -140,7 +139,7 @@ async function handler(m, { sock, db }) {
 
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     bodyText,
     m,
     { buttons },

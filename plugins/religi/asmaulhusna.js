@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getRandomItem, getItemByIndex, searchItem, getAllData } from '../../src/lib/rimuru-game-data.js'
 const pluginConfig = {
     name: 'asmaulhusna',
-    alias: ['asmaul', 'husna', '99names'],
     category: 'religi',
     description: '99 Nama Allah (Asmaul Husna)',
     usage: '.asmaulhusna [nomor/nama]',

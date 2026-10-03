@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "anticustom",
-  alias: ["antiaddcustom", "customanti"],
   category: "group",
   description: "Bikin AntiCustom lewat sesi tanya jawab per langkah",
   usage: ".anticustom <on/off/list/add/del/metode/cancel>",

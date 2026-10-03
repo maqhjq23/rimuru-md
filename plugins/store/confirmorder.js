@@ -31,7 +31,6 @@ import orderPoller from '../../src/lib/orderPoller.js';
 
 const pluginConfig = {
     name: 'confirmorder',
-    alias: ['konfirmorder', 'selesaiorder', 'doneorder'],
     category: 'store',
     description: 'Konfirmasi order (Admin)',
     usage: '.confirmorder <order_id>',

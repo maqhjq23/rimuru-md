@@ -34,7 +34,6 @@ import axios from "axios";
 // Fakedev4 mapping ke logika fakedev3 dengan badge warna sedikit berbeda / beda title.
 const pluginConfig = {
   name: "fakedev4",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar fakedev 4 dari fotomu",
   usage: ".fakedev4 <teks> (reply/kirim foto)",

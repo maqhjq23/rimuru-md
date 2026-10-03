@@ -10,7 +10,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'groupsecurity',
-    alias: ['grupsecurity', 'groupsec', 'grupsec', 'securitygrup'],
     category: 'group',
     description: 'Preset keamanan grup ketat untuk berbagai proteksi Rimuru',
     usage: '.groupsecurity <on/off/status>',

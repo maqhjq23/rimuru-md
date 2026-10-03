@@ -30,7 +30,6 @@ import { createCanvas } from '@napi-rs/canvas';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'leaderboard-orang-miskin',
-    alias: ['topmiskin', 'orangmiskin', 'lbmiskin', 'poorest', 'toppoor'],
     category: 'economy',
     description: 'Ranking orang paling miskin versi Rimuru 🗿💸',
     usage: '.topmiskin',

@@ -35,7 +35,6 @@ const allAliases = VALID_SERVERS.map(v => `hapusadmin${v}`)
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'Hapus admin panel (v1-v5)',
     usage: '.deladminv1 userid',

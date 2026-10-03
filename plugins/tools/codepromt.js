@@ -148,7 +148,6 @@ const codeAI = {
 
 const pluginConfig = {
   name: "promptcode",
-  alias: ["detectbug", "convertcode", "explaincode", "imagesolve"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

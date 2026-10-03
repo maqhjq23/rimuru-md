@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'addkoin',
-    alias: ['tambahkoin', 'givekoin', 'addcoin', 'adddcoin'],
     category: 'owner',
     description: 'Tambah koin user (max 9 Triliun)',
     usage: '.addkoin <jumlah> @user',

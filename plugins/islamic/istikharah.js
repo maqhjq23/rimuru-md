@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'istikharah',
-  alias: ['sholatistikharah', 'istikhoroh', 'istikharoh'],
   category: 'religi',
   description: 'Panduan Sholat Istikharah lengkap (tata cara, doa, waktu, dan keutamaan)',
   usage: '.istikharah',

@@ -36,7 +36,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "bratextra",
-  alias: ["bratanime", "bratbahlil", "brathd", "bratpatrick", "bratsquidward", "bratwhite", "bratchika", "bratkobato", "bratmenhera", "bratnezuko", "bratqiqi", "bratruromiya", "bratumaru"],
   category: "sticker",
   description: "Bikin brat versi custom",
   usage: ".bratanime <teks>",

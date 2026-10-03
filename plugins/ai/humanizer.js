@@ -30,8 +30,7 @@ import fetch from 'node-fetch';
 import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-network.js';
 
 const pluginConfig = {
-  name: "humanize",
-  alias: ["humanizer", "aihumanize", "zerogpt"],
+  name: "humanizer",
   category: "ai",
   description: "Ubah teks AI-generated jadi lebih natural (Humanized)",
   usage: ".humanize <teks> (atau reply teks)",

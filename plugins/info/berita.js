@@ -31,7 +31,6 @@ import * as cheerio from 'cheerio'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: ['antara', 'cnn', 'cnbc', 'sindonews', 'berita'],
-    alias: [],
     category: 'berita',
     description: 'Mendapatkan berita terkini dari berbagai sumber',
     usage: '.berita <sumber>',

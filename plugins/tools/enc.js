@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import JavaScriptObfuscator from 'javascript-obfuscator';
 import config from '../../config.js';
 const pluginConfig = {
-    name: 'encrypt',
-    alias: ['enc', 'obfuscate', 'enccode'],
+    name: 'enc',
     category: 'tools',
     description: 'Enkripsi / Obfuscate kode JavaScript',
     usage: '.encrypt (reply file/code)',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'modesewa',
-    alias: ['ms', 'sewamode', 'modesewa'],
     category: 'owner',
     description: 'Mode sewa bot - aktifkan/nonaktifkan sistem sewa',
     usage: '.modesewa <on/off/check>',

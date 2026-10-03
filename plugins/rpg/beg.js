@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 const pluginConfig = {
   name: "beg",
-  alias: ["ngemis", "minta"],
   category: "rpg",
   description: "Mengemis untuk mendapatkan uang receh",
   usage: ".beg",

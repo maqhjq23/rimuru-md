@@ -131,7 +131,6 @@ const mlbb = {
 
 const pluginConfig = {
     name: 'mlbb',
-    alias: ['mlbbcounter', 'mlsynergy', 'mltier', 'mlmatchup'],
     category: 'game',
     description: 'Informasi MLBB: Rekomendasi Counter, Sinergi Hero, Prediksi Matchup, & Tier List',
     usage: '.mlbb <sub-command> <args>',

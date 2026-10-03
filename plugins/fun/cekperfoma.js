@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekperforma',
-    alias: ['performa', 'cekperf'],
     category: 'fun',
     description: 'Cek performa secara random (bercanda)',
     usage: '.cekperforma <nama>',

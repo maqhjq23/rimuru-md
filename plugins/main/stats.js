@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "stats",
-  alias: ["botstats", "status", "stat"],
   category: "main",
   description: "Menampilkan statistik bot",
   usage: ".stats",

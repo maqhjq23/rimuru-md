@@ -32,7 +32,6 @@ import path from 'path'
 import { f } from '../../src/lib/rimuru-http.js'
 const pluginConfig = {
     name: 'bocil',
-    alias: ['bocilvid'],
     category: 'asupan',
     description: 'Video bocil',
     usage: '.bocil',

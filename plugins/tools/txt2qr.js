@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'txt2qr',
-    alias: ['texttoqr', 'qrcode', 'qrcreate'],
     category: 'tools',
     description: 'Generate QR code dari teks',
     usage: '.txt2qr <text>',

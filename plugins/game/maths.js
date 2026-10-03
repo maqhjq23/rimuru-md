@@ -85,7 +85,6 @@ async function generateMath(level) {
 
 const pluginConfig = {
   name: "maths",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

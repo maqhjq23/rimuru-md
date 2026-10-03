@@ -32,7 +32,6 @@ import config from "../../config.js";
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "setwelcometype",
-  alias: ["welcometype", "welcomevariant", "welcomestyle"],
   category: "owner",
   description: "Mengatur variant tampilan welcome message",
   usage: ".setwelcometype",
@@ -116,7 +115,7 @@ async function handler(m, { sock, db }) {
     `> Pilih tipe welcome dari tombol di bawah 👇`;
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     bodyText,
     m,
     { buttons },

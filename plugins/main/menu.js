@@ -41,7 +41,6 @@ import { legacyMenuHandler } from "./menu-variants.js";
 
 const pluginConfig = {
   name: "menu",
-  alias: ["help", "bantuan", "commands", "m"],
   category: "main",
   description: "Menampilkan menu utama bot",
   usage: ".menu",
@@ -132,7 +131,7 @@ async function defaultMenuHandler(m, { sock, config: botConfig, db, uptime }) {
 
   let video;
   try {
-    video = getAssetBuffer("rimuru-mp4", botConfig.assets);
+    video = botConfig.assets?.["rimuru-mp4"];
     if (!video) throw new Error("asset unavailable");
   } catch {
     return m.reply("❌ Video menu tidak ditemukan di assets.");
@@ -149,7 +148,7 @@ async function defaultMenuHandler(m, { sock, config: botConfig, db, uptime }) {
     id: `${prefix}menucat ${cat}`,
   }));
 
-    const bodyText =
+  const bodyText =
 `${pretty("RIMURU MD")}  ✦  ${pretty("V5 — LV 2")}\n\n` +
 `${pretty(greeting)} ${m.pushName || "Kawan"} ✨\n` +
 `_${botConfig.bot?.body || "Siap membantu kebutuhan kamu di WhatsApp."}_\n\n` +
@@ -164,20 +163,20 @@ async function defaultMenuHandler(m, { sock, config: botConfig, db, uptime }) {
 `┃  ${pretty("Author")}  : ${botConfig.bot?.developer || "Anita Putri Azzahra"}\n` +
 `┃  ${pretty("Versi")}   : ${botConfig.bot?.version || "-"}\n` +
 `┃  ${pretty("Uptime")}  : ${runtime}\n` +
-`┗━━━━━━━━━━━━━━━━━━┛\n\n` +
-`┏━━ ${pretty("READY PANEL LEGAL")} ━━┓\n` +
-`┃  🌐 t.me/Lyeepedia_Bot\n` +
-`┗━━━━━━━━━━━━━━━━━━━━━━┛\n\n` +
+`┗━━━━━━━━━━━━━━━━━━┛\n` +
+`🌐 ${pretty("READY PANEL LEGAL")}\n` +
+`▸ zanspiwpteroshoppanel.my.id\n` +
 `╭─ ${pretty("MENU UTAMA")} ─╮\n` +
 `│ ✦ Pilih kategori lewat tombol di bawah.\n` +
 `│ ✦ Setiap kategori langsung membuka ${pretty(".menucat")} .\n` +
 `╰──────────────────╯`;
+
   const media = await prepareWAMessageMedia({
-    video,
+    video: { url: video },
     gifPlayback: true,
   }, { upload: sock.waUploadToServer });
 
-  const newsletterId = botConfig.saluran?.id || "120363412350560864@newsletter";
+  const newsletterId = botConfig.saluran?.id || "120363412837402275@newsletter";
   const newsletterName = botConfig.saluran?.name || botConfig.bot?.name || "Rimuru MD";
 
   const message = generateWAMessageFromContent(m.chat, {

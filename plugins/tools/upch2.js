@@ -121,7 +121,6 @@ const handler = async (m, { sock, text, command }) => {
 export default handler;
 const pluginConfig = {
   name: 'upch2',
-  alias: ['setchid2', 'addchid2', 'getchid2'],
   category: 'tools',
   description: 'Varian broadcast ke channel dari Tensura.',
   usage: '.upch2 <teks>',

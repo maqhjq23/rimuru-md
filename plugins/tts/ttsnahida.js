@@ -32,7 +32,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'ttsnahida',
-    alias: ['nahidatts'],
     category: 'tts',
     description: 'Text to Speech dengan suara Nahida',
     usage: '.ttsnahida <text>',

@@ -38,7 +38,6 @@ const exec = promisify(execFile);
 
 const pluginConfig = {
   name: "terabox",
-  alias: ["tb", "tera", "teraboxdl", "tbdl"],
   category: "download",
   description: "Download video/file dari TeraBox",
   usage: ".terabox <url>",

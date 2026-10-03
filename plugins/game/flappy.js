@@ -11,7 +11,6 @@ import crypto from 'node:crypto'
 
 const pluginConfig = {
     name: 'flappy',
-    alias: ['flappybird'],
     category: 'game',
     description: 'Game webview Flappy Bird interaktif',
     usage: '.flappy',

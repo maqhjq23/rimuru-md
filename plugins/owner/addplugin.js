@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "addplugin",
-  alias: ["addpl", "tambahplugin"],
   category: "owner",
   description: "Tambah plugin baru dari code yang di-reply",
   usage: ".addplugin [namafile] [folder]",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'clanboss',
-    alias: ['bossclan', 'clanraidboss'],
     category: 'clan',
     description: 'Fight boss clan untuk dapet XP dan reward',
     usage: '.clanboss',

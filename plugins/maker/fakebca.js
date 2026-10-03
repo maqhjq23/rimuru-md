@@ -42,7 +42,6 @@ import { join } from 'node:path'
 
 const pluginConfig = {
     name: 'fakebca',
-    alias: ['fbca', 'bca'],
     category: 'maker',
     description: 'Buat tampilan saldo Fake BCA menggunakan Canvas',
     usage: '.fakebca NAMA|NO_REK|SALDO',

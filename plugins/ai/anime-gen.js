@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'anime-gen',
-    alias: ['animegen', 'aianimegen', 'genai-anime'],
     category: 'ai',
     description: 'Generate AI anime art dari prompt',
     usage: '.anime-gen <prompt>',

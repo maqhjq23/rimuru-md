@@ -30,7 +30,6 @@ import { createCanvas } from '@napi-rs/canvas';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'leaderboard-orang-kaya',
-    alias: ['topkaya', 'orangkaya', 'lbkaya', 'toprich', 'leaderboardkaya'],
     category: 'economy',
     description: 'Ranking orang paling kaya ala Rimuru dengan dashboard keren 💰🔥',
     usage: '.topkaya',

@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const config = {
   name: "howmuchenergy",
-  alias: ["cekenergi"],
   category: "info",
   description: "Mengecek penggunaan energi banyak fitur sekaligus",
   usage: ".howmuchenergy <nama_fitur1> <nama_fitur2> ...",

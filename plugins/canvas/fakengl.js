@@ -1,7 +1,6 @@
 // plugins/fakengl.js
 const pluginConfig = {
   name: "fakengl",
-  alias: ['fngl', 'nglfake'],
   category: "canvas",
   description: "Membuat screenshot pesan NGL palsu (have fun only)",
   usage: ".fakengl <teks>",

@@ -40,7 +40,6 @@ import fetch from "node-fetch";
 
 const pluginConfig = {
   name: "tran",
-  alias: ["slate", "tr"],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

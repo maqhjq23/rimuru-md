@@ -32,7 +32,6 @@ import { addExifToWebp, isAnimatedWebp, DEFAULT_METADATA } from '../../src/lib/r
 
 const pluginConfig = {
     name: 'swm',
-    alias: ['wm', 'stickerwm', 'stickermark', 'colong'],
     category: 'sticker',
     description: 'Mengganti packname dan author pada sticker',
     usage: '.swm <packname> atau .swm <packname>|<author>',

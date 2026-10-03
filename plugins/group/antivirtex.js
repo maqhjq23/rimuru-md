@@ -33,7 +33,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'antivirtex',
-    alias: ['antivirtexgc', 'antivtxt', 'antitxtv'],
     category: 'group',
     description: 'Hapus otomatis pesan yang mengandung karakter aneh/virtex di grup',
     usage: '.antivirtex on/off',

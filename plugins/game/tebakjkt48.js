@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('tebakjkt48', {
-    alias: ['jkt48', 'jkt'],
     emoji: '🎀',
     title: 'TEBAK JKT48',
     description: 'Tebak member JKT48',

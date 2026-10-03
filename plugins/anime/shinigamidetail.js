@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
     name: 'shinigamidetail',
-    alias: ['shngm', 'detailmanga', 'komikshinigami', 'shinigami'],
     category: 'anime',
     description: 'Melihat detail manga dan daftar 24 chapter terbaru dari Shinigami',
     usage: '.shinigamidetail <url/manga_id>',

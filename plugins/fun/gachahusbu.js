@@ -33,7 +33,6 @@ import { prepareWAMessageMedia, generateWAMessageFromContent } from "rimuru";
 
 const pluginConfig = {
   name: ["gachahusbu", "husbuaction", "tinggalinhusbu", "husbuku", "suamiku"],
-  alias: ["gachasuami"],
   category: "fun",
   description: "Gacha husbu impianmu, rebut hatinya, dan jadikan dia pasanganmu!",
   usage: ".gachahusbu | .husbuku | .tinggalinhusbu",

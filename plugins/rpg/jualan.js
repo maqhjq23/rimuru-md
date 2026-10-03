@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "jualan",
-  alias: ["dagang", "pedagang"],
   category: "rpg",
   description: "Dagang asongan keliling",
   usage: ".jualan",

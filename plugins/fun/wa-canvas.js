@@ -32,7 +32,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'wa-canvas',
-    alias: ['fakewaprofile', ],
     category: 'fun',
     description: 'Buat fake WhatsApp profile card',
     usage: '.wa-canvas <nama> | <nomor> | [status]',

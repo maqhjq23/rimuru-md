@@ -30,7 +30,6 @@ import { nightActionHandler } from './werewolf.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'wwkill',
-    alias: ['wolfkill', 'wk'],
     category: 'game',
     description: 'Werewolf night action - Kill target',
     usage: '.wwkill <nomor>',

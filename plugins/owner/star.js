@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: ['star', 'bintang'],
-    alias: [],
     category: 'owner',
     description: 'Beri/hapus bintang pada pesan',
     usage: '.star (reply pesan) atau .star hapus (reply pesan)',

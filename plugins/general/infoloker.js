@@ -34,7 +34,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "infoloker",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

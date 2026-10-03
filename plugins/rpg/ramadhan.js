@@ -37,7 +37,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js';
 import { addExpWithLevelCheck } from '../../src/lib/rimuru-level.js';
 const pluginConfig = {
     name: 'ramadhan',
-    alias: ['bukapuasa', 'ngabuburit', 'tadarusan', 'teraweh', 'belitakjil', 'petasan', 'mokel', 'bangunin', 'bukber', 'kelilingsahur', 'patrol', 'sedekah', 'thr', 'wartakjil', 'bukawarung'],
     category: 'rpg',
     description: 'Fitur RPG Spesial Ramadhan',
     usage: '.sahur | .bukapuasa | .ngabuburit | ...',

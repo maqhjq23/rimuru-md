@@ -233,7 +233,6 @@ reset();show('Ular Rimba','Tekan MULAI untuk berburu.','🐍');bind();requestAni
 
 const pluginConfig = {
   name: 'snake',
-  alias: ['ular', 'ularrimba', 'snakegame'],
   category: 'game',
   description: 'Game Snake inline HTML dengan kontrol sentuh dan keyboard',
   usage: '.snake',

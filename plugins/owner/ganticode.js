@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "ganticode",
-  alias: ["replaceplugin", "updateplugin", "gantiplugin"],
   category: "owner",
   description: "Ganti code plugin yang sudah ada",
   usage: ".ganticode [namafile] [folder]",

@@ -30,7 +30,6 @@ import likee from '../../src/scraper/likee.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'likeedl',
-    alias: ['lkdl', 'likee', 'lk'],
     category: 'download',
     description: 'Download video Likee',
     usage: '.lkdl <url>',

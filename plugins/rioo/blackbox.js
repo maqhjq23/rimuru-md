@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { config, httpRequest } from "../../src/lib/rimuru-rioo-bridge.js";
 
 const pluginConfig = {
-  name: "rimuru-blackbox",
-  alias: ["blackbox", "bbox"],
+  name: "blackbox",
   category: "ai",
   description: "Blackbox AI dari Rimuru, dipasang sebagai plugin native Rimuru",
   usage: ".blackbox <pertanyaan>",

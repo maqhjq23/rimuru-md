@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'energi',
-    alias: ['cekenergi', 'myenergi', 'energy', 'limit', 'ceklimit'],
     category: 'user',
     description: 'Cek energi user',
     usage: '.energi [@user]',

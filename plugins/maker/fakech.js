@@ -50,8 +50,7 @@ async function uguu(buffer) {
 }
 
 const pluginConfig = {
-  name: "fakechannel",
-  alias: ["fakech"],
+  name: "fakech",
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

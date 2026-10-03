@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekintrovert',
-    alias: ['introvert'],
     category: 'cek',
     description: 'Cek tingkat introvert kamu',
     usage: '.cekintrovert <nama>',

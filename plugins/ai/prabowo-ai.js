@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "prabowo-ai",
-  alias: ["prabowoi", "prabowo", "pakprabowo"],
   category: "ai",
   description: "Chat dengan Pak Prabowo — Pria Sawit",
   usage: ".prabowo-ai <pertanyaan>",

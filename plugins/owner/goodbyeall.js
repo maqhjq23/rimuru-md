@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'goodbyeall',
-    alias: ['gball', 'globalgoodbye', 'leaveall'],
     category: 'owner',
     description: 'Aktifkan/nonaktifkan goodbye di semua grup',
     usage: '.goodbyeall <on/off>',

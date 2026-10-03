@@ -42,7 +42,6 @@ import { join } from 'node:path';
 
 export const config = {
   name: "patrickmeme",
-  alias: ["pmeme", "memepatrick"],
   category: "canvas",
   description: "Membuat meme patrick dengan teks kustom",
   usage: ".patrickmeme nama|teks",

@@ -30,7 +30,6 @@ import { nightActionHandler } from './werewolf.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'wwsee',
-    alias: ['seer', 'vision', 'wse'],
     category: 'game',
     description: 'Seer night action - See target role',
     usage: '.wwsee <nomor>',

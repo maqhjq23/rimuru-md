@@ -35,7 +35,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "fakedev7",
-  alias: [],
   category: "canvas",
   description: "Membuat fake developer (Python Theme)",
   usage: ".fakedev7 <nama> (reply/kirim foto)",

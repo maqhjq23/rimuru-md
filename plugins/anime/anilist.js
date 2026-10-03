@@ -194,7 +194,6 @@ async function detail(url) {
 
 const pluginConfig = {
   name: "anilist",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('tebakepep', {
-    alias: ['tebakff', 'tebakfreefire'],
     emoji: '🔫',
     title: 'TEBAK EPEP',
     description: 'Tebak karakter Free Fire',

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "inventory",
-  alias: ["inv", "tas", "bag"],
   category: "rpg",
   description: "Melihat isi inventory RPG",
   usage: ".inventory",

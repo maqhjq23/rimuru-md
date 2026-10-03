@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "autocekstok",
-    alias: ["autoliststok", "autostok"],
     category: "store_autoorder",
     description: "📦 Melihat daftar stok digital suatu produk",
     usage: ".autocekstok <id_produk/nomor>",

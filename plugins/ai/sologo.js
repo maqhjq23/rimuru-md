@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "sologo",
-  alias: ["ailogo", "bikinlogo"],
   category: "ai",
   description: "Membuat logo menggunakan AI dari teks (prompt)",
   usage: ".sologo <prompt>",

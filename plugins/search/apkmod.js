@@ -33,7 +33,6 @@ import fs from "fs";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "apkmod",
-  alias: ["modapk2", "apkpremium"],
   category: "search",
   description: "Cari dan download APK MOD Premium",
   usage: ".apkmod <query>",
@@ -78,7 +77,7 @@ async function handler(m, { sock }) {
 
     const apps = data.data.slice(0, 15);
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     let caption = `📱 *Hasil pencarian dari ${text}*\n\n`;
@@ -106,7 +105,7 @@ async function handler(m, { sock }) {
 
     await sock.sendButton(
       m.chat,
-      getAssetBuffer("rimuru"),
+      config.assets?.["rimuru"],
       caption,
       m,
       {

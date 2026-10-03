@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 import { updateAssetUrl } from '../../src/lib/rimuru-uploader.js'
 const pluginConfig = {
     name: 'ganti-rimuru.jpg',
-    alias: ['gantirimuru', 'setrimuru'],
     category: 'owner',
     description: 'Ganti gambar rimuru.jpg (thumbnail menu)',
     usage: '.ganti-rimuru.jpg (reply/kirim gambar)',

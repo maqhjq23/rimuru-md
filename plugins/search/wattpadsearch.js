@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
   name: 'wattpadsearch',
-  alias: ['wattpad'],
   category: 'search',
   description: 'Mencari cerita Wattpad',
   usage: '.wattpadsearch <query>',

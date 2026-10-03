@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'animedate',
-    alias: ['animerilis', 'animekalender', 'animerelease'],
     category: 'anime',
     description: 'Kalender rilis anime musim ini (Spring/Summer/Fall/Winter)',
     usage: '.animedate [season]',

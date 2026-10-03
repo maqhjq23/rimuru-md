@@ -1044,7 +1044,6 @@ const handler = async (m, { sock, text, usedPrefix, command }) => {
 
 const pluginConfig = {
   name: 'play2',
-  alias: ['musik2', 'ytm2', 'rimuruplay2'],
   category: 'music',
   description: 'Cari lagu YouTube, lirik LRCLIB, audio terkompresi dan HTML music player.',
   usage: '.play2 <judul lagu / link YouTube>',

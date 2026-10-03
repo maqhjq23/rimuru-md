@@ -30,7 +30,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'ptvch',
-    alias: ['ptvchanel', 'ptvstory'],
     category: 'owner',
     description: 'Kirim video sebagai PTV ke channel',
     usage: '.ptvch (reply video)',
@@ -69,7 +68,7 @@ async function handler(m, { sock }) {
         )
     }
     
-    const channelId = config.saluran?.id || '120363412350560864@newsletter'
+    const channelId = config.saluran?.id || '120363412837402275@newsletter'
     
     await m.reply(`🕕 *ᴍᴇɴɢɪʀɪᴍ ᴘᴛᴠ ᴋᴇ ᴄʜᴀɴɴᴇʟ...*`)
     

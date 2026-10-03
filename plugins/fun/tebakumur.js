@@ -31,7 +31,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 
 const pluginConfig = {
   name: "tebakumur",
-  alias: [],
   category: "fun",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

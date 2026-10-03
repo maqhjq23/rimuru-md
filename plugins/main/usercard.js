@@ -30,7 +30,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "usercard",
-  alias: ["kartu", "mycard"],
   category: "main",
   description: "Menampilkan kartu profil pengguna",
   usage: ".usercard [reply/tag]",

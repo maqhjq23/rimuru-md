@@ -38,7 +38,6 @@ ini wm gw cok jan di hapus
 
 const pluginConfig = {
   name: "listown",
-  alias: ["er", "ers"],
   category: "owner",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekgacha',
-    alias: ['gacha', 'luck'],
     category: 'cek',
     description: 'Cek hoki gacha kamu',
     usage: '.cekgacha <nama>',

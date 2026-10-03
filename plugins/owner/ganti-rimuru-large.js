@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'rimuru-large',
-    alias: ['setrimurularge', 'gantirimurularge'],
     category: 'owner',
     description: 'Preset: Ganti gambar rimuru.jpg, serta rimuru-v7 hingga rimuru-v11.jpg sekaligus',
     usage: '.rimuru-large (reply/kirim gambar)',

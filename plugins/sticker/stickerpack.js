@@ -40,7 +40,6 @@ import { addExifToWebp } from "../../src/lib/rimuru-exif.js";
 
 const pluginConfig = {
   name: "stickerpack",
-  alias: ["sp", "stickersearch", "searchsticker"],
   category: "sticker",
   description: "Cari dan kirim sticker pack",
   usage: ".stickerpack <query>",

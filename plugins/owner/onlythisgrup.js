@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'onlythisgrup',
-    alias: ['onlythisgroup', 'lockgrup', 'lockgroup'],
     category: 'owner',
     description: 'Bot hanya aktif di grup ini saja',
     usage: '.onlythisgrup',

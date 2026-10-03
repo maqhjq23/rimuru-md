@@ -31,7 +31,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'linkid',
-    alias: ['idlink', 'getidlink'],
     category: 'tools',
     description: 'Ambil ID WhatsApp dari link channel atau grup',
     usage: '.linkid <link channel/grup>',

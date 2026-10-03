@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
     name: 'sora2',
-    alias: ['sora'],
     category: 'ai',
     description: 'Ubah gambar menjadi video (Sora 2)',
     usage: '.sora <prompt>',

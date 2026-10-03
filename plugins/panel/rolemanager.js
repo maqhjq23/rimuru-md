@@ -41,7 +41,6 @@ ROLES.forEach(role => {
 
 const pluginConfig = {
     name: allCommands,
-    alias: [],
     category: 'panel',
     description: 'Kelola owner/ceo/reseller per server',
     usage: '.addownerv1 @user atau .listceov2',

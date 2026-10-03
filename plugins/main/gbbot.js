@@ -51,7 +51,6 @@ function writeDb(data) {
 
 const pluginConfig = {
   name: "gbbot",
-  alias: ["botgb", "officialgb", "grupbot", "gcbot", "setgbbot"],
   category: "main",
   description: "Menampilkan dan mengatur link Grup Official Bot",
   usage: ".gbbot / .setgbbot <link>",

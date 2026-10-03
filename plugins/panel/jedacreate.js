@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'jedacreate',
-    alias: ['setjeda', 'paneljeda', 'jedapanel'],
     category: 'panel',
     description: 'Set jeda waktu untuk semua panel create command',
     usage: '.jedacreate <waktu>',

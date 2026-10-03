@@ -30,8 +30,7 @@ import axios from "axios";
 import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
-  name: "quilbot",
-  alias: ["quillbot", "parafrase"],
+  name: "quillbot",
   category: "ai",
   description: "AI Quillbot untuk menulis ulang atau menyempurnakan kalimat",
   usage: ".quilbot <teks>",

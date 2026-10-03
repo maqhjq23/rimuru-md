@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'delpp',
-    alias: ['delprofilebot', 'delppbot', 'hapusppbot'],
     category: 'tools',
     description: 'Menghapus foto profil bot',
     usage: '.delpp',

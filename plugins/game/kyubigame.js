@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
     name: "kyubigame",
-    alias: ["kyubi", "naruto", "shinobi"],
     category: "game",
     description: "Jelajahi dunia shinobi dan hadapi musuh Ninja terkuat",
     usage: ".kyubigame",

@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "ttselon",
-  alias: ["elontts", "ttselonmusk"],
   category: "tts",
   description: "Text to Speech dengan suara Elon Musk",
   usage: ".ttselon <text>",

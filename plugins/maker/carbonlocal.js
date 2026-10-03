@@ -30,7 +30,6 @@ import config from '../../config.js';
 import { generateCarbon } from '../../src/lib/rimuru-carbon.js';
 const pluginConfig = {
     name: 'carbonlocal',
-    alias: ['carbonlv', 'carboncanvas', 'carbonsnap'],
     category: 'maker',
     description: 'Bikin screenshot kode aesthetic seperti Carbon.now.sh (via Canvas lokal)',
     usage: '.carbonlocal <kode> (atau reply pesan)',

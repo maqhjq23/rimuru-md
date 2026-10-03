@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'sholawat',
-    alias: ['shalawat', 'selawat', 'sholawatnabi'],
     category: 'religi',
     description: 'Kumpulan Sholawat Nabi lengkap dengan Arab, Latin, Arti, dan Keutamaan',
     usage: '.sholawat <nama sholawat>',

@@ -47,7 +47,6 @@ import crypto from "crypto";
 
 const pluginConfig = {
   name: "twitterstalk",
-  alias: ["twstalk"],
   category: "stalker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

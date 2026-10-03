@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "treasure",
-  alias: ["chest", "peti", "openbox"],
   category: "rpg",
   description: "Buka treasure chest untuk hadiah random",
   usage: ".treasure",

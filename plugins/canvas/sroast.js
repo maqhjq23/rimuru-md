@@ -33,7 +33,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "sroast",
-  alias: ["stickerroast", "sroast"],
   category: "canvas",
   description: "Buat stiker roast",
   usage: ".sroast <teks1> | <teks2> | <teks3>",

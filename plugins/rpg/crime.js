@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "crime",
-  alias: ["curi", "jahat"],
   category: "rpg",
   description: "Melakukan kejahatan membobol ATM (risiko tinggi)",
   usage: ".crime",

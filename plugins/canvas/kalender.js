@@ -33,7 +33,6 @@ import https from "https";
 
 const pluginConfig = {
     name: 'kalender',
-    alias: ['calendar', 'tanggalan'],
     category: 'canvas',
     description: 'Melihat kalender lengkap tahun 2026 atau per bulan.',
     usage: '.kalender [bulan/tahun]',

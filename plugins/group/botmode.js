@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'botmode',
-    alias: ['setmode', 'mode'],
     category: 'group',
     description: 'Atur mode bot untuk grup ini',
     usage: '.botmode <md/cpanel/pushkontak/store/otp/all>',

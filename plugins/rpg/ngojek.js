@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "ngojek",
-  alias: ["ojek", "gojek", "ojol"],
   category: "rpg",
   description: "Ngojek untuk mendapat uang",
   usage: ".ngojek",

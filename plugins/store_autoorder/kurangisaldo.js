@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "kurangisaldo",
-    alias: ["delsaldo", "minussaldo"],
     category: "store_autoorder",
     description: "💰 Mengurangi saldo pengguna secara manual",
     usage: ".kurangisaldo @user <nominal>",

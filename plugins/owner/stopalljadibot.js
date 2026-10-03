@@ -30,7 +30,6 @@ import { stopAllJadibots, getActiveJadibots } from '../../src/lib/rimuru-jadibot
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'stopalljadibot',
-    alias: ['stopsemuajadibot', 'killalljadibots'],
     category: 'owner',
     description: 'Hentikan semua jadibot yang aktif',
     usage: '.stopalljadibot',

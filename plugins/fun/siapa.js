@@ -37,7 +37,6 @@ const pluginConfig = {
         'setan', 'iblis', 'cacat', 'yatim', 'piatu', 'ganteng', 'cantik',
         'jelek', 'keren', 'cupu', 'noob', 'pro', 'sultan', 'miskin', 'kaya', 'siapa'
     ],
-    alias: [],
     category: 'fun',
     description: 'Random pilih member untuk kategori tertentu',
     usage: '.<kategori>',

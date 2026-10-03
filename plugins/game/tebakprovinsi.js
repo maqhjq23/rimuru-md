@@ -31,7 +31,6 @@ import { games } from '../../src/lib/rimuru-games.js'
 // 1. REGISTRASI GAME KE ENGINE
 games.register('tebakprovinsi', {
     // === METADATA ===
-    alias: ['tprovinsi', 'tebakprov', 'provinsi'], 
     emoji: '🇮🇩',                          
     title: 'TEBAK PROVINSI',                
     description: 'Tebak nama provinsi berdasarkan ibu kotanya',

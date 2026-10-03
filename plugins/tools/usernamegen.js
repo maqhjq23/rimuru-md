@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
   name: "usernamegen",
-  alias: ["genuser", "username", "genusername"],
   category: "tools",
   description: "Generate pilihan username keren berdasarkan nama, mode, & tema",
   usage: ".usernamegen <nama> | [theme] | [mode]",

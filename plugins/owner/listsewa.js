@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import * as timeHelper from '../../src/lib/rimuru-time.js'
 const pluginConfig = {
     name: 'listsewa',
-    alias: ['sewalist', 'daftarsewa'],
     category: 'owner',
     description: 'Lihat daftar grup yang terdaftar sewa',
     usage: '.listsewa',

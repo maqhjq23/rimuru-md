@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'anischedule',
-    alias: ['animejadwal', 'jadwalanime', 'animeday', ],
     category: 'anime',
     description: 'Menampilkan jadwal tayang anime musim ini (ambil dari API livechart)',
     usage: '.anischedule [hari] [musim]',

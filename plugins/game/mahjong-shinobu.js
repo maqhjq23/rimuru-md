@@ -602,7 +602,6 @@ async function kirimForwardSigned(conn, chatId, html, judul) {
 
 const config = {
     name: 'mahjong',
-    alias: ['mjong', 'mj', 'kyoko'],
     category: 'game',
     description: 'Kyoko Mahjong v6.2 dengan HTML AI Rich Message.',
     usage: '.mahjong',

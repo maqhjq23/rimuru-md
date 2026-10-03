@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "kobo-ai",
-  alias: ["koboai", "kobo"],
   category: "ai",
   description: "Chat dengan Kobo Kanaeru — VTuber Hololive ID",
   usage: ".kobo-ai <pertanyaan>",

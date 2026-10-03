@@ -30,7 +30,6 @@ import { Client } from 'ssh2'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'installtemaenigma',
-    alias: ['installthemaenigma', 'temaenigma'],
     category: 'panel',
     description: 'Install tema Enigma untuk panel Pterodactyl via SSH',
     usage: '.installtemaenigma <ip>|<password>|<link_wa>|<link_group>|<link_channel>',

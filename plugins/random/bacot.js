@@ -35,7 +35,6 @@ import moment from 'moment-timezone'
 
 const pluginConfig = {
   name: "bacot",
-  alias: [],
   category: "random",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

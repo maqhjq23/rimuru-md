@@ -29,8 +29,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase, randomInt } from "../../src/lib/rimuru-rioo-bridge.js";
 
 const pluginConfig = {
-  name: "rimuru-tebakangka",
-  alias: ["tebakangka"],
+  name: "tebakangka",
   category: "game",
   description: "Tebak angka 1-100 dari Rimuru",
   usage: ".tebakangka <angka>",

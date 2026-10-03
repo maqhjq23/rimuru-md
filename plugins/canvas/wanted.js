@@ -31,7 +31,6 @@ import FormData from 'form-data';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'wanted',
-    alias: ['wantedposter'],
     category: 'maker',
     description: 'Efek poster wanted',
     usage: '.wanted (reply foto)',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import axios from 'axios';
 const pluginConfig = {
     name: 'rch',
-    alias: ['frch', 'reactch', 'fakereactch', 'fakerch'],
     category: 'tools',
     description: 'Kirim react ke post channel WhatsApp',
     usage: '.rch <link_post> <emoji>',

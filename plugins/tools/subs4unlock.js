@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "subs4unlock",
-  alias: ["sub4unlock", "bypasssub", "unlocksub"],
   category: "tools",
   description: "Melakukan bypass link subs4unlock secara otomatis",
   usage: ".subs4unlock <link>",

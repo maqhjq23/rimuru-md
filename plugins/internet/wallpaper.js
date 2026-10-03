@@ -161,7 +161,6 @@ const wallcraft = {
 
 const pluginConfig = {
   name: 'wallcraft',
-  alias: ['wallcraftsearch', 'walcraft', 'wallpaperscraft'],
   category: 'internet',
   description: 'Mencari dan mengunduh wallpaper HD dari Wallcraft',
   usage: '.wallcraft <query>',

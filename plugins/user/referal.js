@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "referal",
-  alias: ["referral", "refer", "ref"],
   category: "user",
   description: "Sistem kode referral untuk mendapatkan EXP",
   usage: ".referal [kode]",

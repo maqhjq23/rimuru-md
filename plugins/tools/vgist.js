@@ -66,7 +66,6 @@ async function getGistFiles(input) {
 
 const pluginConfig = {
   name: "vgist",
-  alias: [],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

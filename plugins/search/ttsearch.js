@@ -36,7 +36,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { tiktokSearchVideo } from "../../src/scraper/tiktoksearch.js";
 const pluginConfig = {
   name: "ttsearch",
-  alias: ["tiktoksearch", "tts", "searchtiktok"],
   category: "search",
   description: "Cari video TikTok",
   usage: ".ttsearch <query>",

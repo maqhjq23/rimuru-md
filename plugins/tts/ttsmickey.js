@@ -32,7 +32,6 @@ import fs from 'fs';
 import path from 'path';
 const pluginConfig = {
     name: 'ttsmickey',
-    alias: ['mickeytts', 'ttsmickeymouse'],
     category: 'tts',
     description: 'Text to Speech dengan suara Mickey Mouse',
     usage: '.ttsmickey <text>',

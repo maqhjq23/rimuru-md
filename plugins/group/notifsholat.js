@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'notifsholat',
-    alias: ['notifsolat'],
     category: 'group',
     description: 'Toggle notifikasi sholat untuk grup ini',
     usage: '.notifsholat on/off',

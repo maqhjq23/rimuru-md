@@ -33,7 +33,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'fetchweb',
-    alias: ['webget', 'getweb', 'ambilweb', 'downloadweb'],
     category: 'tools',
     description: 'Fetch dan simpan halaman web',
     usage: '.fetchweb <url>',

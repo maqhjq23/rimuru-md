@@ -30,7 +30,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'pacman',
-    alias: ['pac'],
     category: 'game',
     description: 'Pac-Man classic - makan titik & hindari hantu!',
     usage: '',

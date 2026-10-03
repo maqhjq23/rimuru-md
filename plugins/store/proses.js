@@ -31,7 +31,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'proses',
-    alias: ['prs', 'process'],
     category: 'store',
     description: 'Mulai proses transaksi dengan buyer',
     usage: '.prs',

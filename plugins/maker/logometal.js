@@ -28,8 +28,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 import { createCanvas, loadImage } from '@napi-rs/canvas';
 const pluginConfig = {
-    name: 'logo-metal',
-    alias: ['logometal', 'metallogo', 'steellogo', 'metaltext'],
+    name: 'logometal',
     category: 'maker',
     description: 'Buat logo dengan efek logam/steel',
     cooldown: 5,

@@ -38,7 +38,6 @@ ini wm gw cok jan di hapus
 
 const pluginConfig = {
   name: "bomb",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

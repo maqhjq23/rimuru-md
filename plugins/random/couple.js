@@ -33,7 +33,6 @@ import { default as axios } from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'ppcouple',
-    alias: ['cp', 'ppcp'],
     category: 'random',
     description: 'Random gambar pp couple',
     usage: '.ppcouple',

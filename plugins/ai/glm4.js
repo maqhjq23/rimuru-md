@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
     name: 'glm4',
-    alias: ['glm', 'glm46v'],
     category: 'ai',
     description: 'Chat dengan GLM 4.6V',
     usage: '.glm4 <pertanyaan>',

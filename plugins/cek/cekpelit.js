@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekpelit',
-    alias: ['pelit', 'kikir'],
     category: 'cek',
     description: 'Cek seberapa pelit kamu',
     usage: '.cekpelit <nama>',

@@ -52,7 +52,6 @@ request.get({
 }
 const pluginConfig = {
   name: 'artinama2',
-  alias: [],
   category: 'fun',
   description: 'Mencari arti sebuah nama (implementasi Tensura).',
   usage: '.artinama2 <nama>',

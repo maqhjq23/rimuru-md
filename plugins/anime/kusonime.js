@@ -31,7 +31,6 @@ import * as cheerio from 'cheerio';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'kusonime',
-    alias: ['animeku', 'kusonime', 'nimeku', 'animebatch'],
     category: 'anime',
     description: 'Cari anime dari kusonime.com (batch download)',
     usage: '.kusonime <search|latest|genre>',

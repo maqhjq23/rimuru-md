@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'hijriyah',
-    alias: ['hijri', 'tahunislam'],
     category: 'islamic',
     description: 'Menampilkan tahun hijriah saat ini',
     usage: '.hijriyah',

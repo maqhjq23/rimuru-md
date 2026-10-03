@@ -1134,7 +1134,6 @@ async function kirimForwardSigned(conn, chatId, html, judul) {
 
 const pluginConfig = {
   name: "sonik",
-  alias: ['dash', 'speedy', 'speeddash'],
   category: "game",
   description: "Inline Speedy Dash game",
   usage: ".sonik",

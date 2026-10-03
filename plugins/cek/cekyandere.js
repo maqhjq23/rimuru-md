@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekyandere',
-    alias: ['yandere'],
     category: 'cek',
     description: 'Cek tingkat yandere kamu',
     usage: '.cekyandere <nama>',

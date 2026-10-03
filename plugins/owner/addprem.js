@@ -35,14 +35,6 @@ import {
 } from "../../src/lib/rimuru-jadibot-database.js";
 const pluginConfig = {
   name: "addprem",
-  alias: [
-    "addpremium",
-    "setprem",
-    "delprem",
-    "delpremium",
-    "listprem",
-    "premlist",
-  ],
   category: "owner",
   description: "Kelola premium users",
   usage:

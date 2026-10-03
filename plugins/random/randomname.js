@@ -86,7 +86,6 @@ async function generateRandomName({
 
 const pluginConfig = {
   name: "randomname",
-  alias: [],
   category: "random",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

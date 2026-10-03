@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'cc1',
-  alias: ['cc1', 'moody1', 'darkcinematic'],
   category: 'colorgrade',
   description: 'Color Grading CC1 - Dark Cinematic Moody',
   usage: '.cc1 (Kirim/Reply Foto)',

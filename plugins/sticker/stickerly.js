@@ -33,7 +33,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "stickerly",
-    alias: ["stikerly", "stickerlysearch"],
     category: "sticker",
     description: "Cari dan download sticker pack dari Sticker.ly",
     usage: ".stickerly <query / url>",

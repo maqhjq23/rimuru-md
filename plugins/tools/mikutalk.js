@@ -33,7 +33,6 @@ import fetch from 'node-fetch'
 
 const pluginConfig = {
   name: "mikutalk",
-  alias: [],
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "wormgpt",
-  alias: ["worm"],
   category: "ai",
   description: "Chat dengan WormGPT (uncensored AI)",
   usage: ".wormgpt <pertanyaan>",

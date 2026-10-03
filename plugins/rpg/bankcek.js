@@ -33,7 +33,6 @@ import fs from "fs"
 
 const pluginConfig = {
   name: "bankcek",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

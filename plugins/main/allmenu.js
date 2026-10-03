@@ -27,6 +27,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 */
 
 import { getAssetBuffer } from "../../src/lib/rimuru-asset-manager.js";
+import config from "../../config.js";
 import {
   getCommandsByCategory,
   getCategories,
@@ -36,7 +37,6 @@ import { legacyAllMenuHandler, externalDefaultAllMenuHandler } from "./allmenu-v
 
 const pluginConfig = {
   name: "allmenu",
-  alias: ["fullmenu", "am", "allcommand", "semua"],
   category: "main",
   description: "Menampilkan All Menu dengan tampilan Rimuru MD",
   usage: ".allmenu",
@@ -184,7 +184,7 @@ async function defaultAllMenuHandler(m, { sock, config: botConfig, db, uptime })
   await sock.sendMessage(
     m.chat,
     {
-      image: getAssetBuffer("rimuru-v8"),
+      image: { url: config.assets?.["rimuru-v8"] },
       caption,
       contextInfo: {
         forwardingScore: 999,

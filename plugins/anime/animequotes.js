@@ -62,7 +62,6 @@ async function animequote() {
 
 const pluginConfig = {
   name: "animequotes",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

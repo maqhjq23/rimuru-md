@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "musicmaker",
-  alias: ["bikinlagu", "suno"],
   category: "ai",
   description: "Membuat musik atau lagu menggunakan AI dari teks (prompt)",
   usage: ".musicmaker <prompt>",

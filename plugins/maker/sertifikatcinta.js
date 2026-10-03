@@ -35,7 +35,6 @@ import path from 'path'
 
 const pluginConfig = {
   name: "sertifikatcinta",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

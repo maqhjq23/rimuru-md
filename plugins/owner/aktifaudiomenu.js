@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'aktifaudiomenu',
-    alias: ['audiomenu', 'setaudiomenu', 'toggleaudiomenu'],
     category: 'owner',
     description: 'Toggle audio saat menampilkan menu',
     usage: '.aktifaudiomenu ya/gak',

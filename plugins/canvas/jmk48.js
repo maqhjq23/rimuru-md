@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "jmk48",
-  alias: [],
   category: "canvas",
   description: "Bikin gambarmu jadi member JMK48",
   usage: ".jmk48 (reply/kirim foto)",

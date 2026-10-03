@@ -51,7 +51,6 @@ function writeDb(data) {
 
 const pluginConfig = {
   name: "hargabot",
-  alias: ["sethargabot"],
   category: "main",
   description: "Menampilkan dan mengatur daftar harga sewa bot",
   usage: ".hargabot / .sethargabot <teks>",

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cektinggi',
-    alias: ['tinggi', 'tall'],
     category: 'cek',
     description: 'Cek tinggi badan random',
     usage: '.cektinggi <nama>',

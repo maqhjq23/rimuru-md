@@ -42,7 +42,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'quoteswindows',
-    alias: ['wq', 'qwindows'],
     category: 'canvas',
     description: 'Buat meme quotes bergaya Windows',
     usage: '.wq <text>',

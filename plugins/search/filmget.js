@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
   name: "filmget",
-  alias: ["getfilm", "filmdetail", "filminfo"],
   category: "search",
   description: "Ambil detail film",
   usage: ".filmget <url>",
@@ -136,7 +135,7 @@ async function handler(m, { sock }) {
       });
     });
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     const msgContent = {

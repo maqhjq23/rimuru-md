@@ -31,7 +31,6 @@ import { games } from '../../src/lib/rimuru-games.js'
 // 1. REGISTRASI GAME KE ENGINE
 games.register('tebakejenali', {
     // === METADATA ===
-    alias: ['tebakali', 'ejenali'],
     emoji: '🕵️‍♂️',
     title: 'TEBAK KARAKTER EJEN ALI',
     description: 'Tebak nama karakter atau ejen dari serial Ejen Ali',

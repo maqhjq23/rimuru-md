@@ -31,7 +31,6 @@ import { tiktokSearchVideo } from "../../src/scraper/tiktoksearch.js";
 
 const pluginConfig = {
   name: "ptvsearch",
-  alias: ["ptvs"],
   category: "search",
   description: "Cari video TikTok",
   usage: ".ptvsearch <query>",

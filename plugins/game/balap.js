@@ -1907,7 +1907,6 @@ export async function balapGameHandler(m, sock) {
  
 const config = {
   name: "balap",
-  alias: ["racing", "race", "turborace"],
   category: "game",
   description: "Game Turbo Race HTML AI Rich.",
   usage: ".balap",

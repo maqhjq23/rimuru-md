@@ -34,7 +34,6 @@ import { getCaseCount } from "../../case/rimuru.js"
 
 const pluginConfig = {
   name: "totalfitur2",
-  alias: ["totalfeature2", "totalcmd2", "countplugin2", "distribusi2"],
   category: "info",
   description: "Lihat total fitur/command bot secara otomatis",
   usage: ".totalfitur2",

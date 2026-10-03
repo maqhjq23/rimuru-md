@@ -31,7 +31,6 @@ import * as cheerio from 'cheerio';
 
 const pluginConfig = {
   name: 'timeis',
-  alias: ['waktujakarta'],
   category: 'tools',
   description: 'Cek waktu Jakarta dari time.is',
   usage: '.timeis',

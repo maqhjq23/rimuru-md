@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'rekom-anime',
-    alias: ['anime-rekom','rekanime'],
     category: 'anime',
     description: 'Rekomendasi anime random',
     usage: '.rekom-anime',

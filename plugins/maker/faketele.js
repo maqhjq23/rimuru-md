@@ -30,8 +30,7 @@ import fetch from 'node-fetch';
 import FormData from 'form-data';
 
 const pluginConfig = {
-  name: "faketg",
-  alias: ["faketele", "faketelegram"],
+  name: "faketele",
   category: "maker",
   description: "Buat gambar tampilan profil Telegram palsu",
   usage: ".faketg name|number|bio|username (sambil kirim/reply gambar)",

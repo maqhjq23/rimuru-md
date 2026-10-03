@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'ceksetia',
-    alias: ['setia', 'loyal'],
     category: 'cek',
     description: 'Cek tingkat kesetiaan kamu',
     usage: '.ceksetia <nama>',

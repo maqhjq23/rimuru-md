@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'resetwarn',
-    alias: ['clearwarn', 'hapuswarn', 'delwarn'],
     category: 'group',
     description: 'Reset warning member',
     usage: '.resetwarn @user',

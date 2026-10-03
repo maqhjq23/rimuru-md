@@ -33,7 +33,6 @@ import { join } from 'node:path';
 
 export const config = {
   name: "drakememe",
-  alias: ["drake", "drakedislike"],
   category: "canvas",
   description: "Membuat meme Drake Hotline Bling dengan dua teks kustom",
   usage: ".drakememe teks1|teks2",

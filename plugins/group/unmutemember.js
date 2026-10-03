@@ -31,7 +31,6 @@ import { isLid, lidToJid } from '../../src/lib/rimuru-lid.js'
 
 const pluginConfig = {
     name: 'unmutemember',
-    alias: ['unmutmember', 'unsilentmember', 'unbisukanmember', 'listmutemember', 'listmute'],
     category: 'group',
     description: 'Membuka mute member tertentu',
     usage: '.unmutemember <@tag/reply/nomor>',

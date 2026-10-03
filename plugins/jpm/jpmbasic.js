@@ -31,7 +31,6 @@ import { getGroupMode } from '../group/botmode.js';
 
 const pluginConfig = {
     name: 'jpmbasic',
-    alias: ['jpmb', 'jaser2'],
     category: 'jpm',
     description: 'JPM basic tanpa externalAdReply, support reply pesan',
     usage: '.jpmbasic <pesan> atau reply pesan',

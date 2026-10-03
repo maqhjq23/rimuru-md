@@ -30,7 +30,6 @@ const cancelJadibot = new Set()
 
 const pluginConfig = {
   name: "bataljadibot",
-  alias: ["canceljadibot", "stopjadibotstart"],
   category: "premium",
   description: "Batalkan proses jadibot yang sedang dimulai",
   usage: ".bataljadibot",

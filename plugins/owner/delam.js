@@ -39,7 +39,6 @@ import {
 
 const pluginConfig = {
   name: "delam",
-  alias: ["delamrole", "unam", "removeam"],
   category: "owner",
   description: "Hapus role AM (jadi free)",
   usage: ".delam <@tag|reply|628xxx>",

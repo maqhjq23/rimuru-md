@@ -34,7 +34,6 @@ import { getAssetBuffer } from '../../src/lib/rimuru-asset-manager.js';
 
 const pluginConfig = {
     name: ['autopromo', 'promosi'],
-    alias: ['iklan'],
     category: 'owner',
     description: 'Auto promosi saluran ke grup',
     usage: '.autopromo on/off/test',
@@ -117,8 +116,8 @@ async function sendPromo(sock, isTest = false) {
     }
 
     // Validasi gambar
-    const imageBuffer = getAssetBuffer("rimuru2");
-    if (!imageBuffer) {
+    const imageUrl = config.assets?.rimuru2;
+    if (!imageUrl) {
         console.log('[AUTO PROMO] ❌ Gambar tidak ditemukan:', IMAGE_PATH);
         return false;
     }
@@ -231,7 +230,7 @@ async function sendPromo(sock, isTest = false) {
         try {
             // Opsi 1: Pakai sendMessage biasa dengan buttons (lebih universal)
             await sock.sendMessage(groupId, {
-                image: imageBuffer,
+                image: { url: imageUrl },
                 caption: caption + '\n\n© RIMURU AI',
                 buttons: [
                     { buttonId: '.menu', buttonText: { displayText: '📋 Menu Bot' }, type: 1 },
@@ -250,7 +249,7 @@ async function sendPromo(sock, isTest = false) {
             
             try {
                 await sock.sendMessage(groupId, {
-                    image: imageBuffer,
+                    image: { url: imageUrl },
                     caption: caption + '\n\n© RIMURU AI\n\n📢 Join: ' + CHANNEL_URL
                 });
                 console.log(`[AUTO PROMO] ✅ terkirim (no buttons) ke ${groupId}`);

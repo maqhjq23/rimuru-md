@@ -34,7 +34,6 @@ import te from '../../src/lib/rimuru-error.js';
 
 const pluginConfig = {
   name: 'fakeml',
-  alias: ['mlbbfake', 'mlcard', 'mlfake'],
   category: 'canvas',
   description: 'Membuat fake ML profile card',
   usage: '.fakeml <nama> (reply/kirim foto)',

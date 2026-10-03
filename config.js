@@ -55,7 +55,7 @@ const config = {
 
   bot: {
     name: "Rimuru MD", // Nama bot
-    version: "3.7", // Versi bot
+    version: "4.7", // Versi bot
     developer: "Anita Putri Azzahra", // Nama developer
   },
 
@@ -94,14 +94,14 @@ const config = {
 
   vercel: {
     // ambil token vercel: https://vercel.com/account/tokens
-    token: process.env.VERCEL_TOKEN || "", // Vercel Token untuk fitur deploy ( Kalau .deploy mau work, ini wajib di isi )
+    token: "l", // Vercel Token untuk fitur deploy ( Kalau .deploy mau work, ini wajib di isi )
   },
 
   payment: {
     qrisUrl: "",
     methods: [
-      { name: "Dana", number: "082191709610", holder: "" },
-      { name: "GoPay", number: "089682579839", holder: "" },
+      { name: "Dana", number: "", holder: "" },
+      { name: "GoPay", number: "", holder: "" },
       { name: "OVO", number: "", holder: "" },
       { name: "ShopeePay", number: "", holder: "" },
     ],
@@ -111,8 +111,8 @@ const config = {
 
   donasi: {
     payment: [
-      { name: "Dana", number: "082191709610", holder: "Nama Owner" },
-      { name: "GoPay", number: "089682579839", holder: "Nama Owner" },
+      { name: "Dana", number: "", holder: "Nama Owner" },
+      { name: "GoPay", number: "", holder: "Nama Owner" },
       { name: "OVO", number: "08xxxxxxxxxx", holder: "Nama Owner" },
     ],
     links: [
@@ -141,7 +141,7 @@ const config = {
   },
 
   saluran: {
-    id: "120363412350560864@newsletter", // ID saluran (contoh: 120363xxx@newsletter)                          // ID saluran (contoh: 120363xxx@newsletter)
+    id: "120363412837402275@newsletter", // ID saluran (contoh: 120363xxx@newsletter)                          // ID saluran (contoh: 120363xxx@newsletter)
     name: "Saluran Resmi Rimuru MD", // Nama saluran
     link: "https://whatsapp.com/channel/0029Vb8dmsUElagkVPIw9X2P", // Link saluran
   },
@@ -289,7 +289,7 @@ const config = {
 
   // NOTE: kalau mau command "autoai" nya berfungsi, ini gak wajib di isi yak
   // ambil apikey di: https://aistudio.google.com/apikey
-  geminiApiKey: "AQ.Ab8RN6I54L_ysDmGMild3o3GuiTgEMQpmfpE9C9X5y3EsIfkIg",
+  geminiApiKey: "",
 
   autoaiPersonas: {
     Bell409: `- Nama kamu adalah Bella Clarissa, lebih suka dipanggil Bella.

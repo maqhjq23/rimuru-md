@@ -32,7 +32,6 @@ import config from '../../config.js'
 
 const pluginConfig = {
     name: 'npmstalk',
-    alias: ['stalknpm', 'npms'],
     category: 'stalker',
     description: 'Stalk akun NPM (Node Package Manager)',
     usage: '.npmstalk <username>',

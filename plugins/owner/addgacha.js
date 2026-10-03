@@ -32,7 +32,6 @@ import path from 'path';
 
 const pluginConfig = {
     name: 'addgacha',
-    alias: ['add-gacha', 'tambahgacha', 'adddarling'],
     category: 'owner',
     description: 'Tambah karakter ke database gacha darling',
     usage: '.add-gacha Nama Karakter | https://url.mp4',

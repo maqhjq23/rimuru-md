@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { sendStoreBackup, SCHEMA_VERSION } from '../../src/lib/rimuru-store-backup.js'
 const pluginConfig = {
     name: 'backupdb',
-    alias: ['dbbackup', 'backupstore', 'storebackup'],
     category: 'owner',
     description: 'Backup database/store dan kirim ke owner',
     usage: '.backupdb',

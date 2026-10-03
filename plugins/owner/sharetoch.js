@@ -30,7 +30,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: "sharetoch",
-    alias: ["sharetosaluran"],
     category: "owner",
     description: "Share ke channel tanpa watermark",
     usage: ".sharetoch (reply pesan)",

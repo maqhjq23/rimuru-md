@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'hostmedia',
-    alias: ['serverhostmedia', 'hostmedia', 'hostmed'],
     category: 'tools',
     description: 'Nampilin daftar server host media beserta batas maksimalnya',
     usage: 'hostmedia',

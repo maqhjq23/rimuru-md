@@ -8,7 +8,6 @@
 
 const pluginConfig = {
     name: 'fliptext',
-    alias: ['baliktext'],
     category: 'tools',
     description: 'Membalik susunan teks',
     usage: '.fliptext <teks>',

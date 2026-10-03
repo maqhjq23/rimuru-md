@@ -30,7 +30,6 @@ import axios from 'axios'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'spamngl',
-    alias: [],
     category: 'tools',
     description: 'Send NGL Spam',
     usage: '.spamngl <url> | <text> | <jumlah>',

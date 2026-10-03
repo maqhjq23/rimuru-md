@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "ttp",
-  alias: ["texttopicture"],
   category: "maker",
   description: "Membuat stiker keren dari teks",
   usage: ".ttp <teks>",

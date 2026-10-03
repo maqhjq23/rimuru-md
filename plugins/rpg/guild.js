@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "guild",
-  alias: ["clan", "team", "kelompok"],
   category: "rpg",
   description: "Sistem guild/clan",
   usage: ".guild <create/join/leave/info>",

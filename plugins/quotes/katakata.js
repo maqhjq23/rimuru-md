@@ -30,7 +30,6 @@ import axios from 'axios'
 
 const pluginConfig = {
   name: "katakata",
-  alias: ["quotes", "quote", "katamutiara", "randomkata"],
   category: "quotes",
   description: "Mengambil kata-kata / quotes random dari API Xemoz",
   usage: ".katakata",

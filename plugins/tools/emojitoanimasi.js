@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
   name: "emojitoanimasi",
-  alias: ["emoji2sticker", "emojisticker", "e2s"],
   category: "tools",
   description: "Konversi emoji ke sticker animasi",
   usage: ".emojitoanimasi <emoji>",

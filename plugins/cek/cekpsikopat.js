@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekpsikopat',
-    alias: ['psikopat', 'psycho'],
     category: 'cek',
     description: 'Cek seberapa psikopat kamu',
     usage: '.cekpsikopat <nama>',

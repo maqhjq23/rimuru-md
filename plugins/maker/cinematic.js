@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'cinematic',
-  alias: ['moody', 'darktone', 'nighttone', 'filterdark', 'flashmood'],
   category: 'maker',
   description: 'Mengubah foto biasa menjadi Cinematic Dark Retro Flash Tone presisi',
   usage: '.cinematic (Kirim/Reply Foto)',

@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "mcstatus",
-  alias: ["mcstat"],
   category: "general",
   description: "Mengecek status server Minecraft Java",
   usage: ".mcstatus <ip/domain[:port]>",

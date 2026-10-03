@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'apkpure',
-    alias: ['apkp'],
     category: 'search',
     description: 'Cari APK di ApkPure',
     usage: '.apkpure <query>',

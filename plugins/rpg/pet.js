@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "pet",
-  alias: ["mypet", "hewanku", "peliharaan"],
   category: "rpg",
   description: "Kelola pet/hewan peliharaan",
   usage: ".pet <feed/train/status>",

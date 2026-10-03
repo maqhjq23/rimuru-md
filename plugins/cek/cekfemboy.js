@@ -34,7 +34,6 @@ import { fetchBuffer } from "../../src/lib/rimuru-utils.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "cekfemboy",
-  alias: ["femboy"],
   category: "cek",
   description: "Cek seberapa femboy kamu",
   usage: ".cekfemboy <nama>",

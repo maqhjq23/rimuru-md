@@ -30,7 +30,6 @@ import { createCanvas } from '@napi-rs/canvas';
 
 const pluginConfig = {
     name: 'checkers',
-    alias: ['dam', 'caturdam', 'zerocheckers'],
     category: 'game',
     description: 'Game catur dam / checkers Rimuru! Makan semua pion lawan untuk menang.',
     usage: '.checkers [@lawan]',

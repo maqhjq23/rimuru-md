@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "bcpc",
-  alias: ["broadcastpc", "bcprivate"],
   category: "owner",
   description: "Broadcast pesan ke semua kontak private chat",
   usage: ".bcpc <pesan>",

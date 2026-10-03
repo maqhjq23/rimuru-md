@@ -45,7 +45,6 @@ const ADDABLE_ROLES = ["member", "reseller", "premium", "partner", "owner"];
 
 const pluginConfig = {
   name: "addam",
-  alias: ["addamrole", "setam"],
   category: "owner",
   description: "Tambah role Alight Motion (member/reseller/premium/partner/owner)",
   usage: ".addam <role> <@tag|reply|628xxx>",

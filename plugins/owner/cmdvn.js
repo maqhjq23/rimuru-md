@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'cmdvn',
-    alias: ['voicecommand', 'vncmd'],
     category: 'owner',
     description: 'Aktifkan command via voice note',
     usage: '.cmdvn <on/off>',

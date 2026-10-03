@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { games } from '../../src/lib/rimuru-games.js'
 
 games.register('asahotak', {
-    alias: ['asah', 'quiz'],
     emoji: '🧠',
     title: 'ASAH OTAK',
     description: 'Game asah otak - tebak jawaban'

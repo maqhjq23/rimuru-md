@@ -32,7 +32,6 @@ import * as timeHelper from '../../src/lib/rimuru-time.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'groupinfo',
-    alias: ['infogroup', 'gcinfo', 'infogc', 'gc'],
     category: 'group',
     description: 'Menampilkan informasi lengkap grup',
     usage: '.groupinfo',

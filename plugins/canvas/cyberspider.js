@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "cyberspider",
-  alias: [],
   category: "canvas",
   description: "Bikin card cyber spider dari fotomu",
   usage: ".cyberspider <teks> (reply/kirim foto)",

@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "quran",
-  alias: ["surah", "alquran", "bacaquran"],
   category: "islamic",
   description: "Baca ayat Al-Quran berdasarkan nama surah",
   usage: ".quran <nama surah>",

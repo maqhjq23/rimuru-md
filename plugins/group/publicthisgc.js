@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "publicthisgc",
-  alias: ["publicgc", "publicgroup", "publicthisgroup"],
   category: "group",
   description: "Aktifkan mode public hanya di grup ini",
   usage: ".publicthisgc",

@@ -31,7 +31,6 @@ import fs from 'fs'
 import path from 'path'
 const pluginConfig = {
     name: 'toaudio',
-    alias: ['tomp3', 'videotoaudio', 'extractaudio'],
     category: 'tools',
     description: 'Mengubah video/voice note menjadi audio MP3',
     usage: '.toaudio (reply/caption video/vn)',

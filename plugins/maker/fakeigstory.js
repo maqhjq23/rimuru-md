@@ -33,7 +33,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
     name: 'fakeigstory',
-    alias: ['igstoryfake', 'fakeigs'],
     category: 'maker',
     description: 'Membuat fake Instagram Story',
     usage: '.fakeigstory <username>|<caption>|<time>',

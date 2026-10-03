@@ -32,7 +32,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'mangatoon',
-    alias: ['mtoon', 'mangatoonsearch', 'searchmangatoon'],
     category: 'search',
     description: 'Cari komik di Mangatoon',
     usage: '.mangatoon <query>',

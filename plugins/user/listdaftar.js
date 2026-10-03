@@ -32,7 +32,7 @@ import config from "../../config.js";
 const PAGE_SIZE = 20;
 
 function getRegistrationContextInfo() {
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
   return {
@@ -138,7 +138,6 @@ function parseListOptions(input) {
 
 const pluginConfig = {
   name: "listdaftar",
-  alias: ["listuser", "registeredusers", "daftarlist"],
   category: "user",
   description:
     "Lihat daftar user yang sudah terdaftar dengan filter dan pagination",

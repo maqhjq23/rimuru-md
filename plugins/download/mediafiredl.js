@@ -31,7 +31,6 @@ import mediafire from "../../src/scraper/mediafire.js";
 
 const pluginConfig = {
   name: "mediafiredl",
-  alias: ["mfdl", "mediafire", "mf"],
   category: "download",
   description: "Download file dari MediaFire",
   usage: ".mfdl <url>",

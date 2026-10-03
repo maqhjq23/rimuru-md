@@ -34,7 +34,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import { getGroupMode } from '../group/botmode.js'
 const pluginConfig = {
     name: 'addseller',
-    alias: ['addreseller', 'delseller', 'delreseller', 'listseller', 'listreseller'],
     category: 'panel',
     description: 'Kelola seller/reseller panel',
     usage: '.addseller @user atau .delseller @user',

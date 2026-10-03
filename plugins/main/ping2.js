@@ -35,7 +35,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'ping2',
-    alias: ['speed2', 'p2', 'latency2', 'sys2', 'status2'],
     category: 'main',
     description: 'Cek performa dan status sistem bot secara real-time',
     usage: '.ping2',

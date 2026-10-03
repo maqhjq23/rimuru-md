@@ -34,7 +34,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
   name: "emojitoimage",
-  alias: ["emoji2img", "emojiimg", "e2i"],
   category: "tools",
   description: "Konversi emoji ke gambar HD (style Apple)",
   usage: ".emojitoimage <emoji> [style]",

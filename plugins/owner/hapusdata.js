@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'hapusdata',
-    alias: ['resetdata', 'cleardata', 'wipedata'],
     category: 'owner',
     description: 'Reset semua data database ke default',
     usage: '.hapusdata',

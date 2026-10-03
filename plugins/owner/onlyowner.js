@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'onlyowner',
-    alias: ['onlyownerbot', 'modeowner', 'owneronly'],
     category: 'owner',
     description: 'Atur mode hanya owner yang bisa pakai bot (owner utama + owner tambahan + creator)',
     usage: '.onlyowner on/off',

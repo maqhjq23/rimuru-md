@@ -36,7 +36,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const config = {
   name: "igqc",
-  alias: ["igquote", "qcinstagram"],
   category: "maker",
   description: "Membuat gambar Instagram Quote Chat / IGQC",
   usage: ".igqc <teks> (opsional reply/kirim foto)",

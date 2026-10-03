@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "autosambut",
-  alias: ["sambutowner"],
   category: "group",
   description: "Mengatur fitur sambutan otomatis saat owner muncul setelah lama idle",
   usage: ".autosambut on/off/delay/add/del/list",

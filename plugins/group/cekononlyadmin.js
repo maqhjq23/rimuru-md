@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'cekonlyadmin',
-    alias: ['onlyadminstatus', 'statusadminonly'],
     category: 'group',
     description: 'Cek status mode onlyadmin di grup',
     usage: '.cekonlyadmin',

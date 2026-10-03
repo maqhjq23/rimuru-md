@@ -955,7 +955,7 @@ async function serialize(sock, msg, store = {}) {
       return sock.sendMessage(
         await ensureResolved(m.chat),
         {
-          video: getAssetBuffer("rimuru-mp4"),
+          video: { url: config.assets?.["rimuru-mp4"] },
           caption: text,
           gifPlayback: true,
           contextInfo: {

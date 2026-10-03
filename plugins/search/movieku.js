@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js"
 
 const pluginConfig = {
     name: "movieku",
-    alias: ["movie", "film", "carifilm", "carimovie"],
     category: "search",
     description: "Cari dan tampilkan informasi film lengkap dari Movieku beserta link download dalam berbagai kualitas",
     usage: ".movieku <judul film>",

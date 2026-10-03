@@ -31,7 +31,6 @@ import fs from 'fs';
 import path from 'path';
 const config = {
     name: 'hdvideo2',
-    alias: ['enhancevideo2', 'videohd2', 'videoenhance2', 'video2k2'],
     category: 'tools',
     description: 'Enhance/upscale video ke kualitas 2K dengan AI',
     usage: '.hdvideo (reply video)',

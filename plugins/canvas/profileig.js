@@ -33,7 +33,6 @@ import { downloadMediaMessage } from "rimuru";
 
 const pluginConfig = {
     name: "profileig",
-    alias: ["profileig", "igprofile"],
     category: "canvas",
     description: "Membuat canvas profile instagram",
     usage: ".profileig <pengikut>|<mengikuti>|<postingan>|<username>|<bio>|<verif(true/false)>",

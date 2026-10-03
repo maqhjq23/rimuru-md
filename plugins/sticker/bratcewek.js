@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'bratcewek',
-    alias: ['cewekbrat', 'bratperempuan', 'bratgirl'],
     category: 'sticker',
     description: 'Membuat sticker brat',
     usage: '.bratcewek <text>',

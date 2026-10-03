@@ -31,7 +31,6 @@ import fetch from "node-fetch";
 
 const pluginConfig = {
   name: "soundcloud",
-  alias: ["scsearch", "scs"],
   category: "search",
   description: "Cari lagu di SoundCloud",
   usage: ".soundcloud judul",

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "tembak",
-  alias: ["nembak", "propose"],
   category: "fun",
   description: "Menembak seseorang untuk pacaran",
   usage: ".tembak @tag",

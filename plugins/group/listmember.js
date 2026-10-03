@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "listmember",
-  alias: ["memberlist", "daftarmember", "listanggota"],
   category: "group",
   description: "Menampilkan daftar anggota grup",
   usage: ".listmember",

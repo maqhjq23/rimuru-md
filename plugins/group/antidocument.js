@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'antidocument',
-    alias: ['antidoc', 'nodocument', 'nodoc'],
     category: 'group',
     description: 'Mengatur antidocument di grup',
     usage: '.antidocument <on/off>',

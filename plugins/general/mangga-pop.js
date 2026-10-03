@@ -75,7 +75,6 @@ async function fetchMangaList() {
 
 const pluginConfig = {
   name: "mangalist",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

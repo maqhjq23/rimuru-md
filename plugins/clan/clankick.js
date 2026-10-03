@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'clankick',
-    alias: ['kickclan'],
     category: 'clan',
     description: 'Kick member dari clan (leader only)',
     usage: '.clankick @user',

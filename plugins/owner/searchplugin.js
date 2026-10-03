@@ -32,7 +32,6 @@ import { getAllPlugins } from "../../src/lib/rimuru-plugins.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "searchplugin",
-  alias: ["splugin", "findplugin", "infoplugin"],
   category: "owner",
   description: "Cari dan tampilkan info plugin",
   usage: ".splugin <nama>",

@@ -31,7 +31,6 @@ import path from 'path'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'restart',
-    alias: ['reset', 'reboot', 'restartbot'],
     category: 'owner',
     description: 'Restart bot process (real restart)',
     usage: '.restart',

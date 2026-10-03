@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "fakedev2",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar fakedev 2 dari fotomu",
   usage: ".fakedev2 <teks> (reply/kirim foto)",

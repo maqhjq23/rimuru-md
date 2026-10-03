@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'cekprem',
-    alias: ['cekpremium', 'preminfo'],
     category: 'cek',
     description: 'Cek detail status premium user',
     usage: '.cekprem @user',

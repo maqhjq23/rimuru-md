@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "blacksmith",
-  alias: ["tempa", "forge", "pandai"],
   category: "rpg",
   description: "Tempa senjata dan armor dari material",
   usage: ".blacksmith <item>",

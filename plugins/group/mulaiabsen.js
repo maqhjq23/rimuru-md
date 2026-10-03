@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from "../../config.js";
 const pluginConfig = {
   name: "mulaiabsen",
-  alias: ["startabsen", "bukaabsen", "openabsen"],
   category: "group",
   description: "Mulai sesi absen di grup (admin only)",
   usage: ".mulaiabsen [keterangan]",
@@ -67,7 +66,7 @@ async function handler(m, { sock }) {
     peserta: [],
   };
 
-  const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+  const saluranId = config.saluran?.id || "120363412837402275@newsletter";
   const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
   await m.reply(

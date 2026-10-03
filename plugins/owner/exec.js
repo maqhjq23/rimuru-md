@@ -35,7 +35,6 @@ import config from '../../config.js'
 import util from 'util'
 const pluginConfig = {
     name: 'exec',
-    alias: ['>', 'run', 'execute'],
     category: 'owner',
     description: 'Jalankan kode JS dari pesan yang di-reply (Owner Only)',
     usage: '.> (reply pesan berisi kode)',

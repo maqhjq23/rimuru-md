@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'hapuslist',
-    alias: ['dellist', 'deletelist'],
     category: 'store',
     description: '🗑️ Hapus informasi toko',
     usage: '.hapuslist <nomor>',

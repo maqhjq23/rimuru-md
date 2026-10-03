@@ -34,7 +34,6 @@ import * as fs from 'node:fs';
 
 const pluginConfig = {
     name: 'iqcv3',
-    alias: ['buatgambar', 'iqc-v3'],
     category: 'image',
     description: 'Generate gambar IQC dengan nama custom',
     usage: '.iqc <nama> <waktu>',

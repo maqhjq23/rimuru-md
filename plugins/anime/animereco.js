@@ -30,7 +30,6 @@ import axios from 'axios';
 import { createCanvas, loadImage } from '@napi-rs/canvas';
 const pluginConfig = {
     name: 'animereco',
-    alias: ['animekomen', 'rekomenanime', 'animerank', 'recoanime'],
     category: 'anime',
     description: 'Dapat rekomendasi anime berdasarkan genre atau top rating',
     usage: '.animereco [genre]',

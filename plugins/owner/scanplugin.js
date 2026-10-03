@@ -31,7 +31,6 @@ import path from 'path';
 import axios from 'axios';
 const pluginConfig = {
 name: "scanplugin",
-alias: ["checkplugin"],
 category: "owner",
 description: "Scan plugin error dan API mati",
 usage: ".scanplugin",

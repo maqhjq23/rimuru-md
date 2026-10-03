@@ -33,7 +33,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || 'Milik-Bot-RimuruMD'
 
 const pluginConfig = {
     name: 'robloxplayer',
-    alias: ['robloxsearch', 'searchroblox', 'robloxfind'],
     category: 'stalker',
     description: 'Search Roblox player by username',
     usage: '.robloxplayer <username>',

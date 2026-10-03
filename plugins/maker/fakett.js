@@ -31,7 +31,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
   name: "fakett",
-  alias: ["faketiktok", "fakettprofile"],
   category: "maker",
   description: "Buat gambar tampilan profil TikTok palsu",
   usage: ".fakett nama|username|verified|mengikuti|pengikut|suka|bio (sambil kirim/reply gambar)",

@@ -33,7 +33,6 @@ import axios from 'axios';
 import config from '../../config.js';
 const pluginConfig = {
     name: ['landsat', 'nasabanner', 'namabumi', 'satelit'],
-    alias: ['nasaname', 'bumiku', 'namasatelit'],
     category: 'info',
     description: 'Buat banner nama dengan gaya NASA Landsat',
     usage: '.landsat <nama>',

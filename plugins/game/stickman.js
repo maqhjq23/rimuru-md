@@ -1,6 +1,5 @@
 const config = {
   name: 'stickman',
-  alias: ['stick', 'stickgame'],
   category: 'game',
   description: 'Game Stickman HTML AI Rich.',
   usage: '.stickman',

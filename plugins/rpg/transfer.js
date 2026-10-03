@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "transfer",
-  alias: ["tf", "kirim", "pay"],
   category: "rpg",
   description: "Transfer uang atau item ke user lain",
   usage: ".transfer <money/nama_item> <jumlah> @user",

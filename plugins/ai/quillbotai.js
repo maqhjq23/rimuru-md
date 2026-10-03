@@ -32,7 +32,6 @@ import { CookieJar } from 'tough-cookie';
 import crypto from 'node:crypto';
 const config = {
     name: 'quillbotai',
-    alias: ['qai', 'aiimg', 'quillimg'],
     category: 'ai',
     description: 'Generate image dengan Quillbot AI',
     usage: '.qai <prompt>',

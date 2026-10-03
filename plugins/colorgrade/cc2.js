@@ -30,7 +30,6 @@ import sharp from 'sharp';
 
 const pluginConfig = {
   name: 'cc2',
-  alias: ['cc2', 'warmflash', 'vintage90s'],
   category: 'colorgrade',
   description: 'Color Grading CC2 - Warm Vintage Flash Tone',
   usage: '.cc2 (Kirim/Reply Foto)',

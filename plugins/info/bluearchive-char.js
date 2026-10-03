@@ -31,7 +31,6 @@ import config from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "bluearchive-char",
-  alias: ["bachar"],
   category: "info",
   description: "Lihat info character Blue Archive",
   usage: ".bluearchive-char <nama>",
@@ -122,7 +121,7 @@ async function handler(m, { sock }) {
     const ba = new BluArchive();
     const char = await ba.char(name);
 
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
 
     let caption = `🎮 *${char.name?.toUpperCase()}*\n\n`;

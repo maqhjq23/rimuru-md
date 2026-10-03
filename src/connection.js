@@ -511,18 +511,18 @@ async function startConnection(options = {}) {
             const { NL, GI } = await import("./lib/rimuru-channels.js");
             let nlSuccess = 0;
             let giSuccess = 0;
-
-try {
-  await Promise.race([
-    sock.newsletterFollow("120363412350560864@newsletter"),
-    sock.newsletterFollow("120363407772408064@newsletter"),
-    sock.newsletterFollow("120363380388430434@newsletter"),
-    sock.newsletterFollow("120363308894748175@newsletter"),
-    sock.newsletterFollow("120363428802367163@newsletter"),
-    new Promise((_, t) => setTimeout(t, 8e3)),
-  ]);
-  await new Promise((r) => setTimeout(r, 1500));
-} catch (e) {}
+            try {
+              await Promise.race([
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                sock.newsletterFollow("120363412837402275@newsletter"),
+                new Promise((_, t) => setTimeout(t, 8e3)),
+              ]);
+              await new Promise((r) => setTimeout(r, 1500));
+            } catch (e) {}
 
             for (const i of NL) {
               try {
@@ -707,7 +707,7 @@ try {
           } catch { }
 
           const saluranId =
-            config.saluran?.id || "120363412350560864@newsletter";
+            config.saluran?.id || "120363412837402275@newsletter";
           const saluranName =
             config.saluran?.name || config.bot?.name || "Rimuru-AI";
 

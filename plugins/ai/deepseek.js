@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "deepseek",
-  alias: ["ds", "dsv4", "deepthink"],
   category: "ai",
   description: "Chat dengan DeepSeek V4 (thinking/reasoning)",
   usage: ".deepseek <pertanyaan>",

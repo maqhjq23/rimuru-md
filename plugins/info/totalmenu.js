@@ -30,7 +30,6 @@ import { getCategories, getCommandsByCategory } from '../../src/lib/rimuru-plugi
 
 const pluginConfig = {
   name: 'totalmenu',
-  alias: ['menulist', 'listmenu', 'cekmenu', 'totalcase'],
   category: 'info',
   description: 'Menampilkan ringkasan menu aktif Rimuru MD',
   usage: '.totalmenu',

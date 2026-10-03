@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'rate',
-    alias: ['nilai', 'rating'],
     category: 'fun',
     description: 'Minta bot memberi rating sesuatu',
     usage: '.rate <sesuatu>',

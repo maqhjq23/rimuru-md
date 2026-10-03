@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'delete',
-    alias: ['del', 'hapus', 'd'],
     category: 'group',
     description: 'Hapus pesan dengan reply',
     usage: '.delete (reply pesan)',

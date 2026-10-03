@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "spongebob",
-  alias: ["spongebob"],
   category: "canvas",
   description: "Buat meme SpongeBob",
   usage: ".spongebob <teks>",

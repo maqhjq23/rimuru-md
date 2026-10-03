@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
     name: "animeapaini",
-    alias: ["whatanime", "animesearch", "sauceanime", "searchanime", "anime-checker", "animechecker"],
     category: "search",
     description: "Identifikasi judul anime dari gambar/screenshot",
     usage: ".animeapaini (reply gambar)",

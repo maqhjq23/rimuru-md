@@ -30,7 +30,6 @@ import { stopJadibot, getAllJadibotSessions } from '../../src/lib/rimuru-jadibot
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'stopdandeletejadibot',
-    alias: ['deletejadibot', 'removejadibot', 'hapusjadibot'],
     category: 'owner',
     description: 'Stop dan hapus session jadibot user secara permanen',
     usage: '.stopdandeletejadibot @user',

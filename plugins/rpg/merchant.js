@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "merchant",
-  alias: ["npc", "toko", "tokoku"],
   category: "rpg",
   description: "Jual beli item ke NPC merchant",
   usage: ".merchant <buy/sell> <item> <qty>",

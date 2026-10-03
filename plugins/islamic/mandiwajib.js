@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'mandiwajib',
-    alias: ['caramandiwajib', 'mandiwajib', 'mandi-wajib'],
     category: 'religi',
     description: 'Panduan cara mandi wajib beserta doa',
     usage: '.mandiwajib',

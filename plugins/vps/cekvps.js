@@ -32,7 +32,6 @@ import * as timeHelper from '../../src/lib/rimuru-time.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
   name: ["cekvps", "cekdroplet", "vpsstatus", "infovps"],
-  alias: [],
   category: "vps",
   description: "Cek detail VPS DigitalOcean",
   usage: ".cekvps <id>",

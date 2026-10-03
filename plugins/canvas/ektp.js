@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "ektp",
-  alias: ["ktp"],
   category: "canvas",
   description: "Bikin gambar e-KTP palsu",
   usage: ".ektp <nik>|<nama>|<tanggalLahir> (reply/kirim foto)",

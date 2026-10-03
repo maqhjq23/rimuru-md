@@ -31,7 +31,6 @@ import path from 'path'
 import gtts from 'gtts'
 const pluginConfig = {
     name: 'cekkhodam',
-    alias: ['khodam', 'cekhodam'],
     category: 'fun',
     description: 'Cek khodam diri sendiri atau orang lain',
     usage: '.cekkhodam atau reply pesan seseorang',

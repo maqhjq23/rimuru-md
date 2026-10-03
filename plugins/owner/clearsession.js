@@ -26,68 +26,79 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
                  「 👑 𝑹𝑰𝑴𝑼𝑹𝑼 𝑴𝑫 👑 」
 */
 
-import fs from 'node:fs';
-
-let handler = async (m, {
-    conn
-}) => {
-    const ootaedit = await conn.sendMessage(m.chat, {
-        text: "Wait.... Sessions Mau Di Hapus!"
-    }, {
-        quoted: m
-    });
-    fs.readdir(`./sessions`, async function(err, files) {
-        if (err) {
-            console.log('Unable to scan directory: ' + err);
-            return m.reply('Unable to scan directory: ' + err);
-        }
-        let filteredArray = await files.filter(item => item.startsWith("pre-key") ||
-            item.startsWith("sender-key") || item.startsWith("session-") || item.startsWith("app-state")
-        )
-        console.log(filteredArray.length);
-        let teks = ` *– 乂 Sessions - Akan Di Delete*\n\n`
-        if (filteredArray.length == 0) return conn.sendMessage(m.chat, {
-            text: `${teks}`,
-            edit: ootaedit.key
-        }, {
-            quoted: m
-        })
-        filteredArray.map(function(e, i) {
-            teks += (i + 1) + `. ${e}\n`
-        })
-        await conn.sendMessage(m.chat, {
-            text: `${teks}`,
-            edit: ootaedit.key
-        }, {
-            quoted: m
-        })
-        await sleep(2000)
-        await conn.sendMessage(m.chat, {
-            text: `🖐️Wait... Sessions Mau Di Hapus!!`,
-            edit: ootaedit.key
-        }, {
-            quoted: m
-        })
-        await filteredArray.forEach(function(file) {
-            fs.unlinkSync(`./sessions/${file}`)
-        });
-        await sleep(2000)
-        await conn.sendMessage(m.chat, {
-            text: `✅ Oke Sessions Udah Di Hapus!!`,
-            edit: ootaedit.key
-        }, {
-            quoted: m
-        })
-    });
-};
-
-handler.command = ["delsesi", "clearsesi", "deletesesi"];
-handler.help = ["delsesi", "clearsesi", "deletesesi"];
-handler.tags = ["owner"];
-handler.owner = true;
-
-async function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+import fs from 'fs'
+import path from 'path'
+import te from '../../src/lib/rimuru-error.js'
+const pluginConfig = {
+    name: 'clearsession',
+    category: 'owner',
+    description: 'Menghapus semua session di storage/sessions/',
+    usage: '.clearsessions',
+    example: '.clearsessions',
+    isOwner: true,
+    isPremium: false,
+    isGroup: false,
+    isPrivate: false,
+    cooldown: 60,
+    energi: 0,
+    isEnabled: true
 }
 
-export default handler;
+async function handler(m)  {
+    const sessionsPath = path.join(process.cwd(), 'storage', 'sessions')
+    
+    if (!fs.existsSync(sessionsPath)) {
+        return m.reply(`❌ Folder sessions tidak ditemukan!`)
+    }
+    
+    await m.react('🗑️')
+    
+    try {
+        const files = fs.readdirSync(sessionsPath)
+        
+        if (files.length === 0) {
+            return m.reply(`📁 Folder sessions sudah kosong!`)
+        }
+        
+        let deleted = 0
+        let skipped = 0
+        
+        for (const file of files) {
+            if (file === 'creds.json') {
+                skipped++
+                continue
+            }
+            
+            const filePath = path.join(sessionsPath, file)
+            try {
+                const stat = fs.statSync(filePath)
+                if (stat.isDirectory()) {
+                    fs.rmSync(filePath, { recursive: true, force: true })
+                } else {
+                    fs.unlinkSync(filePath)
+                }
+                deleted++
+            } catch {}
+        }
+        
+        await m.react('✅')
+        await m.reply(
+            `╭┈┈⬡「 🗑️ *ᴄʟᴇᴀʀ sᴇssɪᴏɴs* 」
+┃
+┃ ㊗ ᴅᴇʟᴇᴛᴇᴅ: *${deleted}* file
+┃ ㊗ sᴋɪᴘᴘᴇᴅ: *${skipped}* file
+┃ ㊗ ɴᴏᴛᴇ: creds.json tidak dihapus
+┃
+╰┈┈⬡
+
+> _Session files berhasil dibersihkan!_
+> _Restart bot jika diperlukan._`
+        )
+        
+    } catch (error) {
+        await m.react('☢')
+        await m.reply(te(m.prefix, m.command, m.pushName))
+    }
+}
+
+export { pluginConfig as config, handler }

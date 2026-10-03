@@ -124,7 +124,6 @@ const scraper = new KodePosScraper()
 
 const pluginConfig = {
   name: "kodepos",
-  alias: [],
   category: "search",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "simi",
-  alias: ["simisimi"],
   category: "ai",
   description: "Ngobrol santai bareng SimiSimi",
   usage: ".simi <pesan>",

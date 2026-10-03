@@ -38,7 +38,6 @@ import sharp from "sharp"
 
 const pluginConfig = {
   name: "toproblox",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -30,7 +30,6 @@ import { getParticipantJid } from '../../src/lib/rimuru-lid.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'demote',
-    alias: ['unadmin', 'turunkan'],
     category: 'group',
     description: 'Turunkan admin menjadi member biasa',
     usage: '.demote @user',

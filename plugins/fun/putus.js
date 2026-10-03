@@ -33,7 +33,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'putus',
-    alias: ['breakup', 'cerai'],
     category: 'fun',
     description: 'Memutuskan hubungan dengan pasangan',
     usage: '.putus',

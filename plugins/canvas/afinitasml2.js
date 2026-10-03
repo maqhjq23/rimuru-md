@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "afinitasml2",
-  alias: [],
   category: "canvas",
   description: "Bikin card afinitas ML (versi 2) dari fotomu",
   usage: ".afinitasml2 (reply/kirim foto)",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from "../../src/lib/rimuru-database.js";
 const pluginConfig = {
   name: "gacha",
-  alias: ["spin", "pull", "lucky"],
   category: "rpg",
   description: "Gacha untuk dapat hadiah random",
   usage: ".gacha",

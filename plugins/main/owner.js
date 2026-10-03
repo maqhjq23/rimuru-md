@@ -39,7 +39,6 @@ import axios from "axios";
 import sharp from "sharp";
 const pluginConfig = {
   name: "owner",
-  alias: ["creator", "dev", "developer"],
   category: "main",
   description: "Menampilkan kontak owner bot",
   usage: ".owner",

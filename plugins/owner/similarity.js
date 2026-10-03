@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'similarity',
-    alias: ['setsimilarity', 'sim'],
     category: 'owner',
     description: 'Mengaktifkan/menonaktifkan fitur similarity (saran typo)',
     usage: '.similarity <on/off>',

@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'setbio',
-    alias: ['setbiobot', 'setstatus', 'setabout'],
     category: 'tools',
     description: 'Mengubah bio/status bot',
     usage: '.setbio <bio baru>',

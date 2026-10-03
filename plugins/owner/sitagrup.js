@@ -33,7 +33,6 @@ import te from '../../src/lib/rimuru-error.js'
 
 const pluginConfig = {
     name: 'sitagrup',
-    alias: ['kudeta'],
     category: 'owner',
     description: 'Sistem pengambilalihan grup (Kudeta)',
     usage: '.sitagrup',

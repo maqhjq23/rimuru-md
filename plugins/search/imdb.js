@@ -6,7 +6,6 @@ import axios from 'axios'
 
 const pluginConfig = {
     name: 'imdb',
-    alias: ['imdbinfo'],
     category: 'search',
     description: 'Cari detail film atau serial dari IMDb/OMDb',
     usage: '.imdb <judul>',

@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "carigrup",
-  alias: ["searchgrup", "findgrup", "grupwa"],
   category: "search",
   description: "Cari grup WhatsApp berdasarkan keyword",
   usage: ".carigrup <keyword>",

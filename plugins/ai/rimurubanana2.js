@@ -30,7 +30,6 @@ import { fluxImage } from "../../src/scraper/seaart.js";
 
 const pluginConfig = {
   name: "rimurubanana2",
-  alias: [],
   category: "ai",
   description: "Buat gambar dengan AI menggunakan prompt",
   usage: ".rimurubanana2 <prompt>",

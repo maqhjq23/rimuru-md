@@ -73,7 +73,6 @@ function resolvePlaceholders(
 }
 const pluginConfig = {
   name: "welcome",
-  alias: ["wc"],
   category: "group",
   description: "Mengatur welcome message untuk grup",
   usage: ".welcome <on/off>",
@@ -199,7 +198,7 @@ async function sendWelcomeMessage(sock, groupJid, participant, groupMeta) {
       groupMeta?.owner?.split("@")[0] || "",
       config.command?.prefix || ".",
     );
-    const saluranId = config.saluran?.id || "120363412350560864@newsletter";
+    const saluranId = config.saluran?.id || "120363412837402275@newsletter";
     const saluranName = config.saluran?.name || config.bot?.name || "Rimuru-AI";
     if (welcomeType === 2) {
       const cardBody = groupData?.welcomeMsg
@@ -302,7 +301,7 @@ async function sendWelcomeMessage(sock, groupJid, participant, groupMeta) {
       );
     } else if (welcomeType === 6) {
       await sock.sendMessage(groupJid, {
-        video: getAssetBuffer("rimuru-mp4") || { url: "https://files.catbox.moe/k28dhp.mp4" },
+        video: config.assets?.["rimuru-mp4"] ? { url: config.assets["rimuru-mp4"] } : { url: "https://files.catbox.moe/k28dhp.mp4" },
         gifPlayback: true,
         caption: text,
         contextInfo: {

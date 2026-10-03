@@ -30,7 +30,6 @@ import { randomUUID } from 'node:crypto';
 
 const pluginConfig = {
   name: 'slotui',
-  alias: ['slotgame', 'fruitbonanza'],
   category: 'rpg',
   description: 'Fruit Bonanza slot machine dengan UI HTML interaktif.',
   usage: '.slotui',

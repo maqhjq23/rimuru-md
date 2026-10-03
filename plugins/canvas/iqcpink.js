@@ -37,7 +37,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pluginConfig = {
     name: "iqcpink",
-    alias: [],
     category: "canvas",
     description: "Membuat Fake Quote iOS style versi pink.",
     usage: ".iqcpink [text/reply]",

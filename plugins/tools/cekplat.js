@@ -31,7 +31,6 @@ import { withNetworkRetry, formatNetworkError } from '../../src/lib/rimuru-netwo
 
 const pluginConfig = {
   name: "cekplat",
-  alias: ["plat", "cekplatnomor", "platnomor"],
   category: "tools",
   description: "Cek informasi asal wilayah dan jenis kendaraan dari plat nomor",
   usage: ".cekplat <plat_nomor>",

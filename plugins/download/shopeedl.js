@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "shopeedl",
-  alias: ["shopeevideo", "shopeevid"],
   category: "download",
   description: "Download video dari Shopee",
   usage: ".shopeedl <url>",

@@ -35,7 +35,6 @@ let sessions = {}
 
 const pluginConfig = {
   name: "mikasa",
-  alias: [],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

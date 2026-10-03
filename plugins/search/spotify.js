@@ -33,7 +33,6 @@ import sharp from "sharp";
 
 const pluginConfig = {
   name: "spotify",
-  alias: ["spotifysearch", "spsearch"],
   category: "search",
   description: "Mencari daftar lagu di Spotify berdasarkan judul atau artis",
   usage: ".spotify <query>",

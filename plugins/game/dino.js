@@ -256,7 +256,6 @@ reset();
 
 const pluginConfig = {
   name: 'dino',
-  alias: ['dinorun'],
   category: 'game',
   description: 'Game Dino Run inline HTML dengan endless runner, skor, combo, koin dan perisai',
   usage: '.dino',

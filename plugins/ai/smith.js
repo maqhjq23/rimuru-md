@@ -129,8 +129,7 @@ const smith = {
 };
 
 const pluginConfig = {
-    name: 'chatsmith',
-    alias: ['smith', 'chatsmithai', 'smithai'],
+    name: 'smith',
     category: 'ai',
     description: 'AI Chat menggunakan Chat Smith (GPT-4o Mini)',
     usage: '.chatsmith <pesan>',

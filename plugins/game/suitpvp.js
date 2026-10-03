@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
 const pluginConfig = {
     name: 'suitpvp',
-    alias: ['suit', 'rps', 'janken'],
     category: 'game',
     description: 'Main suit (batu gunting kertas) dengan player lain',
     usage: '.suit @tag',

@@ -38,7 +38,6 @@ const allAliases = VALID_SERVERS.map((v) => `createadmin${v}`);
 
 const pluginConfig = {
   name: allCommands,
-  alias: allAliases,
   category: "panel",
   description: "Buat admin panel baru (v1-v5)",
   usage: ".cadminv1 username atau .cadminv2 username,628xxx",

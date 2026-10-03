@@ -32,7 +32,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
   name: "fakeml2",
-  alias: ["mlfake2", "fakecardml2", "profileml2"],
   category: "maker",
   description: "Membuat kartu profil Mobile Legends palsu (v2)",
   usage: ".fakeml2 username|rank|border (reply/kirim foto untuk avatar)",

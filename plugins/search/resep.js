@@ -35,7 +35,6 @@ const NEOXR_APIKEY = config.APIkey?.neoxr || "Milik-Bot-RimuruMD";
 
 const pluginConfig = {
     name: "resep",
-    alias: ["resepmasak", "resepmasakan", "caramasak"],
     category: "search",
     description: "Cari resep makanan yang lengkap dan enak",
     usage: ".resep <nama makanan>",

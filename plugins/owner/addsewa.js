@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "addsewa",
-  alias: ["sewaadd", "tambahsewa"],
   category: "owner",
   description: "Tambah grup ke whitelist sewa + auto join",
   usage: ".addsewa <link/id grup> <durasi>",

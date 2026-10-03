@@ -31,7 +31,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "autobio",
-  alias: ["autostatus"],
   category: "owner",
   description: "Mengatur pembaruan bio WhatsApp bot secara otomatis",
   usage: ".autobio on/off\n.autobio <teks>",

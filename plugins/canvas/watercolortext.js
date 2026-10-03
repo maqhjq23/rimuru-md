@@ -32,7 +32,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "watercolortext",
-  alias: ["watercolor", "wctext"],
   category: "canvas",
   description: "Buat gambar teks dengan efek watercolor",
   usage: ".watercolortext <teks>",

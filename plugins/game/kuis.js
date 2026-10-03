@@ -36,7 +36,6 @@ const reward = 5000
 
 const pluginConfig = {
   name: "kuis",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

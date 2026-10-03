@@ -31,7 +31,6 @@ import path from 'path';
 import archiver from 'archiver';
 const pluginConfig = {
     name: "ambilfolder",
-    alias: ["ambifolde","getfolder"],
     category: "owner",
     description: "Ambil folder dan kirim sebagai zip",
     usage: ".ambilfolder path/folder",

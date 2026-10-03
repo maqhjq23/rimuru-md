@@ -30,7 +30,6 @@ import te from "../../src/lib/rimuru-error.js";
 import rimuruApi from "../../src/lib/rimuru-apimanager.js";
 const pluginConfig = {
   name: "tts",
-  alias: ["say"],
   category: "tts",
   description: "Google Text To Speech",
   usage: ".tts <text>",

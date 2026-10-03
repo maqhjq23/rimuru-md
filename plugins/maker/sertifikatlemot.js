@@ -33,7 +33,6 @@ import { createCanvas } from '@napi-rs/canvas'
 
 const pluginConfig = {
   name: "sertifikatlemot",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

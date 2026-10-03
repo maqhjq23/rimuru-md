@@ -34,7 +34,6 @@ import _sharp from "sharp";
 
 const pluginConfig = {
   name: "hd3",
-  alias: ["enhance3", "upscale3", "unblur"],
   category: "tools",
   description: "Memperjelas gambar blur menjadi tajam dengan AI (Unblur)",
   usage: ".hd3 (reply gambar)",

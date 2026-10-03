@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gag2",
-  alias: ["growagarden2"],
   category: "info",
   description: "Cek stock Grow a Garden dengan fitur watch",
   usage: ".gag2 [watch] [item]",

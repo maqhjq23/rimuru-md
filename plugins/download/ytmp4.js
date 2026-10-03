@@ -31,7 +31,6 @@ import ytdl from "../../src/scraper/ytdl.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "ytmp4",
-  alias: ["youtubemp4", "ytvideo"],
   category: "download",
   description: "Download video YouTube",
   usage: ".ytmp4 <url>",

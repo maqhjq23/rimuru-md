@@ -34,7 +34,6 @@ import _sharp from 'sharp';
 
 const pluginConfig = {
   name: "hd2",
-  alias: ["enhance2", "upscale2", "aienhancer"],
   category: "tools",
   description: "Enhance gambar menjadi HD dengan AI (V3)",
   usage: ".hd2 (reply gambar)",

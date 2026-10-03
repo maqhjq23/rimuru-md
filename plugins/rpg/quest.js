@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "quest",
-  alias: ["misi", "mission", "bounty"],
   category: "rpg",
   description: "Ambil quest harian untuk reward bonus",
   usage: ".quest",

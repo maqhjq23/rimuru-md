@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import config from '../../config.js';
 const pluginConfig = {
     name: 'animelink',
-    alias: [],
     category: 'search',
     description: 'Handler untuk link download anime',
     usage: 'Internal command',

@@ -31,7 +31,6 @@ import * as timeHelper from '../../src/lib/rimuru-time.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
   name: "getpaste",
-  alias: ["pastebin", "getpb"],
   category: "tools",
   description: "Ambil konten dari Pastebin",
   usage: ".getpaste <link pastebin>",

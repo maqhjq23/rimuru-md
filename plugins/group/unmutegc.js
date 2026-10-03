@@ -31,7 +31,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "unmutegc",
-  alias: ["unmutegrup", "unmutebot", "unblockbot", "unlockbot"],
   category: "group",
   description: "Buka blokir command bot untuk member di grup",
   usage: ".unmutegc",

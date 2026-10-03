@@ -33,7 +33,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "tam",
-  alias: ["topactive", "topmember"],
   category: "group",
   description: "Lihat top member paling aktif di grup",
   usage: ".tam <jumlah>",

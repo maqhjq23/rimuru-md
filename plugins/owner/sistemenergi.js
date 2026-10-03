@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const config = {
   name: "sistemenergi",
-  alias: ["sistemlimit", "energimode", "limitmode"],
   category: "owner",
   description: "Mengecek, menghidupkan, atau mematikan sistem energi secara global",
   usage: ".sistemenergi [on / off]",

@@ -47,8 +47,7 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 import * as ch from "cheerio";
 
 const pluginConfig = {
-  name: "imagetoasci",
-  alias: ["imgascii", "ascii"],
+  name: "ascii",
   category: "tools",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

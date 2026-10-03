@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "autoread",
-  alias: ["readchat", "autobaca"],
   category: "owner",
   description: "Auto read pesan masuk",
   usage: ".autoread on/off",

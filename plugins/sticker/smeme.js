@@ -39,7 +39,6 @@ import { config } from "../../config.js";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "smeme",
-  alias: ["memesticker", "memes"],
   category: "sticker",
   description: "Membuat sticker meme dari gambar",
   usage: ".smeme <top>|<bottom>",

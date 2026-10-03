@@ -32,7 +32,6 @@ import { saluranCtx } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "aio",
-  alias: ["allinone", "download", "dl"],
   category: "downloader",
   description:
     "All in one downloader (IG, TikTok, FB, Twitter, YouTube, Pinterest, CapCut, dll)",

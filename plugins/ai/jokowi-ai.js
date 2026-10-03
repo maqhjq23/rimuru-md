@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "jokowi-ai",
-  alias: ["jokowiai", "jokowi", "pakjokowi"],
   category: "ai",
   description: "Chat dengan Pak Jokowi — Pria Solo",
   usage: ".jokowi-ai <pertanyaan>",

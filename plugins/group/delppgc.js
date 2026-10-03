@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'delppgc',
-    alias: ['delprofilegc', 'delppgroup', 'hapusppgc'],
     category: 'group',
     description: 'Menghapus foto profil grup',
     usage: '.delppgc',

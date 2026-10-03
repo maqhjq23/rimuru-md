@@ -31,7 +31,6 @@ import { RIMURU_CORE_CONFIG } from "../../config.js";
 import config from '../../config.js';
 const pluginConfig = {
     name: 'husbu',
-    alias: ['husbando'],
     category: 'random',
     description: 'Random gambar husbu/husbando anime',
     usage: '.husbu',

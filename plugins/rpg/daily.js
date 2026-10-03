@@ -32,7 +32,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "daily",
-  alias: ["harian", "claim"],
   category: "rpg",
   description: "Klaim hadiah harian",
   usage: ".daily",

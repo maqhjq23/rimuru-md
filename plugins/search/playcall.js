@@ -36,7 +36,6 @@ import { VoipClient } from "rimuru";
 
 const pluginConfig = {
   name: "playcall",
-  alias: ["telepon", "call"],
   category: "search",
   description: "Putar musik dari YouTube lewat telpon",
   usage: ".playcall <query>",

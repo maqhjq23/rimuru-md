@@ -31,7 +31,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'toemotebatu',
-    alias: ['emotebatu', 'moai', 'tomoai'],
     category: 'ai',
     description: 'Ubah gambar ke emote batu 🗿',
     usage: '.toemotebatu (reply gambar)',

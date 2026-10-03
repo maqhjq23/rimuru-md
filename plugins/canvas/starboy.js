@@ -33,7 +33,6 @@ import { uploadImage } from "../../src/lib/rimuru-uploader.js";
 
 const pluginConfig = {
   name: "starboy",
-  alias: ["canvasstarboy", "efekstarboy"],
   category: "canvas",
   description: "Buat gambar efek Starboy dari foto",
   usage: ".starboy <reply/kirim foto>",

@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "divorce",
-  alias: ["cerai", "pisah"],
   category: "rpg",
   description: "Bercerai dari pasangan",
   usage: ".divorce",

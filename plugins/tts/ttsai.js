@@ -50,7 +50,6 @@ const AvailableVoices = {
 
 const pluginConfig = {
   name: "ttsvoice",
-  alias: [],
   category: "tts",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

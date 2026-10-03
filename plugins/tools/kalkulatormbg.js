@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "kalkulatormbg",
-  alias: ["kkmbg"],
   category: "tools",
   description: "Hitung durasi dan perbandingan dana Makan Bergizi Gratis (MBG)",
   usage: ".kkmbg <jumlah_uang>",

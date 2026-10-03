@@ -30,8 +30,7 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 const activeReminders = new Map();
 
 const pluginConfig = {
-  name: "remind",
-  alias: ["reminder", "ingatkan"],
+  name: "reminder",
   category: "utility",
   description: "Membuat pengingat otomatis dengan durasi waktu tertentu",
   usage: ".remind <waktu> <pesan>",

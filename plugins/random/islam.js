@@ -34,7 +34,6 @@ import moment from 'moment-timezone'
 
 const pluginConfig = {
   name: "q-islam",
-  alias: [],
   category: "random",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

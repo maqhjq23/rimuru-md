@@ -30,7 +30,6 @@ import searchKonachan from '../../src/scraper/konachan.js';
 
 const pluginConfig = {
   name: "konachan",
-  alias: ["konasearch", "kona", "konaimg"],
   category: "anime",
   description: "Cari gambar anime dari konachan",
   usage: ".konachan <tags>",

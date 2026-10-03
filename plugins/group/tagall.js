@@ -33,7 +33,6 @@ import {
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "tagall",
-  alias: ["all", "everyone"],
   category: "group",
   description: "Tag semua member grup",
   usage: ".tagall <pesan>",

@@ -42,7 +42,6 @@ let effects = [
 
 const pluginConfig = {
   name: "textlogo",
-  alias: [],
   category: "maker",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

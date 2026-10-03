@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getRandomItem } from '../../src/lib/rimuru-game-data.js'
 const pluginConfig = {
     name: 'truth',
-    alias: ['truthq'],
     category: 'fun',
     description: 'Random pertanyaan truth',
     usage: '.truth',

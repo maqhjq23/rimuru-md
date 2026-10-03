@@ -32,7 +32,6 @@ import FormData from "form-data";
 
 const pluginConfig = {
   name: "codesnap",
-  alias: [],
   category: "canvas",
   description: "Bikin gambar cuplikan code",
   usage: ".codesnap <code>",

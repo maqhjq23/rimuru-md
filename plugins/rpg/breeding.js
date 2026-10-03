@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "breeding",
-  alias: ["breed", "kawin", "petbreed"],
   category: "rpg",
   description: "Breeding pets untuk mendapat pet baru",
   usage: ".breeding @user",

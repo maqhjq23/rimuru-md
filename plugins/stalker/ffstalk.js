@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "ffstalk",
-  alias: ["freefireid", "stalkff", "ff"],
   category: "stalker",
   description: "Melihat informasi lengkap akun Free Fire berdasarkan ID.",
   usage: ".ffstalk <id>",

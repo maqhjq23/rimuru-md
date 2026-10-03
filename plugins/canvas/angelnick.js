@@ -33,7 +33,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "angelnick",
-  alias: [],
   category: "canvas",
   description: "Bikin card angel nick dari fotomu",
   usage: ".angelnick <teks> (reply/kirim foto)",

@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "freelance",
-  alias: ["desain", "koding"],
   category: "rpg",
   description: "Mengerjakan project online klien bule",
   usage: ".freelance",

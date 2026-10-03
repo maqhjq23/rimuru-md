@@ -30,7 +30,6 @@ import axios from "axios";
 
 const pluginConfig = {
   name: "phisingataubukan",
-  alias: ["cekphising", "checkphishing", "webphishing"],
   category: "tools",
   description: "Cek apakah sebuah link URL merupakan web phising/berbahaya atau aman.",
   usage: ".phisingataubukan <url>",

@@ -23,7 +23,6 @@ import path from "path";
 
 const pluginConfig = {
   name: "ocgc",
-  alias: ["autoclosegc", "autogc"],
   category: "group",
   description: "Otomatis tutup dan buka grup sesuai jadwal harian.",
   usage: ".ocgc <jam tutup> | <jam buka> on atau .ocgc off",

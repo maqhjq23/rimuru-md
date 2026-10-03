@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'antijudol',
-    alias: ['antijudi', 'nojudi', 'antislot'],
     category: 'group',
     description: 'Deteksi konten judol di grup',
     usage: '.antijudol <on/off/metode> [kick/remove]',

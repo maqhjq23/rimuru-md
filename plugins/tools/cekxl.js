@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js"
 
 const pluginConfig = {
     name: "cekxl",
-    alias: ["checkxl", "xlcheck", "xlcek"],
     category: "tools",
     description: "Cek informasi paket dan kuota nomor XL/Axis secara detail",
     usage: ".cekxl <nomor>",

@@ -40,7 +40,6 @@ https://whatsapp.com/channel/0029VavBc6uHAdNdbgCgOK0k
 
 const pluginConfig = {
   name: "reedem",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "ngamen",
-  alias: ["nyanyi", "konser"],
   category: "rpg",
   description: "Ngamen di jalanan untuk mencari koin",
   usage: ".ngamen",

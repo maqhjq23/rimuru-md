@@ -31,7 +31,6 @@ import path from 'path';
 import config from '../../config.js';
 const pluginConfig = {
     name: 'addmp4',
-    alias: ['addvideo', 'tambahmp4', 'setmp4', 'addvid'],
     category: 'owner',
     description: 'Tambah video baru ke folder assets/video',
     usage: '.addmp4 <nama_file.mp4> (reply video)',

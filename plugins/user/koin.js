@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'koin',
-    alias: ['saldo', 'money', 'cash', 'coin', 'coins'],
     category: 'user',
     description: 'Cek koin user',
     usage: '.koin [@user]',

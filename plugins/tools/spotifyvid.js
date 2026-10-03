@@ -32,8 +32,7 @@ import fs from 'fs';
 import path from 'path';
 
 const pluginConfig = {
-  name: 'spotivid',
-  alias: ['fakeplay', 'spotifyvid'],
+  name: 'spotifyvid',
   category: 'tools',
   description: 'Mengubah Video menjadi UI Pemutar Lagu Spotify (Custom Title & Artist + Dynamic Scale)',
   usage: '.spotivid Judul Lagu | Nama Artis',

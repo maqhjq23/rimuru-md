@@ -41,7 +41,6 @@ const cooldown = 2592000000 // 30 hari
 
 const pluginConfig = {
   name: "monthly",
-  alias: [],
   category: "rpg",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

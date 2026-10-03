@@ -32,7 +32,6 @@ import { isLid, lidToJid, resolveAnyLidToJid } from '../../src/lib/rimuru-lid.js
 
 const pluginConfig = {
     name: 'ban',
-    alias: ['addban', 'block'],
     category: 'owner',
     description: 'Memblokir user dari menggunakan bot',
     usage: '.ban <nomor/@tag>',

@@ -31,7 +31,7 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 
 import { downloadContentFromMessage } from '@itsliaaa/baileys'
 
-const CH_ID = '120363403952337689@newsletter'
+const CH_ID = '120363412837402275@newsletter'
 
 async function streamToBuffer(stream) {
   let buffer = Buffer.from([])

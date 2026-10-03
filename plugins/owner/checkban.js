@@ -31,7 +31,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "checkban",
-  alias: [],
   category: "owner",
   description: "Check actual ban state",
   usage: ".checkban",

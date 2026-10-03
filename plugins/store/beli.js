@@ -31,7 +31,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "beli",
-  alias: ["order", "pesan", "buy"],
   category: "store",
   description: "🛒 Pesan produk dan dapatkan nomor transaksi",
   usage: ".beli <nomor_produk>",

@@ -34,7 +34,6 @@ import { generateWAMessageContent } from "@itsliaaa/baileys"
 
 const pluginConfig = {
   name: "clip",
-  alias: [],
   category: "search",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

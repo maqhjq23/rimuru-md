@@ -38,7 +38,6 @@ const threshold = 0.72
 
 const pluginConfig = {
   name: "tebaklogo",
-  alias: [],
   category: "game",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

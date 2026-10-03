@@ -38,7 +38,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "autosholat",
-  alias: ["sholat", "autoadzan"],
   category: "owner",
   description: "Toggle pengingat waktu sholat otomatis dengan audio adzan dan tutup grup",
   usage: ".autosholat on/off/status/kota <nama>",

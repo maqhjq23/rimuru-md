@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: "followch",
-  alias: ["followch", "unfollowch", "setnamech"],
   category: "owner",
   description: "Manajemen channel/newsletter tambahan dari Aqua",
   usage: ".followch <channelJid> / .createch <nama>",

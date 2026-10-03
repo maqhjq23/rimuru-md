@@ -122,7 +122,6 @@ const fdroid = {
 
 const pluginConfig = {
     name: 'fdroid',
-    alias: ['fdroidsearch', 'fdroiddl', 'fdroidapp'],
     category: 'internet',
     description: 'Cari dan dapatkan link download aplikasi open-source dari F-Droid',
     usage: '.fdroid <nama_aplikasi>',

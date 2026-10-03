@@ -34,7 +34,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "lobbyff",
-  alias: ["fflobby", "freefirelobby"],
   category: "maker",
   description: "Membuat gambar lobby Free Fire dengan 22 template Aqua",
   usage: ".lobbyff <1-22|random>|<nama>",

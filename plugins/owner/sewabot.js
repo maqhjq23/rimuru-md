@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 import { saluranCtx } from "../../src/lib/rimuru-context.js";
 const pluginConfig = {
   name: "sewabot",
-  alias: ["sewa"],
   category: "owner",
   description: "Toggle dan kelola sistem sewa bot",
   usage: ".sewabot <on/off/leave/status>",

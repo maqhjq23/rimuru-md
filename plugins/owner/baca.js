@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
   name: ["baca", "read", "markread"],
-  alias: [],
   category: "owner",
   description: "Tandai pesan sebagai sudah dibaca",
   usage: ".baca",

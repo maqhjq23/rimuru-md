@@ -35,7 +35,6 @@ let sessions = {}
 
 const pluginConfig = {
   name: "hutao",
-  alias: ["hutaoai"],
   category: "ai",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -32,7 +32,6 @@ const pluginConfig = {
     name: 'ramadhan2027',
     primaryName: 'ramadhan2027',
     command: 'ramadhan2027',
-    alias: ['ramadan2027', 'hitungramadhan2027'],
     category: 'religi',
     description: 'Menghitung mundur waktu menuju bulan suci Ramadhan 2027 ala Zero Two',
     usage: '.ramadhan2027',

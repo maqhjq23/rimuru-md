@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
   name: "antilinkall",
-  alias: ["alall", "antialllink"],
   category: "group",
   description: "Anti semua jenis link (deteksi domain extension)",
   usage: ".antilinkall <on/off/metode> [kick/remove]",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'setdone',
-    alias: ['doneconfig', 'configdone'],
     category: 'store',
     description: 'Set template untuk .done',
     usage: '.setdone template <full text>',

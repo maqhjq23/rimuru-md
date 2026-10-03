@@ -1,7 +1,6 @@
 // plugins/dbmeme.js
 const pluginConfig = {
   name: "dbmeme",
-  alias: ['distractedboy', 'dbm', 'memedb'],
   category: "canvas",
   description: "Membuat meme 'Distracted Boyfriend' dengan 3 teks custom",
   usage: ".dbmeme <text1> | <text2> | <text3>",

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'clanbank',
-    alias: ['kasclan', 'clanbalance'],
     category: 'clan',
     description: 'Cek saldo kas clan',
     usage: '.clanbank',

@@ -28,16 +28,8 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 import config from '../../config.js'
-import fs from 'fs'
-import path from 'path'
 const pluginConfig = {
     name: 'leaderboard',
-    alias: [
-        'lb', 'top', 'leaderboard', 'ranking', 'rank', 'topglobal',
-        'topbalance', 'topbal', 'topkoin', 'topcoin', 'topmoney',
-        'toplimit', 'topexp', 'topxp', 'toplevel',
-        'topenergi', 'topenergy'
-    ],
     category: 'main',
     description: 'Lihat leaderboard global (koin, exp, energi)',
     usage: '.leaderboard',
@@ -119,7 +111,7 @@ async function handler(m, { sock }) {
         const overviewText = `🏆 *LEADERBOARD OVERVIEW* 🏆\n\n` +
             `_Pilih tombol di bawah untuk melihat ranking!_`
             try {
-                await sock.sendButton(m.chat, fs.readFileSync(path.join(process.cwd(), 'assets', 'images', 'rimuru.jpg')), overviewText, m, {
+                await sock.sendButton(m.chat, config.assets?.["rimuru"], overviewText, m, {
                     buttons: [
                     {
                         name: 'quick_reply',

@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "robloxstalk",
-  alias: ["rblxstalk", "rbxstalk", "stalkroblox", "stalkrbx"],
   category: "stalker",
   description: "Stalk akun Roblox berdasarkan username",
   usage: ".robloxstalk <username>",

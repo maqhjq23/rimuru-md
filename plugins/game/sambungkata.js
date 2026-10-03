@@ -46,7 +46,6 @@ try {
 
 const aiKonfigPlugin = {
     name: 'sambungkata',
-    alias: ['skata', 'sambungkat', 'wordchain'],
     category: 'game',
     description: 'Game sambung kata dari huruf akhir kata sebelumnya (KBBI) — special from Ai~! ⭐',
     usage: '.sambungkata | .sambungkata start | .sambungkata stop',

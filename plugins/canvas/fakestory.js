@@ -37,7 +37,6 @@ import path from "path";
 import te from "../../src/lib/rimuru-error.js";
 const pluginConfig = {
   name: "fakestory",
-  alias: ["fstory", "fakeinsta", "igstory"],
   category: "canvas",
   description: "Membuat fake Instagram story dengan 2 gambar",
   usage: ".fakestory <nama>",

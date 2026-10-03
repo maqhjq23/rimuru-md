@@ -32,7 +32,6 @@ import config from '../../config.js'
 
 const pluginConfig = {
     name: 'matematika',
-    alias: ['mathgpt', 'math', 'mathsolver'],
     category: 'ai',
     description: 'AI untuk menyelesaikan soal matematika',
     usage: '.matematika <soal>',

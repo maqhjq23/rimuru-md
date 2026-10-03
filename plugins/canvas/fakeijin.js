@@ -30,7 +30,6 @@ import { createCanvas, loadImage } from '@napi-rs/canvas';
 
 const pluginConfig = {
     name: 'fakeijin',
-    alias: ['ijinfake', 'suratijin', 'fakeizin'],
     category: 'canvas',
     description: 'Bikin fake surat ijin (buat konten/gaguan doang)',
     usage: '.fakeijin <nama> | <alasan>',

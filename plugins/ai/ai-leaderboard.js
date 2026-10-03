@@ -33,7 +33,6 @@ import config from '../../config.js';
 import te from '../../src/lib/rimuru-error.js';
 const pluginConfig = {
     name: 'ai-leaderboard',
-    alias: ['aileaderboard', 'aiboard', 'ailb', 'lmarena'],
     category: 'ai',
     description: 'Lihat leaderboard AI model terbaik dari LMArena',
     usage: '.ai-leaderboard [category]',

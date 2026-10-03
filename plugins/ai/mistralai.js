@@ -250,8 +250,7 @@ const mistral = {
 };
 
 const pluginConfig = {
-    name: 'mistral',
-    alias: ['mistralai', 'chatmistral'],
+    name: 'mistralai',
     category: 'ai',
     description: 'AI Chat using Mistral AI',
     usage: '.mistral <pesan>',

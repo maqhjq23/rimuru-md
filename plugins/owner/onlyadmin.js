@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'onlyadmin',
-    alias: ['selfadmin', 'publicadmin', 'adminonly'],
     category: 'owner',
     description: 'Hanya admin grup yang bisa akses command bot',
     usage: '.onlyadmin on/off',

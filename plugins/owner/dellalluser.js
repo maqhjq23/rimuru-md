@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js';
 
 const pluginConfig = {
     name: 'deluserall',
-    alias: ['deletealluser', 'hapussemua', 'delalluser', 'resetuser', 'clearuser'],
     category: 'owner',
     description: 'Hapus SEMUA user dari database (LANGSUNG HAPUS)',
     usage: '.deluserall',

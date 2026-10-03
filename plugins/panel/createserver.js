@@ -61,7 +61,6 @@ RAM_OPTIONS.forEach((ram) => {
 
 const pluginConfig = {
   name: allCommands,
-  alias: ["unlimited"],
   category: "panel",
   description: "Create server panel dengan spesifikasi RAM (v1-v5)",
   usage: ".1gbv1 username atau .1gbv2 username,628xxx",
@@ -359,7 +358,7 @@ async function handler(m, { sock }) {
     detailTxt += `⚠️ Simpan data ini, jangan bagikan ke siapapun!`;
 
     const headerMedia = await prepareWAMessageMedia(
-      { image: getAssetBuffer("rimuru-v8") },
+      { image: { url: config.assets?.["rimuru-v8"] } },
       { upload: sock.waUploadToServer }
     );
 

@@ -32,7 +32,6 @@ import { CookieJar } from "tough-cookie";
 
 const pluginConfig = {
     name: 'wisedetail',
-    alias: ['wise', 'kurs', 'currency', 'wiseconvert', 'wisecurrencies'],
     category: 'tools',
     description: 'Cek kurs mata uang, konversi nilai tukar, dan grafik tren dari Wise',
     usage: '.wisedetail <jumlah> <from> <to> atau .wisecurrencies',

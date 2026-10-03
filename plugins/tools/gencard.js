@@ -85,7 +85,6 @@ const creditGenerator = async (type, amount) => {
 
 const pluginConfig = {
   name: 'gencard',
-  alias: ['ccgen', 'cardgen', 'fakecc'],
   category: 'tools',
   description: 'Membuat data dummy nomor kartu kredit (Visa, MasterCard, JCB, Amex)',
   usage: '.gencard Tipe | Jumlah',

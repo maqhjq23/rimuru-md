@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'clanupgrade',
-    alias: ['upgradeclan', 'levelupclan'],
     category: 'clan',
     description: 'Upgrade level clan menggunakan kas clan',
     usage: '.clanupgrade',

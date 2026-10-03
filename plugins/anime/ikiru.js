@@ -34,7 +34,6 @@ import * as cheerio from "cheerio";
 
 const pluginConfig = {
   name: "ikiru",
-  alias: [],
   category: "anime",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

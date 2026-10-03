@@ -32,7 +32,6 @@ export const FEATURE_CREDIT = "Fitur By: Anita Putri Azzahra\nFitur SC Bot Rimur
 import config from '../../config.js';
 const pluginConfig = {
 name: "kirimpesangc",
-alias: ["sendgc","pesangc"],
 category: "tools",
 description: "Kirim pesan ke group tertentu",
 usage: ".kirimpesangc pesan",

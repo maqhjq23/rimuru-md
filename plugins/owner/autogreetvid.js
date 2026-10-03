@@ -31,7 +31,6 @@ import config from '../../config.js';
 
 const pluginConfig = {
     name: ['autogreetvid', 'autovideo', 'greetvideo'],
-    alias: ['autovidpagi', 'autovidmalam', 'greetvid'],
     category: 'owner',
     description: 'Auto kirim video ucapan selamat pagi & malam ke Channel',
     usage: '.autogreetvid on/off/status/test/setch <1/2/3>',

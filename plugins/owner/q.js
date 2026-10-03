@@ -30,7 +30,6 @@ import util from 'util'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'q',
-    alias: ['quoted', 'inspect'],
     category: 'tools',
     description: 'Ambil JSON message dari pesan yang direply',
     usage: '.q (reply pesan)',

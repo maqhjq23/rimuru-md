@@ -31,7 +31,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
     name: "fakeovo",
-    alias: ["fake-ovo", "fakeovo"],
     category: "canvas",
     description: "Membuat canvas fake ovo",
     usage: ".fake-ovo <nama>",

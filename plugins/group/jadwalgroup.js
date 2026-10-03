@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'jadwalgroup',
-    alias: ['schedulegroup', 'jdwlgrup', 'autoopenclose'],
     category: 'group',
     description: 'Jadwal buka/tutup grup otomatis',
     usage: '.jadwalgroup <open/close> <HH:MM>',

@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 /** Digabung ke .amprem */
 const pluginConfig = {
   name: "amverif",
-  alias: ["ampverif", "verifyam", "amverify"],
   category: "tools",
   description: "Alias: verifikasi AM (pakai .amprem)",
   usage: ".amverif → gunakan .amprem",

@@ -31,7 +31,6 @@ import FormData from 'form-data';
 
 const pluginConfig = {
     name: 'aifilter',
-    alias: ['filterai', 'filterreaction', 'filter-reaction', 'reactionfilter'],
     category: 'ai',
     description: 'AI image filter dan perubahan ekspresi wajah, diadaptasi dari CANTARELLA',
     usage: '.aifilter <style> (reply gambar) / .filterreaction <expression> (reply gambar)',

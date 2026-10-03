@@ -2066,7 +2066,6 @@ function getTimeOfDay(hour) {
 }
 const pluginConfig = {
   name: 'survival',
-  alias: ['sv2'],
   category: 'game',
   description: 'Game survival lengkap dari Tensura.',
   usage: '.survival <start|...>',

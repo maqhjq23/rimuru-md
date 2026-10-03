@@ -30,7 +30,6 @@ import config from '../../config.js'
 import { getRoles, getUserRole, getAccessibleServers, VALID_SERVERS } from '../../src/lib/rimuru-roles-cpanel.js'
 const pluginConfig = {
     name: 'cpanel',
-    alias: ['panelmenu', 'menupanel'],
     category: 'panel',
     description: 'Menu panel pterodactyl (v1-v5)',
     usage: '.cpanel',

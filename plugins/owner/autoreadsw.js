@@ -30,7 +30,6 @@ import { getDatabase } from '../../src/lib/rimuru-database.js'
 
 const pluginConfig = {
     name: 'autoreadsw',
-    alias: ['autoreadstory', 'readstory', 'bacasw'],
     category: 'owner',
     description: 'Auto read semua status/story WA',
     usage: '.autoreadsw on/off',

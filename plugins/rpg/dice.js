@@ -31,7 +31,6 @@ import { sendRpgPreview } from "../../src/lib/rimuru-context.js";
 
 const pluginConfig = {
   name: "dice",
-  alias: ["dadu", "roll"],
   category: "rpg",
   description: "Lempar dadu untuk gambling",
   usage: ".dice <1-6> <bet>",

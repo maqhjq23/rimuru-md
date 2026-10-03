@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "claudehaiku",
-  alias: ["claude", "haiku", "chiku"],
   category: "ai",
   description: "Chat dengan Claude Haiku 4.5 via OverChat",
   usage: ".claudehaiku <pertanyaan>",

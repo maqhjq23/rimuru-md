@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'colongsw',
-    alias: ['ambilsw'],
     category: 'tools',
     description: 'Ambil SW khusus yang mention grup',
     usage: '.colongsw (reply sw mention)',

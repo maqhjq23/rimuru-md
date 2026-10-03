@@ -30,7 +30,6 @@ import { getDatabase } from "../../src/lib/rimuru-database.js";
 
 const pluginConfig = {
     name: "autotambahproduk",
-    alias: ["autoaddproduk"],
     category: "store_autoorder",
     description: "🛍️ Menambah produk ke autoorder store",
     usage: ".autotambahproduk <nama> | <harga> | <deskripsi>",

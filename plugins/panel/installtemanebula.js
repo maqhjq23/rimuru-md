@@ -30,7 +30,6 @@ import { Client } from 'ssh2'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'installtemanebula',
-    alias: ['installthemanebula', 'temanebula', 'nebulatheme'],
     category: 'panel',
     description: 'Install tema Nebula (AtasBawahCantik) untuk panel Pterodactyl via SSH',
     usage: '.installtemanebula <ip>|<password>',

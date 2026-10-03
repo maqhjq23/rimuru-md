@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "nambalban",
-  alias: ["tambal", "bengkel"],
   category: "rpg",
   description: "Buka jasa tambal ban, awas ban meledak!",
   usage: ".nambalban",

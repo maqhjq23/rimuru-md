@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getRandomItem } from '../../src/lib/rimuru-game-data.js'
 const pluginConfig = {
     name: 'dare',
-    alias: ['dareq', 'tantang'],
     category: 'fun',
     description: 'Random tantangan dare',
     usage: '.dare',

@@ -35,7 +35,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'transkrip',
-    alias: ['stt', 'speechtotext', 'transcribe'],
     category: 'tools',
     description: 'Konversi voice note / audio ke teks (Speech-to-Text)',
     usage: '.transkrip (reply voice note)',

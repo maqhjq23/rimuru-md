@@ -29,7 +29,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 import { getDatabase } from '../../src/lib/rimuru-database.js'
 const pluginConfig = {
     name: 'delkoin',
-    alias: ['kurangkoin', 'removekoin', 'delcoin', 'delmoney'],
     category: 'owner',
     description: 'Kurangi koin user',
     usage: '.delkoin <jumlah> @user',

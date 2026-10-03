@@ -34,7 +34,6 @@ import config from "../../config.js";
 
 const pluginConfig = {
   name: "yts",
-  alias: ["ytsearch", "youtubesearch"],
   category: "search",
   description: "Mencari video di YouTube berdasarkan kata kunci dan menampilkan detail lengkap beserta thumbnail.",
   usage: ".yts <query>",

@@ -31,7 +31,6 @@ import { addExpWithLevelCheck } from "../../src/lib/rimuru-level.js";
 
 const pluginConfig = {
   name: "work",
-  alias: ["kerja", "job"],
   category: "rpg",
   description: "Bekerja untuk mendapatkan uang",
   usage: ".work",

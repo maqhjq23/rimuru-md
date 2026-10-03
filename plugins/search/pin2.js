@@ -37,7 +37,6 @@ import { f } from "../../src/lib/rimuru-http.js";
 
 const pluginConfig = {
   name: "pin2",
-  alias: ["pinterest2"],
   category: "search",
   description: "Cari satu gambar acak di Pinterest dengan tombol next",
   usage: ".pin2 <query>",

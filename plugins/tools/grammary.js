@@ -36,7 +36,6 @@ import axios from "axios";
 
 const pluginConfig = {
     name: 'grammarly',
-    alias: ['aidetector', 'checkai', 'grammarlyai'],
     category: 'tools',
     description: 'Mengecek persentase teks AI menggunakan Grammarly AI Detector',
     usage: '.grammarly <teks yang ingin dicek>',

@@ -33,7 +33,6 @@ import { prepareWAMessageMedia, generateWAMessageFromContent } from "rimuru";
 
 const pluginConfig = {
   name: ["gachawaifu", "waifuaction", "tinggalinwaifu", "waifuku", "istriku"],
-  alias: ["gachaistri"],
   category: "fun",
   description: "Gacha waifu impianmu, jaga perasaannya, dan jadikan dia pasanganmu!",
   usage: ".gachawaifu | .waifuku | .tinggalinwaifu",

@@ -77,7 +77,6 @@ function setWebpExif(webpBuffer, metadata) {
 
 const pluginConfig = {
   name: 'anticolong',
-  alias: ['ac', 'anticolongsticker', 'acsticker'],
   category: 'sticker',
   description: 'Mengubah stiker biasa menjadi anti-colong (tidak bisa diforward/save)',
   usage: '.anticolong (reply pesan stiker)',

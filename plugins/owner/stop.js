@@ -28,7 +28,6 @@ Rimuru MD adalah SC hasil rename dari SC Ourin MD.
 
 const pluginConfig = {
     name: 'stop',
-    alias: ['shutdown', 'kill'],
     category: 'owner',
     description: 'Stop bot process',
     usage: '.stop',

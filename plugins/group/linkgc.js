@@ -30,7 +30,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'linkgc',
-    alias: ['linkgrup', 'getlink', 'gclink'],
     category: 'group',
     description: 'Dapatkan link invite grup',
     usage: '.linkgc',

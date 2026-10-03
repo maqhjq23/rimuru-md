@@ -2,5 +2,9 @@ node_modules/
 .env
 *.log
 .DS_Store
+storage/session/*
+!storage/session/.gitkeep
 storage/temp/*
 !storage/temp/.gitkeep
+session_voip/*
+!session_voip/.gitkeep

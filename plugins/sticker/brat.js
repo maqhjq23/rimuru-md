@@ -33,7 +33,6 @@ import te from "../../src/lib/rimuru-error.js";
 import rimuruApi from "../../src/lib/rimuru-apimanager.js";
 const pluginConfig = {
   name: "brat",
-  alias: ["bratmenu", "bratimg", "brattext"],
   category: "sticker",
   description: "Menu variant brat dan generator sticker brat",
   usage: ".brat | .bratimg <text>",
@@ -124,7 +123,7 @@ async function sendBratMenu(m, sock, text) {
 
   await sock.sendButton(
     m.chat,
-    getAssetBuffer("rimuru"),
+    config.assets?.["rimuru"],
     caption,
     m,
     {

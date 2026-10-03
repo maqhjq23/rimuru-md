@@ -36,7 +36,6 @@ const BASE_HOST = 'dipastebin.web.id';
 
 const pluginConfig = {
     name: 'dpsteai',
-    alias: ['dpste', 'dipasteai'],
     category: 'ai',
     description: 'Chat dengan AI dari dipastebin.web.id (mendukung session per-user)',
     usage: '.dpsteai <pertanyaan> atau .dpsteai reset (untuk hapus sesi)',

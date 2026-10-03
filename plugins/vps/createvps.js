@@ -41,7 +41,6 @@ const vpsCommands = Object.keys(VPS_SPECS)
 
 const pluginConfig = {
     name: vpsCommands,
-    alias: [],
     category: 'vps',
     description: 'Create DigitalOcean VPS',
     usage: '.vps1g1c <hostname>',

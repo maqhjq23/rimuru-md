@@ -30,7 +30,6 @@ import config from '../../config.js';
 import { getDatabase } from '../../src/lib/rimuru-database.js';
 const pluginConfig = {
     name: 'antipm',
-    alias: ['apm', 'nopm'],
     category: 'owner',
     description: 'Anti PM - cuma nomor tertentu yang bisa chat ke bot (BLOKIR ASLI)',
     usage: '.antipm <on/off/status>',

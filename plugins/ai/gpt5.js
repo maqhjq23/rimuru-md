@@ -32,7 +32,6 @@ import te from "../../src/lib/rimuru-error.js";
 
 const pluginConfig = {
   name: "gpt5",
-  alias: ["gpt5nano", "gpt41"],
   category: "ai",
   description: "Chat dengan GPT-4.1 Nano via OverChat",
   usage: ".gpt5 <pertanyaan>",

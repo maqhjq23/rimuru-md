@@ -51,7 +51,6 @@ function writeDb(data) {
 
 const pluginConfig = {
   name: "hargapanel",
-  alias: ["sethargapanel"],
   category: "main",
   description: "Menampilkan dan mengatur daftar harga sewa/beli panel",
   usage: ".hargapanel / .sethargapanel <teks>",

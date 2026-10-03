@@ -31,7 +31,6 @@ import { f } from '../../src/lib/rimuru-http.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'balogo',
-    alias: ['bluearchivelogo', 'ba'],
     category: 'canvas',
     description: 'Membuat logo Blue Archive style',
     usage: '.balogo <textL> & <textR>',

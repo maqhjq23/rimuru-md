@@ -135,7 +135,6 @@ async function checkAndSendNewTournaments(conn) {
 // Handler untuk command manual
 const pluginConfig = {
   name: "mltour",
-  alias: [],
   category: "general",
   description: "Imported from Rimuru MD V4.6",
   usage: "",

@@ -30,7 +30,6 @@ import axios from 'axios';
 
 const pluginConfig = {
     name: 'livescore',
-    alias: ['skorbola', 'livebola', 'skor'],
     category: 'info',
     description: 'Menampilkan live score pertandingan sepak bola dari Goal.com',
     usage: '.livescore',

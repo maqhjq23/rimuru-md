@@ -137,7 +137,6 @@ let handler = async (m, { sock, text }) => {
 export default handler;
 const pluginConfig = {
   name: 'gsmarena2',
-  alias: ['gsmspek2', 'hpspek2'],
   category: 'tools',
   description: 'Pencarian spesifikasi HP GSM Arena (varian Tensura).',
   usage: '.gsmarena2 <nama hp>',

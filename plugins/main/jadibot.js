@@ -30,7 +30,6 @@ import { startJadibot, isJadibotActive } from '../../src/lib/rimuru-jadibot-mana
 
 const pluginConfig = {
     name: 'jadibot',
-    alias: ['jadibotqr', 'becomebot', 'bot'],
     category: 'main',
     description: 'Jadikan nomor kamu menjadi bot (Pairing Code / QR)',
     usage: '.jadibot atau .jadibot qr',

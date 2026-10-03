@@ -36,7 +36,6 @@ import { prepareWAMessageMedia, generateWAMessageFromContent, generateWAMessage,
 
 const pluginConfig = {
     name: 'srt',
-    alias: ['shufflereplythumb', 'shufflereply'],
     category: 'owner',
     description: 'Sistem Shuffle Reply Thumb (SRT) untuk reply random image interaktif',
     usage: '.srt on',

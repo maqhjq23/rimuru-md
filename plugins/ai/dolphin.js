@@ -31,7 +31,6 @@ import config from '../../config.js'
 import te from '../../src/lib/rimuru-error.js'
 const pluginConfig = {
     name: 'dolphin',
-    alias: ['dolphinai', 'dphn'],
     category: 'ai',
     description: 'Chat dengan Dolphin AI (24B Model)',
     usage: '.dolphin <pertanyaan> atau .dolphin --<template> <pertanyaan>',

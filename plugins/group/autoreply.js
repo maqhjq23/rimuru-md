@@ -32,7 +32,6 @@ import fs from 'fs'
 import path from 'path'
 const pluginConfig = {
     name: 'autoreply',
-    alias: ['smarttrigger', 'smarttriggers', 'ar'],
     category: 'group',
     description: 'Mengatur autoreply/smart triggers per grup',
     usage: '.autoreply on/off/add/del/list/private',

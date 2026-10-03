@@ -38,7 +38,6 @@ const allAliases = [
 
 const pluginConfig = {
     name: allCommands,
-    alias: allAliases,
     category: 'panel',
     description: 'List semua user di panel (v1-v5)',
     usage: '.listuserv1 atau .listuserv2',
